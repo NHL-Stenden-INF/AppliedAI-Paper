@@ -10,7 +10,7 @@
 
 ### Evidence Required
 
-Integrated evidence from SQ1–SQ3 with explicit operationalisation of reliability and evidence limitations.
+Integrated evidence from SQ1–SQ3 with explicit operational definitions and source-quality/directness assessment.
 
 ### Findings
 
@@ -18,7 +18,11 @@ Integrated evidence from SQ1–SQ3 with explicit operationalisation of reliabili
 
 ### Evidence
 
-None collected in Phase 1.
+None collected yet.
+
+### Limitations
+
+To be populated from the executed method and evidence set.
 
 ### Gaps
 
@@ -30,7 +34,7 @@ See `01 - Research/Research Gap Analysis.md`.
 
 ### Evidence Required
 
-Current scholarly evidence supporting a defensible technique taxonomy across the included modalities.
+Current scholarly evidence supporting a defensible technique taxonomy across the final modality scope.
 
 ### Findings
 
@@ -38,7 +42,11 @@ Current scholarly evidence supporting a defensible technique taxonomy across the
 
 ### Evidence
 
-None collected in Phase 1.
+None collected yet.
+
+### Limitations
+
+No evidence set exists yet; technique categories must not be invented from general knowledge.
 
 ### Gaps
 
@@ -50,7 +58,7 @@ Technique taxonomy and source set missing.
 
 ### Evidence Required
 
-Empirical performance evidence with dataset, metric, modality and evaluation conditions preserved.
+Empirical performance evidence with dataset, metric, modality, detector/generator and evaluation conditions preserved.
 
 ### Findings
 
@@ -58,11 +66,15 @@ Empirical performance evidence with dataset, metric, modality and evaluation con
 
 ### Evidence
 
-None collected in Phase 1.
+None collected yet.
+
+### Limitations
+
+`Real-world conditions` is not yet operationalised; evidence cannot yet be classified under that label.
 
 ### Gaps
 
-No empirical performance studies have yet been extracted.
+No empirical performance/generalisation studies have been extracted.
 
 ## Subquestion 3
 
@@ -70,7 +82,7 @@ No empirical performance studies have yet been extracted.
 
 ### Evidence Required
 
-Robustness, generalisation and evasion evidence.
+Direct robustness, generalisation and evasion evidence, plus additional evidence-based factors discovered during review.
 
 ### Findings
 
@@ -78,8 +90,12 @@ Robustness, generalisation and evasion evidence.
 
 ### Evidence
 
-None collected in Phase 1.
+None collected yet.
+
+### Limitations
+
+The examples in the question are prompts, not predetermined findings.
 
 ### Gaps
 
-No degradation-factor evidence has yet been extracted.
+No degradation-factor evidence has been extracted.

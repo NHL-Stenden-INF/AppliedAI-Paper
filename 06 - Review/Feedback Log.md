@@ -1,22 +1,29 @@
 # Feedback Log
 
-No lecturer, supervisor, assessor or completed peer-review feedback file is currently available in the ChatGPT Project.
+## Actual Feedback Received
 
-| Date | Source | Feedback | Interpretation | Affected area | Required action | Priority | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Planned — week 3 | Assigned peer reviewer | Substantive strengths and improvement suggestions required by module | Must be considered and processed where appropriate | Whole paper | Record feedback, decision and resulting revision | High | Planned |
-| Planned — week 3 | Authors as reviewers | Provide substantive and constructive feedback to at least one other student | Evidence required in portfolio | Peer-review obligation | Preserve submitted review | High | Planned |
+**None available in the ChatGPT Project at the time of this audit.**
 
-## Feedback Categories for Future Entries
+No lecturer, supervisor, assessor or completed peer-review feedback file is currently present, so no actual feedback is fabricated below.
 
-Use one of:
+## Future Feedback Obligations
 
-- Mandatory correction
-- Strong recommendation
-- Suggestion
-- Positive feedback
-- Unclear feedback
+| Timing | Source | Required feedback/process | Affected area | Required action | Priority | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Week 3 | Assigned peer reviewer | Provide substantive feedback including strengths and suggestions for improvement | Whole paper | Record feedback; evaluate each actionable point; revise where appropriate | High | Planned |
+| Week 3 | Authors as peer reviewers | Provide substantive and constructive feedback to at least one other student's paper | Peer-review obligation | Preserve evidence of submitted feedback for portfolio | High | Planned |
 
-## Processing Rule
+## Processing Rule for Future Actual Feedback
 
-For every actionable item, record whether it was accepted, partly accepted or rejected and why. Do not silently discard feedback.
+For each actionable item record:
+
+- date/source;
+- exact feedback or faithful paraphrase;
+- category: Mandatory correction / Strong recommendation / Suggestion / Positive feedback / Unclear feedback;
+- affected requirement/section;
+- action taken;
+- accepted / partly accepted / rejected;
+- rationale;
+- status.
+
+Recurring independent feedback on the same issue should increase its priority.

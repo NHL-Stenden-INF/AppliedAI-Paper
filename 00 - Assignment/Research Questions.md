@@ -1,16 +1,18 @@
 # Research Questions
 
-Source for current wording: `Research paper Subject.xlsx`.
+Source for the current wording: `Research paper Subject.xlsx` (`Blad1`, row 3).
 
 ## Problem Statement
 
-**Inferred:** Deepfake detection systems are intended to distinguish manipulated or AI-generated media from authentic content, but their practical reliability may vary across media types and conditions. The current proposal focuses on understanding the detection techniques, reported performance and conditions that reduce effectiveness.
+**Inferred from the registered topic/questions:** AI-based deepfake detectors are intended to distinguish manipulated/AI-generated media from authentic content, but the current proposal specifically questions how dependable that distinction remains across techniques, evaluation conditions and degrading factors.
 
-This is an interpretation of the current topic/questions, not an approved school-provided problem statement.
+This is not a school-provided or lecturer-approved problem statement.
 
 ## Research Objective
 
-**Proposed:** Evaluate how reliably current AI-based deepfake detection systems distinguish manipulated media from authentic content by synthesising evidence about detection techniques, reported real-world performance and known performance-degrading factors.
+**Proposed:** determine the extent to which current AI-based deepfake detection can be considered reliable within a clearly defined scope by synthesising evidence on detection techniques, reported performance and conditions that reduce effectiveness.
+
+The objective deliberately avoids promising a universal accuracy value.
 
 ## Main Research Question
 
@@ -18,57 +20,81 @@ This is an interpretation of the current topic/questions, not an approved school
 
 > To what extent can AI-based deepfake detection systems reliably distinguish AI-generated or manipulated media from authentic content?
 
+## Main-Question Audit
+
+| Check | Audit result |
+| --- | --- |
+| Relevant to Applied AI | Yes |
+| Neutral / non-leading | Yes |
+| Researchable | Yes, with existing empirical literature |
+| Analytic rather than purely descriptive | Yes — `to what extent` requires evaluation |
+| Feasible | **Conditional** — image, video and audio together may be broad for the time/page constraint |
+| Key concept operationalised | No — `reliably` still needs explicit dimensions/criteria |
+| Approval evidence | Missing |
+
+No silent replacement is recommended before lecturer approval. The wording is coherent; the main risk is breadth and undefined evaluation terms rather than basic question quality.
+
 ## Subquestions
 
 ### SQ1
 
 > Which AI and machine learning techniques are currently used to detect deepfake images, videos, and audio?
 
-- **Purpose:** establish and classify the current detection approaches across the three modalities.
-- **Contribution to MRQ:** defines what technical approaches are being evaluated before judging reliability.
-- **Required evidence:** recent, relevant sources describing detection approaches, inputs/features, model classes and modalities.
-- **Likely method:** structured literature review and taxonomy/thematic synthesis.
+- **Function:** establish the detector landscape needed to interpret performance evidence.
+- **MRQ contribution:** identifies what types of systems the reliability judgement concerns.
+- **Evidence needed:** current primary and/or high-quality review evidence on detector approaches by modality.
+- **Planned analysis:** taxonomy/thematic classification.
+- **Risk:** can become a broad catalogue if not limited to technique families relevant to SQ2/SQ3.
 - **Status:** Proposed / approval To Verify.
 
 ### SQ2
 
 > How accurately can current deepfake detection systems identify manipulated content under real world conditions?
 
-- **Purpose:** evaluate reported performance beyond idealised laboratory results.
-- **Contribution to MRQ:** provides the main evidence for the degree of reliability.
-- **Required evidence:** empirical evaluations, benchmark/cross-dataset results, realistic transformations or deployment-like conditions, reported metrics and test context.
-- **Likely method:** comparative evidence synthesis; quantitative comparison only where metrics/conditions are sufficiently comparable.
+- **Function:** provide the core empirical evidence for reliability.
+- **MRQ contribution:** evaluates performance rather than merely describing methods.
+- **Evidence needed:** empirical results with metric, dataset, modality, detector/generator context and test conditions preserved.
+- **Planned analysis:** contextual comparative synthesis; numerical pooling only when conditions are genuinely comparable.
+- **Risk:** `real world conditions` is undefined and cannot be used as an evidence label until operationalised.
 - **Status:** Proposed / approval To Verify.
 
 ### SQ3
 
 > What factors, such as video compression, new generative models, or deliberate attempts to avoid detection, reduce the effectiveness of deepfake detection systems?
 
-- **Purpose:** identify the conditions under which reliability degrades.
-- **Contribution to MRQ:** explains limitations and boundaries of reported performance.
-- **Required evidence:** studies on compression/quality changes, cross-generator generalisation, unseen manipulations, adversarial/evasion techniques and modality-specific degradation.
-- **Likely method:** thematic synthesis supported by comparative empirical evidence.
+- **Function:** establish boundary conditions and failure modes.
+- **MRQ contribution:** explains when reported performance does not generalise.
+- **Evidence needed:** robustness/generalisation/evasion studies and any additional degradation factors discovered through the review.
+- **Planned analysis:** thematic synthesis with direction/magnitude/context of effects where reported.
+- **Risk:** the examples are not an exhaustive list and should not predetermine the only factors considered.
 - **Status:** Proposed / approval To Verify.
 
-## Research Question Coverage
+## Subquestion Coverage
 
-The three subquestions form a logical sequence:
+The sequence is logically complementary:
 
-1. **What techniques exist?**
-2. **How well do they perform?**
-3. **Under what conditions does performance fall?**
+1. **What detection approaches are in scope?**
+2. **How well do they perform under defined conditions?**
+3. **What causes performance to degrade?**
 
-Together they can support an evidence-based answer to `to what extent` the systems are reliable, provided reliability is operationalised before data extraction.
+No substantial overlap or missing question is currently evident. SQ1 should remain subordinate to the reliability purpose so it does not consume disproportionate space.
 
-## Open Issues
+## Operational Definitions Required Before Evidence Extraction
 
-- **Approval:** the module requires lecturer approval of the title, main question and subquestions before writing; no approval evidence is available.
-- **Breadth:** images, video and audio together may be too broad for the assignment's volume constraint. This should be tested during initial source mapping and narrowed if necessary.
-- **`Reliably`:** needs measurable criteria, potentially including discrimination metrics, generalisation, robustness and false-positive/false-negative behaviour.
-- **`Real world conditions`:** needs an explicit operational definition rather than being used as a vague label.
-- **`Current`:** needs a defined evidence time window.
-- **Metric comparability:** image/video and audio detection may use different metrics, datasets and protocols. Direct numerical ranking may be invalid without normalisation/context.
+Phase 2 must define, at minimum:
 
-## Proposed Improvements — Do Not Replace Without Approval
+- `deepfake` / `AI-generated or manipulated media` for inclusion purposes;
+- `current` as a publication/evidence window plus treatment of foundational older work;
+- `reliably` using dimensions such as discriminatory performance, error behaviour, generalisation and robustness;
+- `real-world conditions` as explicit test conditions rather than a rhetorical label;
+- final modality coverage (image, video, audio or an approved narrower subset).
 
-The current questions are coherent and aligned. Any narrowing should preserve the approved wording unless a lecturer agrees to a revision. Possible scope controls for discussion with the lecturer include limiting the comparison to a defined date range, specifying the operational meaning of real-world conditions, or reducing the number of media modalities if evidence volume becomes unmanageable.
+## Scope-Control Options — Proposed, Not Adopted
+
+If early source mapping shows the three-modality scope is infeasible, discuss one of these with the lecturer rather than silently changing the approved proposal:
+
+- retain all three modalities but compare only high-level technique/performance categories;
+- narrow the empirical reliability comparison to one or two modalities while using the others only as context;
+- narrow the time window or degradation-factor set.
+
+Any change to the question wording remains subject to lecturer approval.

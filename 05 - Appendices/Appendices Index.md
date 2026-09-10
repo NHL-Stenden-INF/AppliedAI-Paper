@@ -1,14 +1,20 @@
 # Appendices Index
 
-No appendix is explicitly mandatory for the research paper in the uploaded school documents. The items below are potential supporting appendices only if allowed by the final Teams submission instructions.
+No appendix is explicitly mandatory for the research paper in the available school documents.
 
-| Appendix | Purpose | Requirement / research relevance | Source | Status |
+The items below are research-process artefacts that may be included as paper appendices **only if allowed by Teams/submission instructions**. Some may instead remain repository evidence.
+
+| Appendix / artefact | Purpose | Requirement / research relevance | Planned location | Status |
 | --- | --- | --- | --- | --- |
-| A — Literature Search Log | Detailed search strings, dates and result counts | Supports B3 transparency/reproducibility | Methodology Plan | Planned / inclusion in submission To Verify |
-| B — Screening / Inclusion Record | Document selection and important exclusion decisions | Supports population/sample and method transparency | Methodology Plan | Planned / inclusion in submission To Verify |
-| C — Detailed Evidence Extraction | Full evidence table too detailed for main text | Supports B4 traceability | Evidence Matrix | Planned / inclusion in submission To Verify |
-| D — Peer Review Evidence | Received review and revision response | Required for portfolio; not necessarily paper appendix | Module book App. 3 / App. 1 | Planned for portfolio, not paper by default |
+| Literature Search Log | Preserve exact search systems/strings/dates/result counts | Supports B3 transparency | Repository; paper appendix only if useful/permitted | Planned |
+| Screening / Inclusion Record | Preserve source-selection decisions and sample construction | Supports B3 population/sample and data collection | Repository; appendix optional | Planned |
+| Detailed Evidence Extraction | Preserve contextual evidence too detailed for main paper | Supports B4 traceability and analysis | Repository; appendix optional | Planned |
+| Peer Review Evidence | Preserve review received, response/revisions and feedback provided | Mandatory for period-1 portfolio, not established as a paper appendix | Portfolio evidence | Planned |
+
+## Excluded Speculative Appendices
+
+No interview protocol, survey, dataset or technical-test appendix is planned because those methods are not currently part of the active research design.
 
 ## Rule
 
-Appendices must not be used to hide assessment-critical argumentation or evade the 8–10-page body requirement. Any paper appendix should be used only when permitted by Teams instructions.
+Appendices must not be used to hide assessment-critical reasoning or to evade the page requirement.

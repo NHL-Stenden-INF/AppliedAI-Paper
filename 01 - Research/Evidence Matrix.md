@@ -1,35 +1,52 @@
 # Evidence Matrix
 
-No academic evidence has been collected yet. This matrix defines what Phase 2 must populate.
+## Status
 
-| ID | Research question | Required claim / evidence | Existing evidence | Source | Evidence quality | Missing evidence | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| EVD-001 | SQ1 | Classification of current deepfake detection techniques | None | TBD | Not assessed | Technique evidence across image/video/audio | Missing |
-| EVD-002 | SQ1 | How techniques use modality-specific signals/features/representations | None | TBD | Not assessed | Primary/review evidence | Missing |
-| EVD-003 | SQ1 | Evidence that approach categories are current and relevant | None | TBD | Not assessed | Recent sources and publication dates | Missing |
-| EVD-004 | SQ2 | Reported performance with explicit metric and test context | None | TBD | Not assessed | Empirical results | Missing |
-| EVD-005 | SQ2 | Difference between controlled/in-domain and more realistic/generalised evaluation | None | TBD | Not assessed | Cross-dataset/unseen-generator/realistic-condition studies | Missing |
-| EVD-006 | SQ2 | False-positive/false-negative or equivalent error behaviour where relevant | None | TBD | Not assessed | Error-focused evidence | Missing |
-| EVD-007 | SQ2 | Evidence separated by modality when metrics are not comparable | None | TBD | Not assessed | Modality-specific studies | Missing |
-| EVD-008 | SQ3 | Effect of compression or quality degradation | None | TBD | Not assessed | Robustness studies | Missing |
-| EVD-009 | SQ3 | Generalisation to new/unseen generative models | None | TBD | Not assessed | Cross-generator evidence | Missing |
-| EVD-010 | SQ3 | Deliberate evasion/adversarial robustness | None | TBD | Not assessed | Evasion/adversarial studies | Missing |
-| EVD-011 | SQ3 | Other significant degradation factors discovered during review | None | TBD | Not assessed | Phase 2 discovery | Planned |
-| EVD-012 | MRQ | Integrated reliability judgement with explicit boundaries | None | TBD | Not assessed | Sufficient evidence from EVD-001–011 | Missing |
-| EVD-013 | B4 rubric | Source base has adequate amount, completeness, timeliness, quality and relevance | School criteria only | SRC-S01 | Authoritative criterion, not research evidence | Academic source set | Planned |
-| EVD-014 | B5 rubric | Reliability, validity and usability of the research method/results can be evaluated | Method plan only | Internal plan | Not evidence yet | Executed method and limitations | Planned |
+No substantive academic deepfake-detection evidence has been collected. This matrix defines the evidence that Phase 2 must obtain and how it should be judged.
 
-## Evidence Quality Fields for Phase 2
+## Evidence Classes
 
-Each important academic source should be assessed on:
+- **Direct:** directly measures/describes the claim being made.
+- **Supporting:** strengthens interpretation but does not independently establish the claim.
+- **Contextual:** useful background only; must not be used as the sole basis for a technical conclusion.
+- **QA / Method:** evidence about the research process rather than the deepfake-detection claim itself.
+
+| ID | Question / criterion | Required evidence | Preferred evidence class | Minimum context to capture | Existing evidence | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| EVD-001 | SQ1 | Defensible classification of current deepfake-detection technique families | Direct + supporting | Modality, detector family/features, source year | None | Missing |
+| EVD-002 | SQ1 | Modality-specific signals/features/representations used by detectors | Direct | Modality, approach, evidence basis | None | Missing |
+| EVD-003 | SQ1 | Evidence that included technique categories are current/relevant | Supporting | Publication date, field coverage, limitations | None | Missing |
+| EVD-004 | SQ2 | Reported detector performance | Direct | Metric, value, dataset, modality, detector, test condition | None | Missing |
+| EVD-005 | SQ2 | Controlled/in-domain versus generalised or operationally real-world performance | Direct | Training/test relation, seen/unseen generator, transformations, metric | None | Missing |
+| EVD-006 | SQ2 | Error behaviour where available | Direct | False positives/false negatives or equivalent metric/context | None | Missing |
+| EVD-007 | SQ2 | Modality-specific evidence when metrics/conditions are not comparable | Direct | Modality + comparison boundaries | None | Missing |
+| EVD-008 | SQ3 | Effect of compression/quality degradation | Direct | Transformation level, detector, metric before/after or comparative effect | None | Missing |
+| EVD-009 | SQ3 | Generalisation to new/unseen generative models/manipulations | Direct | Seen/unseen condition, dataset/generator, metric | None | Missing |
+| EVD-010 | SQ3 | Deliberate evasion/adversarial robustness | Direct | Attack/evasion condition, threat assumptions, metric/effect | None | Missing |
+| EVD-011 | SQ3 | Other evidence-based degradation factors | Direct | Factor, test condition, effect, limitations | None | Planned discovery |
+| EVD-012 | MRQ | Integrated reliability judgement | Synthesis of direct evidence | Evidence quality, modality, conditions, conflicting results | None | Missing |
+| EVD-013 | B4 QA | Source base is adequate in amount/completeness/timeliness/quality/relevance | QA / Method | Coverage by SQ/modality/year/source quality | Assessment criterion only | Planned |
+| EVD-014 | B5 QA | Research reliability/validity/usability can be evaluated | QA / Method | Executed protocol, deviations, limitations, applicability | Method plan only | Planned |
+
+## Evidence Acceptance Rules
+
+1. A source that merely mentions deepfakes is **contextual**, not evidence of detection reliability.
+2. A reported percentage without metric/dataset/test context is insufficient for a major SQ2 claim.
+3. Benchmark/in-domain accuracy is not automatically evidence of `real-world` reliability.
+4. Review papers may support taxonomy/coverage, but important performance claims should be traceable to primary empirical evidence where feasible.
+5. Contradictory evidence remains in the matrix and must be analysed.
+6. Evidence quality and evidence directness are separate judgments: a high-quality source can still be only contextual for a specific claim.
+
+## Phase-2 Source Quality Fields
+
+For each important source assess:
 
 - authority/publication context;
-- relevance to a specific research question;
+- relevance to the specific question/claim;
 - currency;
 - method/evidence basis;
 - evaluation transparency;
-- directness of support for the intended claim;
+- independence/potential bias where relevant;
+- directness;
 - limitations/generalisation risk;
-- whether evidence is primary, review/synthesis or commentary.
-
-A source mentioning deepfakes is not automatically evidence for reliability.
+- primary empirical vs review/synthesis vs commentary status.

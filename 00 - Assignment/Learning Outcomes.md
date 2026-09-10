@@ -1,34 +1,34 @@
 # Learning Outcomes
 
-## Applicability to the Research Paper
+## Applicability to This Repository
 
-The Applied AI module defines six module-level learning outcomes. The module book maps these primarily to the individual project contribution, learning path, professional conduct and portfolio assessment. It does **not** explicitly state that the period-1 research paper independently assesses a named subset of these six learning outcomes.
+The Applied AI module defines six learning outcomes, but the available school documents do **not** explicitly map the period-1 research-paper rubric to a named subset of them. The paper is instead a separate mandatory Sufficient/Insufficient element of the period-1 Go/no-go assessment.
 
-Therefore:
+The learning outcomes are therefore recorded as **module context**, without inventing a direct paper-assessment relationship.
 
-- the learning outcomes are recorded because they define the wider module context;
-- no unsupported direct paper-to-learning-outcome mapping is claimed;
-- the research paper is treated as a separate mandatory Sufficient/Insufficient Go/no-go component assessed by its own paper rubric.
+## Official Module Learning Outcomes and Assessment Alignment
 
-## Module Learning Outcomes
+| LO | Official meaning (faithful summary) | Primary assessment/evidence alignment stated in module book | HBO-i relation stated in module book | Direct paper mapping? |
+| --- | --- | --- | --- | --- |
+| LO1 — Analyse and select appropriate AI approaches | Analyse a professional problem, evaluate relevant AI techniques/models/technologies and justify an appropriate approach from context requirements, opportunities and limitations | Primarily individual project contribution | Analyse and Realise level 3; Design level 3 where applicable | Not explicitly stated |
+| LO2 — Develop and evaluate AI-enabled solutions | Design, implement, integrate, test and evaluate AI-enabled software using appropriate data/models/tools/frameworks and improve it from evaluation | Primarily individual project contribution | Analyse and Realise level 3; Design level 3 where applicable | Not explicitly stated |
+| LO3 — Work in a structured and iterative project environment | Use Scrum to organise/prioritise work, produce iterative results and use experimentation/evaluation/stakeholder feedback for next steps | Scrum and iterative project evidence | Manage & Control level 2 | Not explicitly stated |
+| LO4 — Direct and apply their own learning | Identify knowledge/skill gaps, select learning activities and apply new learning within the project | Individual learning path and application | No separate HBO-i level mapping stated in §1.4 | Not explicitly stated |
+| LO5 — Apply AI responsibly | Assess ethical, societal, legal and professional implications including data quality, bias, privacy, security, transparency, risks, regulations and standards, and translate these into justified choices | Responsible-AI analysis and documented professional/technical decisions | Supports Analyse, Design and Realise level 3 depending on evidence | Not explicitly stated |
+| LO6 — Act as a responsible IT professional | Collaborate/communicate effectively, take responsibility, give/receive feedback, justify choices, reflect critically and consider wider responsibilities | Professional conduct, collaboration, communication and responsibility evidence | Primarily Manage & Control level 2 | Not explicitly stated |
 
-| LO | Official description summary | What must be demonstrated in module | Primary evidence stated by module | Relation to research paper | Status | Source |
-| --- | --- | --- | --- | --- | --- | --- |
-| LO1 | Analyse and select appropriate AI approaches | Analyse professional problem, evaluate AI techniques/models/technologies, justify selection | Individual project contribution | Indirectly relevant to critical comparison of AI detection approaches, but no direct official paper mapping stated | Module requirement confirmed | Module book §1.3–1.4 |
-| LO2 | Develop and evaluate AI-enabled solutions | Design, implement, integrate, test and evaluate AI-enabled solutions | Individual project contribution | No direct paper mapping stated | Module requirement confirmed | Module book §1.3–1.4 |
-| LO3 | Work in a structured and iterative project environment | Scrum, prioritisation, iterations, feedback | Project/Scrum evidence | Not a research-paper criterion | Module requirement confirmed | Module book §1.3–1.4 |
-| LO4 | Direct and apply own learning | Identify gaps, select learning, apply it | Individual learning path | Paper research may support learning, but not named as primary LO evidence | Module requirement confirmed | Module book §1.3–1.4 |
-| LO5 | Apply AI responsibly | Ethical, societal, legal, professional issues; data quality, bias, privacy, security, transparency, risks, regulation, standards | Responsible-AI analysis and decisions | Could become contextual relevance if supported, but not required by paper rubric as a separate section | Module requirement confirmed | Module book §1.3–1.4 |
-| LO6 | Act as a responsible IT professional | Collaboration, communication, feedback, responsibility, reflection | Professional conduct evidence | Peer review and pair work are relevant behaviours, but direct LO assessment is not stated for the paper | Module requirement confirmed | Module book §1.3–1.4 |
+Source locator: module book §1.3–1.4, printed pp. 4–6 / PDF pp. 10–12.
 
-## HBO-i Competences
+## Paper-Relevant Relationship
 
-The module also identifies HBO-i competences in Analyse, Realise, Design and Manage & Control at specified levels. Their formal evidence is primarily tied to the project and final portfolio, not the period-1 paper.
+The research paper can **indirectly support** skills such as analysis, evidence-based reasoning and professional feedback, but the repository must not claim that the paper itself proves a module learning outcome unless a lecturer/assessment document explicitly confirms that mapping.
 
-## Paper-Specific Competence Evidence
+The direct paper assessment remains the A/B1–B5 rubric in `Assessment Criteria.md`.
 
-What the research paper **is explicitly assessed on** is captured in `Assessment Criteria.md`: research-question quality and alignment, method description and justification, source quality, evidence-based results, own analysis, conclusions, recommendations, reliability, validity, usability, writing quality and APA.
+## Evidence Path for the Wider Module
+
+The module book states that students later identify and justify their strongest portfolio evidence for each learning outcome/HBO-i competence and that the criterion-based interview verifies ownership, understanding and professional reasoning. That wider evidence path is outside the immediate period-1 paper repository.
 
 ## Open Issue
 
-**To Verify:** whether lecturers intend the research paper to be cited as direct evidence for any specific module learning outcome or HBO-i competence beyond its mandatory Go/no-go role.
+**To Verify:** whether lecturers expect the completed research paper to be referenced as supporting evidence for any specific learning outcome or HBO-i competence in the final portfolio.

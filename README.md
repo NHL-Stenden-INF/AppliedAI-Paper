@@ -8,21 +8,30 @@
 
 ## Current Phase
 
-**Phase 1 - Foundation and Research Setup**
+**Foundation Audit and Improvement — pre-Phase 2**
 
-Substantive paper drafting has **not** started. This repository currently contains the requirements, research plan, traceability, evidence planning, and review framework needed before research execution and writing.
+Phase 1 setup has been independently rechecked against the original school documents. Substantive research execution and final-paper drafting have **not** started.
 
-## Current Foundation Score
+## Foundation Scores
 
-**86 / 100** — research-ready foundation with identifiable open issues.
+- **Previous:** 86 / 100
+- **Current:** **89 / 100**
+
+The increase reflects corrected traceability, finer rubric decomposition, a more feasible methodology definition, and stronger risk/readiness controls. It does not reflect completed external research.
+
+## Research Readiness
+
+**Ready with Conditions**
+
+The foundation is usable for research execution, but the question set and research protocol must not be treated as final until the conditions below are addressed.
 
 ## Main Research Question
 
-**Status: Proposed / approval To Verify**
+**Status: Proposed / lecturer approval To Verify**
 
 > To what extent can AI-based deepfake detection systems reliably distinguish AI-generated or manipulated media from authentic content?
 
-The current title and research questions are recorded in `Research paper Subject.xlsx`, but no evidence of the required lecturer approval is available in the Project files.
+The wording is recorded in `Research paper Subject.xlsx`. The school requires the proposed title, main question and three subquestions to be discussed with and approved by a lecturer before writing starts. No approval evidence is available in the Project files.
 
 ## Repository Navigation
 
@@ -39,26 +48,28 @@ The current title and research questions are recorded in `Research paper Subject
 - [Evidence Matrix](01%20-%20Research/Evidence%20Matrix.md)
 - [Research Gap Analysis](01%20-%20Research/Research%20Gap%20Analysis.md)
 - [Sources Index](02%20-%20Sources/Sources%20Index.md)
+- [Analysis Framework](03%20-%20Analysis/Analysis%20Framework.md)
 - [Paper Structure](04%20-%20Paper/Paper%20Structure.md)
+- [Rubric Check](06%20-%20Review/Rubric%20Check.md)
 - [Foundation Audit](06%20-%20Review/Foundation%20Audit.md)
 
-## Current Priorities
+## Immediate Conditions / Priorities
 
-1. Verify that the proposed title, main research question, and three subquestions have been approved by a lecturer.
-2. Confirm the exact submission instructions in Teams, including whether 25 September 2026 is the submission deadline and the precise page-count interpretation.
-3. Operationalise `reliably`, `current`, and `real-world conditions` before the formal literature search and evidence extraction.
-4. Execute the planned literature research without drafting final-paper prose.
+1. **Verify lecturer approval** of the current title, main research question and all three subquestions before any final-paper drafting and before treating the scope as locked.
+2. **Operationalise** `reliably`, `current`, `real-world conditions`, `deepfake`, and the final modality scope before evidence extraction.
+3. **Finalise the literature-study protocol**: search systems, search strings, time window, source-type policy, inclusion/exclusion rules and extraction fields.
+4. **Verify Teams-only instructions** for submission and any additional structure/length/referencing rules. This is not required to start source discovery, but it is required before final drafting/submission.
 
-## Important Unknowns
+## Material Unknowns
 
 - Lecturer approval status of the title and research questions.
-- Exact Teams submission instructions and file format.
-- Official APA edition; APA is mandatory, but the uploaded school documents do not name an edition.
-- Exact aggregation meaning of `sub-digit` in the assessment form.
-- Whether the abstract is included or excluded from the 8–10-page volume count.
+- Exact Teams submission process/file type and any additional paper instructions.
+- Official APA edition; APA is mandatory, but the available school documents do not name an edition. Project working default: APA 7.
+- Exact internal meaning of `sub-digit` and the coloured numeric bands in the paper assessment form.
+- Exact page-count interpretation beyond the assessment form's unusual footnote wording, especially treatment of the abstract and total document length.
 
 ## Next Phase
 
-**Phase 2 - Research Execution** is the recommended next phase. The first action should be to confirm the lecturer approval status before the research scope and screening protocol are treated as final.
+Recommended next phase: **Phase 2 - Research Execution**, under the conditions above.
 
-Do not begin substantive paper drafting until the research questions are approved and Phase 2 has produced sufficient evidence.
+Do not begin substantive final-paper drafting until the question set is approved and Phase 2 has produced sufficient traceable evidence.

@@ -1,6 +1,6 @@
 # Research Log
 
-## 2026-09-10
+## 2026-09-10 — Foundation and Research Setup
 
 ### Phase
 
@@ -8,47 +8,96 @@ Foundation and Research Setup
 
 ### Documents Reviewed
 
-- `APPENDIX 9 ASSESSMENT RESEARCH PAPER.pdf` — all 6 pages, with detailed extraction from the form-aspects gate and A/B1–B5 rubric.
-- `APPLIED AI MODULE BOOK V1.pdf` — all 63 pages, with detailed attention to module learning outcomes, examination/go-no-go requirements, curriculum timing, Appendix 1 portfolio evidence, Appendix 3 research paper assignment and Appendix 8 grade calculation.
-- `Research paper Subject.xlsx` — workbook content inspected; current authors, topic, title, main question and three subquestions extracted.
-- GitHub repository `NHL-Stenden-INF/AppliedAI-Paper` — initial state contained only `README.md`.
+- `APPENDIX 9 ASSESSMENT RESEARCH PAPER.pdf` — all 6 pages.
+- `APPLIED AI MODULE BOOK V1.pdf` — all 63 pages with paper-relevant sections mapped.
+- `Research paper Subject.xlsx` — current proposal record.
+- Initial GitHub repository — only a minimal README existed before setup.
 
 ### Main Findings
 
-- Paper is a pair assignment during weeks 1–4 and is mandatory for period-1 Go/no-go.
-- Current deepfake-detection questions are present but lecturer approval is not evidenced.
-- Assessment has a mandatory form-aspects gate before substantive marking.
-- The direct rubric assesses writing quality, summary, introduction, method, results, conclusion/discussion and methodological reliability/validity/usability.
-- Assessment form specifies 8–10 pages for the body and lists exclusions.
-
-### Requirements Identified
-
-See `00 - Assignment/Requirements Checklist.md` for REQ-001 through REQ-043.
+- Pair paper during weeks 1–4; mandatory for period-1 Go/no-go.
+- Current questions exist but lecturer approval is not evidenced.
+- Mandatory form-aspects gate precedes substantive assessment.
+- Direct rubric covers A and B1–B5, including method and methodological reliability/validity/usability.
+- 8–10-page requirement exists with an unusual counting footnote.
 
 ### Decisions
 
-- Treat assessment form and module book as authoritative, with the direct assessment form taking precedence for paper form/content criteria.
-- Treat the subject spreadsheet as project-specific supporting evidence, not an academic rule source.
-- Use a structured literature review with comparative/thematic synthesis as the planned method.
-- Keep all research findings empty until Phase 2.
-- Keep final paper prose empty until Phase 3.
+- Assessment form and module book treated as authoritative within their specific scopes.
+- Subject spreadsheet treated as project proposal evidence only.
+- Initial proposed method: literature-based comparative investigation.
+- No substantive research findings or paper prose generated.
 
 ### Unknowns
 
-- Lecturer approval status.
-- APA edition.
-- Teams submission instructions/file type.
-- Exact interpretation of abstract in page count.
-- Meaning of `sub-digit` in aggregation rule.
+Lecturer approval, APA edition, Teams submission details, page-count interpretation and `sub-digit` aggregation.
 
-### Conflicts
+### Next Actions
 
-- The assessment form contains coloured numeric-grade bands and `sub-digit` wording, while the module book explicitly states the research paper is assessed Sufficient/Insufficient. Final outcome is treated as S/I, but the internal aggregation mechanism is To Verify.
+Confirm question/title approval, operationalise terms, finalise the research protocol and begin Phase 2 only after readiness review.
 
-### Next Research Actions
+---
 
-1. Confirm question/title approval.
-2. Define reliability and real-world conditions operationally.
-3. Finalise search/screening criteria.
-4. Begin Phase 2 source collection and evidence extraction.
-5. Do not draft substantive paper chapters yet.
+## 2026-09-10 — Complete Foundation Audit and Improvement
+
+### Phase
+
+Foundation Audit and Improvement
+
+### Documents Rechecked
+
+- `APPENDIX 9 ASSESSMENT RESEARCH PAPER.pdf` — form gate, page-count footnote, colour/grade explanation and every A/B1–B5 row revalidated.
+- `APPLIED AI MODULE BOOK V1.pdf` — learning outcomes/alignment, Appendix 1 period-1 portfolio evidence, Appendix 3 research-paper assignment and Appendix 8 grade calculation revalidated.
+- `Research paper Subject.xlsx` — `Blad1` A1:H3 rechecked; proposal wording unchanged.
+- Entire current GitHub foundation structure and all active Markdown files audited.
+
+### Problems Found
+
+- B1–B5 rubric rows had been collapsed into broad checklist requirements, weakening one-by-one traceability.
+- Module-book printed page numbers and PDF page numbers were not distinguished, making source locators less precise.
+- The methodology label `structured literature review` could imply a full systematic-review standard not actually planned.
+- The page-budget file overinterpreted the unusual 8–10-page footnote as mainly a `results/body` allocation.
+- Findings structure lacked explicit limitations fields.
+- Unsupported intended claims in the Argument Map were marked `Planned` instead of `Evidence Needed`.
+- Rubric preparation statuses were too optimistic for criteria whose evidence does not yet exist.
+- Planned future peer-review obligations were mixed into the same table as actual feedback.
+
+### Corrections Made
+
+- Decomposed all B1–B5 assessment rows into stable child requirements while preserving REQ-001–043.
+- Added explicit A-design/consistency and peer-review feedback-content requirements.
+- Added dual printed/PDF page locators for module-book traceability.
+- Reframed the method as a structured literature study / desk research with document analysis, without claiming a full SLR.
+- Expanded end-to-end assessment traceability and evidence directness rules.
+- Strengthened operational-definition, comparability, source-quality and feasibility controls.
+- Corrected page-budget interpretation to preserve the source wording without unsupported allocation assumptions.
+- Added explicit limitations/gaps structures and stricter rubric-readiness statuses.
+- Separated actual feedback from future feedback obligations.
+
+### Decisions
+
+- Current MRQ/SQs remain unchanged and Proposed; no unauthorized academic change was made.
+- No interviews/surveys/experiment were added because the current questions do not require them and school sources do not mandate them.
+- APA 7 remains a project working fallback, not a school-confirmed edition.
+- Research readiness is `Ready with Conditions`, not unconditional Ready.
+
+### New Unknowns
+
+No material new source-derived unknowns were introduced. One methodological confirmation was elevated explicitly: whether the assessor accepts publication population/sample as the B3 interpretation for literature-based research.
+
+### Resolved Unknowns
+
+- Confirmed there are exactly three Project source files currently available.
+- Confirmed the module book does not provide a paper-specific named methodology or APA edition in the available material.
+- Confirmed no separate feedback/template/APA document is present in the Project.
+
+### Research Readiness
+
+**Ready with Conditions.**
+
+### Next Actions
+
+1. Verify lecturer approval of the title/MRQ/SQs.
+2. Finalise operational definitions and the literature-study protocol.
+3. Begin Phase 2 evidence collection without drafting final-paper prose.
+4. Verify Teams/page-count/APA details before final drafting and submission.

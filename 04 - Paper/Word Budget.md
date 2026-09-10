@@ -2,13 +2,13 @@
 
 ## Official Word Limit
 
-**To Verify.** No official word-count limit was found in the uploaded school documents.
+**No official word-count limit is identified in the available school documents.**
+
+Status: `Unknown / no requirement found in available sources`.
 
 ## Official Page Requirement
 
-**8–10 pages for the body** according to the research-paper assessment form.
-
-The same form's footnote states that the body page requirement excludes:
+The assessment form states **8–10 pages** and its footnote says this requirement applies to the `body`, excluding:
 
 - introduction;
 - method;
@@ -16,25 +16,28 @@ The same form's footnote states that the body page requirement excludes:
 - discussion;
 - source list.
 
-The abstract is not named in the exclusion list.
+The abstract is not explicitly included or excluded.
 
 ## Interpretation Status
 
-**To Verify:** exact total-paper page count and whether the abstract is counted. Do not invent a conversion from pages to words as an official requirement.
+**To Verify.** The source wording is unusual: it labels the counted part `body` while excluding several sections normally considered part of a paper's body. Therefore:
+
+- do not assume the 8–10 pages mean total document length;
+- do not assume the 8–10 pages mean only the Results section;
+- do not create an official word-equivalent;
+- confirm the intended page-count method before final drafting/submission.
 
 ## Planning Allocation
 
-Because no official word limit exists, use a **relative page allocation**, not a fabricated word budget:
+Any allocation below is a **project planning principle**, not a school rule:
 
-| Section | Planning principle |
-| --- | --- |
-| Abstract | Concise; write last |
-| Introduction | As short as possible while covering every B2 criterion |
-| Method | Concise but complete enough to satisfy every B3 criterion |
-| Results body | Main use of the official 8–10 body pages; allocate approximately one balanced block per subquestion, adjusted to evidence density |
-| Conclusion/discussion | Concise synthesis, recommendations and reliability/validity/usability evaluation |
-| References | Complete APA list; excluded from the body count by assessment-form footnote |
+- keep the abstract concise;
+- make the introduction complete but economical;
+- make the method concise but sufficient for all B3 rows;
+- reserve most substantive counted space for evidence and synthesis once the school counting interpretation is confirmed;
+- keep conclusions/discussion concise but complete for all B5 rows;
+- use figures/tables only when they improve evidence communication.
 
 ## Revision Reserve
 
-Reserve space inside the 8–10-page results/body allowance for synthesis tables/figures and final evidence-driven adjustments. Do not fill the maximum merely because space is available.
+Do not draft to the maximum before peer review. Retain layout/page flexibility for evidence corrections, peer-review revisions and final formatting.

@@ -4,41 +4,73 @@
 
 `APPENDIX 9 ASSESSMENT RESEARCH PAPER.pdf`
 
-## Type
+## Identification
 
-Official paper assessment form.
+- **Type:** Official research-paper assessment form.
+- **Version:** 2026-2027-1.0.
+- **Programme context:** Tech & Design, Information Technology Bachelor Emmen.
 
 ## Authority
 
-**Authoritative** for the direct research-paper form and content assessment.
+**Authoritative for direct research-paper form and content assessment.**
 
 ## Purpose
 
-Defines the pre-assessment form gate and the detailed criteria used to judge writing quality, summary, introduction, method, results and conclusion/discussion.
+Defines the pre-assessment form gate and the detailed A/B1–B5 criteria used to judge the research paper.
 
-## Key Requirements
+## Form-Aspects Gate
 
-- All form-aspect items must be present before substantive assessment.
-- Required components: concise abstract, introduction, method, results, conclusions/discussion and literature list.
-- 8–10-page volume requirement with a footnote stating the count applies to the body and excludes introduction, method, conclusion, discussion and source list.
-- Correct layout and structure.
-- Figures/tables must support the text and be referenced correctly.
-- Spelling/grammar and APA must be sufficient.
-- Method must describe population/sample, data collection, instruments, analysis and justify choices.
-- Results must be substantiated, show own input, connect literature to own research and use sufficient current, relevant, high-quality sources.
-- Conclusion/discussion must answer questions, contain recommendations and evaluate reliability, validity and usability.
+All listed form-aspect items must be present/met before substantive assessment proceeds. The form checks:
 
-## Assessment Relevance
+- concise abstract;
+- introduction;
+- description of method;
+- description of results;
+- conclusions and discussion;
+- literature list;
+- 8–10-page volume requirement;
+- correct/appropriate layout;
+- clear paper structure;
+- supporting/referenced figures and tables;
+- sufficient spelling and grammar;
+- APA well applied.
 
-This source drives `Requirements Checklist.md`, `Assessment Criteria.md`, `Rubric Check.md`, `Paper Structure.md` and later final QA.
+The page-4 footnote states that the 8–10-page requirement applies to the `body` while excluding introduction, method, conclusion, discussion and source list. The exact total-document implication and treatment of the abstract remain `To Verify`.
 
-## Important Details / Conflicts
+## Detailed Assessment Impact
 
-The form contains coloured numeric grade bands and a rule that at most one `sub-digit` may be insufficient, while the module book states the paper result is Sufficient/Insufficient. Exact aggregation meaning is **To Verify**.
+### A — General writing skills
+
+Separate rows cover title, target-group language, APA literature list, design, spelling/grammar, paragraph structure and consistency between components.
+
+### B1 — Summary
+
+Separate rows cover concision and inclusion of introduction/method, results and conclusion.
+
+### B2 — Introduction
+
+Separate rows cover reason, subject explanation, social importance, MRQ/SQs/objectives, scope, reading guidance and logical connection.
+
+### B3 — Method
+
+Separate rows cover population/sample, data collection, instruments, analysis and methodological justification.
+
+### B4 — Results
+
+Separate rows cover substantiation/consistency, visible author input linked with literature, informativeness, depth and source amount/completeness/timeliness/quality/relevance.
+
+### B5 — Conclusions and discussions
+
+Separate rows cover answers to MRQ/SQs, standalone readability, consistency, recommendations and evaluation of methodological results for reliability, validity and usability.
+
+## Grading / Conflict Note
+
+Page 3 explains coloured grade-indication bands and states that at most one `sub-digit` may be insufficient. The module book separately states that the paper's final result is Sufficient/Insufficient. Exact internal aggregation is not defined in the available files and remains `To Verify`.
 
 ## Related Repository Files
 
 - `00 - Assignment/Requirements Checklist.md`
 - `00 - Assignment/Assessment Criteria.md`
+- `00 - Assignment/Assessment Traceability Matrix.md`
 - `06 - Review/Rubric Check.md`
 - `06 - Review/Foundation Audit.md`

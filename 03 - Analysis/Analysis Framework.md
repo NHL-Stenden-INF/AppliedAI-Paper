@@ -4,82 +4,68 @@
 
 **Planned. No final analysis or findings have been produced.**
 
-## Research Questions
+## Analysis Logic
 
-The current MRQ and three subquestions are recorded in `00 - Assignment/Research Questions.md` and remain Proposed / approval To Verify.
+Every research question has a defined route from evidence type to analysis output.
 
-## Evidence Types
+| Question | Evidence type | Planned analysis | Decision rule / caution | Planned output |
+| --- | --- | --- | --- | --- |
+| SQ1 | Technique descriptions from current primary/review literature | Taxonomic/thematic classification by modality and detector approach | Include only categories relevant to the final scope and reliability discussion | Technique taxonomy + concise synthesis |
+| SQ2 | Empirical metrics with dataset/test/generalisation context | Contextual comparative synthesis | Compare only genuinely comparable metrics/conditions; separate in-domain from broader generalisation | Performance comparison with explicit boundaries |
+| SQ3 | Robustness/generalisation/evasion evidence | Thematic synthesis of factors plus effect direction/magnitude/context where reported | Do not treat hypothesised limitations as measured effects | Degradation/failure-factor matrix |
+| MRQ | Completed SQ1–SQ3 evidence plus source-quality/directness assessments | Integrative synthesis | Weight conclusions by evidence quality, directness and generalisability; preserve contradictions | Bounded reliability judgement |
 
-- descriptive evidence about detector architectures/techniques;
-- empirical performance metrics and confusion/error information;
-- dataset and evaluation-context information;
-- cross-dataset/unseen-generator generalisation evidence;
-- robustness evidence under compression or quality degradation;
-- adversarial/evasion evidence;
-- review/synthesis evidence used to map the field and cross-check primary studies.
+## Operational Definitions Dependency
 
-## Analysis Method per Research Question
+No evidence should be coded as `current`, `reliable` or `real-world` until those terms have been explicitly operationalised in Phase 2.
 
-| Question | Planned analysis | Planned output |
-| --- | --- | --- |
-| SQ1 | Categorise techniques by modality and underlying approach/features/model family | Technique taxonomy/table + concise synthesis |
-| SQ2 | Compare reported performance while preserving metric, dataset, detector, generator and test condition | Contextual performance comparison; no false single ranking |
-| SQ3 | Group degradation factors and synthesise direction/magnitude/consistency of reported effects | Robustness/generalisation limitations matrix |
-| MRQ | Integrate SQ1–SQ3, weighting evidence quality and generalisability | Bounded reliability judgement, not a universal percentage |
+## Comparison / Extraction Fields
 
-## Theories / Models Potentially Required
-
-No mandatory theory/model is specified by the school documents.
-
-Potential conceptual structures may be introduced during Phase 2 only when useful, such as:
-
-- robustness/generalisation distinction;
-- modality-based detector taxonomy;
-- standard classification-performance measures.
-
-These are **Proposed analytical structures**, not school requirements.
-
-## Comparison Criteria
-
-Planned extraction/comparison fields:
-
+- source/evidence ID;
 - media modality;
-- deepfake/manipulation type;
-- detector approach;
-- training dataset;
-- test dataset;
+- manipulation/deepfake type;
+- detector technique/model family;
+- training dataset/context;
+- test dataset/context;
 - seen vs unseen generator/manipulation;
 - compression/quality transformation;
 - metric type and value;
-- false positive / false negative behaviour where available;
+- false-positive / false-negative information where available;
 - evaluation setting;
-- source quality/limitations.
+- evidence directness;
+- source quality and limitations.
 
 ## Validation Approach
 
-- preserve context for every important metric;
-- triangulate high-impact claims across more than one source where feasible;
-- explicitly record contradictory evidence;
-- compare only genuinely comparable metrics;
-- evaluate literature-review reliability, validity and usability in discussion;
-- cross-check evidence extraction between both authors for key studies.
+- preserve metric context rather than isolated percentages;
+- corroborate important claims across multiple independent studies where feasible;
+- use review-level evidence for field mapping and primary empirical evidence for major performance claims where feasible;
+- record contradictory evidence explicitly;
+- cross-check high-impact extraction decisions between both authors;
+- document protocol changes and scope changes in the Research Log.
 
-## Planned Output
+## Potential Analytical Structures
 
-- findings organised by subquestion;
-- evidence tables/figures that materially support the text;
-- clear distinction between reported source results and authors' synthesis;
-- conclusion only after the Conclusions Matrix has sufficient evidence.
+No theory/model is mandated by the school documents. Possible **Proposed** analytical structures include:
 
-## Dependencies
+- modality-based detector taxonomy;
+- robustness versus generalisation distinction;
+- standard classification-performance measures;
+- evaluation-context categories developed from the actual evidence set.
 
-- approved research questions;
-- finalised search/screening protocol;
-- academic source set;
-- operational definitions of reliability, current and real-world conditions.
+These should be adopted only when they improve analysis rather than added for formality.
 
-## Unknowns
+## Output Constraints
 
-- whether enough comparable evidence exists across all three modalities within the assignment timeframe;
-- whether narrowing will be needed;
-- which performance metrics dominate the final evidence set.
+- Results should present source evidence and authors' synthesis without collapsing the distinction between them.
+- Figures/tables should carry evidence, not decoration.
+- No conclusion should be entered into the final paper until the relevant Conclusions Matrix row has sufficient traceable evidence.
+
+## Dependencies / Unknowns
+
+- lecturer-approved/stable question set;
+- final modality scope;
+- operational definitions;
+- completed search/screening protocol;
+- sufficient empirical evidence;
+- final decision on which metrics are comparable.

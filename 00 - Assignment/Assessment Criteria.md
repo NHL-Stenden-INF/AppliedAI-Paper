@@ -1,10 +1,10 @@
 # Assessment Criteria
 
-Source of direct criteria: `APPENDIX 9 ASSESSMENT RESEARCH PAPER.pdf`, especially pp. 3–5.
+Primary direct source: `APPENDIX 9 ASSESSMENT RESEARCH PAPER.pdf`, especially PDF pp. 3–5.
 
-## Form-Aspects Gate
+## 1. Form-Aspects Gate
 
-The assessment form states that all listed form aspects must be present/met before substantive assessment. Missing components make the paper not assessable.
+Before substantive assessment, **all** listed form-aspect items must be present/met. The form states that otherwise the paper is unassessable and substantive review does not proceed.
 
 ### Required Parts
 
@@ -17,85 +17,102 @@ The assessment form states that all listed form aspects must be present/met befo
 
 ### Implementation / Form Quality
 
-- Meets volume requirement of 8–10 pages.
-- Correct and appropriate layout; headings and paragraphs must be clear and correct.
-- Clear paper structure.
-- Text supported by figures and tables, correctly deployed/referenced.
-- Spelling and grammar of sufficient quality.
-- APA well applied.
+- Meets the 8–10-page volume requirement.
+- Correct and appropriate layout; headings/paragraphs are clear and correct.
+- Paper structure is clear.
+- Text is supported by figures and tables that are correctly deployed/referenced.
+- Spelling and grammar are of sufficient quality.
+- APA is well applied.
 
-The footnote states that the 8–10-page count applies to the body and excludes introduction, method, conclusion, discussion and source list. Whether the abstract is counted is not specified.
+### Length Ambiguity
 
-## A — General Writing Skills
+The footnote states that the 8–10-page requirement applies to the `body` and then explicitly excludes the introduction, method, conclusion, discussion and source list. The abstract is not named. The repository therefore preserves the wording and does **not** convert it into an unsupported total-page rule. Exact total-length interpretation remains `To Verify`.
 
-| Criterion | Expected level / indicator | Evidence expectation |
-| --- | --- | --- |
-| Appropriate title | Satisfactory | Title accurately reflects the investigated topic and question |
-| Target-group language | Clear, businesslike and efficient | Consistent academic/professional style |
-| Literature list | APA | References correspond with citations and follow APA |
-| Design | Satisfactory | Readable use of whitespace, fonts and layout |
-| Spelling and grammar | Satisfactory | Language errors do not undermine readability |
-| Paragraph structure | Clear and correct | Logical paragraphing and headings |
-| Consistency between components | Satisfactory | Questions, method, results and conclusions align |
+## 2. Performance Indication in the Assessment Form
 
-## B1 — Summary
+The form explains that coloured planes indicate grade level, with **yellow representing starting Bachelor's level in ICT**. The displayed numeric bands are:
 
-The summary must be short and concise and cover:
+- `< 4`;
+- `4–5.4`;
+- `5.5–6.9`;
+- `7–8.4`;
+- `>= 8.5`.
 
-- introduction / method;
-- results;
-- conclusion.
+The criterion rows themselves do not provide separate written descriptors for each numeric band; they show a continuum between `Unsatisfactory` and `Satisfactory`.
 
-## B2 — Introduction
+**Important:** the module-book research-paper assignment states the paper result is **Sufficient / Insufficient**. The exact internal use of the coloured bands and `sub-digit` rule is `To Verify`.
 
-The introduction is assessed on:
+## 3. A — General Writing Skills
 
-- reason for the investigation;
-- description and explanation of the subject;
-- social importance of the research/subject;
-- main question, subquestions and objectives;
-- scope;
-- structure overview / reading guidance;
-- logical connection between these elements.
+The following are separate assessment rows:
 
-## B3 — Method
+1. Appropriate title.
+2. Language adapted to the target group: clear, businesslike and efficient writing style.
+3. Literature list (APA).
+4. Design, including use of whitespace/fonts etc.
+5. Spelling and grammar.
+6. Clear and correct paragraph structure.
+7. Consistency between the different components.
 
-The method is assessed on:
+No paper-specific weighting for these rows is stated in the available documents.
 
-- description of population and sample;
-- data-collection description;
-- instruments description;
-- analysis;
-- argumentation of methodological choices.
+## 4. B1 — Summary
 
-For a literature-based study, these criteria still need explicit equivalents: the source population, selected sample of studies, search/screening/extraction instruments, synthesis procedure, and justification of those choices.
+Separate assessment rows:
 
-## B4 — Results
+1. Short and concise.
+2. Covers introduction / method.
+3. Covers results.
+4. Covers conclusion.
 
-The results are assessed on whether:
+## 5. B2 — Introduction
 
-- statements and claims are substantiated and argued where necessary and remain consistent;
-- the authors' own input is evident;
-- existing literature is linked to the authors' own research;
-- the section is informative;
-- sufficient depth is present;
-- the source base is of sufficient quality and presence, considering amount, completeness, timeliness, quality and relevance.
+Separate assessment rows:
 
-## B5 — Conclusions and Discussions
+1. Reason for the investigation.
+2. Description and explanation of the subject.
+3. Social importance of the research / subject.
+4. Main question, subquestions and objectives.
+5. Scope.
+6. Structure overview / reading guidance.
+7. Logical connection between these elements.
 
-The conclusion/discussion is assessed on whether it:
+## 6. B3 — Method
 
-- answers the main research question and subquestions;
-- can be read as a standalone part;
-- is internally consistent;
-- contains identifiable recommendations;
-- evaluates the methodological results in terms of:
-  - reliability;
-  - validity;
-  - usability.
+Separate assessment rows:
 
-## Overall Result / Aggregation
+1. Description of population and sample.
+2. Data-collection description.
+3. Instruments description.
+4. Analysis.
+5. Argumentation of methodological choices.
 
-The module book states that the research paper is assessed **Sufficient or Insufficient**. The assessment form also states that at most one `sub-digit` may be insufficient and that more insufficient parts lead to an insufficient paper result.
+The school source does not prescribe how these items must be operationalised for a literature-based investigation. The current literature-study equivalents are therefore **Proposed project methodology**, not official rubric wording.
 
-**To Verify:** the assessment form also contains coloured numeric-grade bands. The module book's explicit Sufficient/Insufficient wording is used as the final-result rule, but the exact meaning of `sub-digit` and how the coloured bands aggregate should be confirmed with a lecturer.
+## 7. B4 — Results
+
+Separate assessment rows:
+
+1. Statements/allegations are clearly substantiated and argued where necessary and are consistent.
+2. The authors' own input is evident; existing literature is linked to their own research.
+3. Results are informative.
+4. Results contain sufficient depth.
+5. Source quality and presence are sufficient, considering amount, completeness, timeliness, quality and relevance.
+
+## 8. B5 — Conclusions and Discussions
+
+Separate assessment rows:
+
+1. Provides an answer to the research question and subquestions.
+2. Can be read as a standalone/loose part.
+3. Has correct consistency.
+4. Contains identifiable recommendations.
+5. Discussion evaluates methodological results regarding reliability.
+6. Discussion evaluates methodological results regarding validity.
+7. Discussion evaluates methodological results regarding usability.
+
+## 9. Overall Result / Aggregation
+
+The assessment form states that at most one `sub-digit` of the paper may be insufficient and that more insufficient parts lead to an insufficient paper result. The exact meaning of `sub-digit` is not defined in the available files.
+
+The module book explicitly states the research paper is assessed **Sufficient or Insufficient**. Until clarified, use S/I as the final outcome and treat the detailed numeric/colour aggregation mechanism as `To Verify` rather than inventing a formula.

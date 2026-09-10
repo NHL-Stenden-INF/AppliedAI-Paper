@@ -1,85 +1,82 @@
 # Scope
 
+## Status
+
+**Proposed / not yet lecturer-confirmed.** The scope is derived from the registered topic and research questions and must remain aligned with any approved question set.
+
 ## In Scope
 
-Based on the current project-specific proposal:
+- AI-generated or manipulated media treated as deepfakes under the Phase-2 inclusion definition.
+- AI/ML-based deepfake detection systems.
+- Image, video and audio detection **unless the lecturer approves a narrower scope**.
+- Detector technique families needed to answer SQ1.
+- Empirical detection performance needed to answer SQ2.
+- Evaluation conditions and error/generalisation information needed to judge reliability.
+- Factors that reduce effectiveness, including the examples in SQ3 (compression, new/unseen generative models and deliberate evasion) plus additional evidence-based factors found during research.
 
-- AI-generated or manipulated media commonly described as deepfakes.
-- AI-based / machine-learning-based detection systems.
-- Detection of images, video and audio.
-- Technical approaches used for detection.
-- Reported detection performance and its context.
-- Conditions that affect practical reliability.
-- Factors explicitly named in the current proposal, including compression, new generative models and deliberate attempts to evade detection.
-- Reliability limitations, generalisation and robustness where supported by the selected evidence.
+## Out of Scope Unless the Questions Are Changed
 
-## Out of Scope
-
-Unless the research questions are formally changed:
-
-- step-by-step deepfake generation techniques as an instructional objective;
-- building a new detector as a required deliverable;
-- a full legal or policy analysis of deepfakes;
-- misinformation/disinformation generally, except where needed to explain research relevance;
-- biometric identity verification generally, unless directly tied to deepfake detection evidence;
-- the wider period-2 Applied AI project, portfolio or working paper.
+- Developing a new detector as a required research deliverable.
+- A full legal/policy study of deepfakes.
+- General misinformation/disinformation research that does not contribute directly to the detection-reliability question.
+- General biometric authentication research without a direct deepfake-detection connection.
+- The period-2 project working paper and wider portfolio assessment as research subjects.
 
 ## Target Organisation / Case
 
-No target organisation, company or single case is specified in the available project materials.
+No organisation, client or single case is specified for this research-paper topic.
 
-**Status: Not Applicable / To Verify if lecturer expects a case context.**
+**Status: Not Applicable based on available materials.** If a lecturer later requires a case context, update this section.
 
 ## Target Group
 
-The assessment form requires language adapted to the target group but does not explicitly identify the target audience.
+The paper assessment form requires language adapted to the target group but does not identify that target group explicitly.
 
-**Inferred:** the practical audience is likely the Applied AI academic assessment context (lecturers/examiners and technically literate IT readers).  
-**Status:** To Verify.
-
-## Research Context
-
-A period-1 academic paper in the HBO Information Technology Applied AI module, completed in pairs during the first four weeks.
+**Inferred working audience:** technically literate Applied AI assessors/readers.  
+**Status:** To Verify; do not treat as a school-confirmed audience definition.
 
 ## Time Scope
 
-The research questions use the word `currently`, but no formal publication-year window is specified.
+The word `currently` appears in SQ1/SQ2, but no official publication window is given.
 
-**Status: To Verify.**
+**To Verify / define in Phase 2.** The protocol must explicitly document the chosen evidence window and any justified use of older foundational work.
 
-During Phase 2, the search protocol should define a defensible time window that prioritises current evidence while allowing older foundational sources where necessary.
+## Technical Scope Boundaries
 
-## Technical / Organisational Scope
+The current plan is a **structured literature study / desk research**, not detector implementation. The uploaded school documents do not mandate primary empirical data or a technical experiment for this period-1 paper.
 
-The planned study is a literature-based evaluation of deepfake detection reliability. No implementation, experiment or dataset collection is currently required by the school documents or project proposal.
+This does **not** mean empirical testing is prohibited; it means it should not be added unless it materially improves the answer and remains feasible.
 
 ## Constraints
 
-- Four-week research-paper period.
+- Four-week paper period.
 - Pair work.
-- One main research question and three subquestions.
-- Required lecturer approval before writing.
+- One MRQ and three SQs in the proposal.
+- Lecturer approval required before writing starts.
 - Peer review during week 3.
-- Friday week-4 submission.
-- 8–10-page body requirement according to the assessment form.
-- APA and formal quality gate.
-- Broad three-modality topic may create evidence-volume pressure.
+- Final submission Friday of week 4.
+- Mandatory 8–10-page requirement under the assessment form's stated counting rule.
+- Mandatory form-aspects gate, including APA and figure/table criterion.
+- Three modalities create a significant depth/space risk.
 
 ## Dependencies
 
-- Lecturer approval of current title/questions.
-- Exact Teams submission instructions.
-- Definition of inclusion/exclusion criteria and operational terms.
-- Access to sufficiently reliable academic/technical evidence.
+- Lecturer approval status of title/questions.
+- Operational definitions and final scope.
+- Final literature-study protocol.
+- Access to adequate empirical sources.
+- Teams-only submission/instruction details before final drafting/submission.
 
 ## Assumptions
 
-- **Assumption:** the paper can be completed as a structured literature review rather than requiring primary empirical data. This is supported by the lack of a prescribed empirical method but still needs to satisfy B3 method criteria.
-- **Assumption:** figures/tables will be used for synthesis where they materially support the text because the form-aspects gate explicitly checks them.
+- **Proposed methodological assumption:** a literature-based investigation can satisfy B3 if population/sample, data collection, instruments, analysis and rationale are operationalised transparently for document research.
+- **Planning assumption:** figures/tables will be used only where they materially support evidence and satisfy the form criterion.
 
-## Unknowns
+## Unknowns / To Verify
 
-- Official APA edition.
-- Exact total-page interpretation beyond the stated 8–10-page body rule.
-- Whether the title/questions have already been lecturer-approved outside the Project.
-- Whether additional Teams instructions impose a template or file-type requirement.
+- Whether the current question set is lecturer-approved.
+- Whether the literature-only B3 operationalisation is accepted by the lecturer/assessor.
+- Official APA edition and school deviations.
+- Exact total-page interpretation and treatment of the abstract.
+- Exact Teams submission process/template requirements.
+- Final publication window and `real-world conditions` definition.

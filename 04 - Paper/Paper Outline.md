@@ -1,133 +1,50 @@
 # Paper Outline
 
-This is a future drafting outline only. No substantive paragraphs are drafted.
+Future drafting outline only. No substantive paragraphs are drafted.
 
-## Title
+| Section | Purpose | Questions / assessment | Evidence needed | Dependencies | Readiness |
+| --- | --- | --- | --- | --- | --- |
+| Title | Precisely identify the study | A — appropriate title | Lecturer-approved title | Approval | Blocked / To Verify |
+| Abstract | Concisely cover purpose/method/results/conclusion | Form gate + B1 | Completed research and conclusions | All substantive sections | Evidence Needed |
+| 1. Introduction | Establish reason, subject, relevance, objective/questions, scope and reading guide | B2 | Context evidence + approved question set | Approval, scope | Evidence Needed |
+| 2. Method | Transparently report population/sample, collection, instruments, analysis and justification | B3 | Executed search/screening/extraction/analysis records | Final protocol + execution | Evidence Needed |
+| 3.1 Detection techniques | Answer SQ1 without becoming an exhaustive catalogue | SQ1 + B4 | Direct/supporting taxonomy evidence | Source set | Evidence Needed |
+| 3.2 Detection performance | Answer SQ2 with context-preserving comparisons | SQ2 + B4 | Empirical metrics + evaluation/generalisation context | Operational definitions | Evidence Needed |
+| 3.3 Factors reducing effectiveness | Answer SQ3 | SQ3 + B4 | Direct robustness/generalisation/evasion evidence | Source set | Evidence Needed |
+| 4. Conclusions/discussion | Answer questions; recommendations; reliability/validity/usability | B5 | Completed findings + method-quality evidence | Results complete | Evidence Needed |
+| References | Provide APA literature list matching citations | Form gate + A | Complete bibliographic metadata | Source set | Evidence Needed |
 
-- **Purpose:** precise representation of the study.
-- **Evidence needed:** approved title/question set.
-- **Assessment criteria:** A — appropriate title.
-- **Dependency:** lecturer approval.
-- **Status:** Blocked / To Verify.
+## Introduction Internal Checklist
 
-## Abstract
+The final introduction must explicitly contain all seven B2 items. These may be subsections or clearly identifiable content; the rubric does not mandate exact heading names.
 
-- **Purpose:** concise overview of purpose/method/results/conclusion.
-- **Questions answered:** MRQ at summary level.
-- **Evidence needed:** completed research and final conclusions.
-- **Assessment criteria:** form gate + B1.
-- **Dependencies:** all later sections.
-- **Status:** Evidence Needed.
+## Method Internal Checklist
 
-## 1. Introduction
+The final method must explicitly make the B3 equivalents visible. For the current proposed literature study, that means:
 
-### 1.1 Reason and subject
-- Purpose: establish research problem and deepfake-detection context.
-- Evidence needed: reliable context sources.
-- Criteria: B2.
-- Status: Evidence Needed.
+- candidate evidence/publication population;
+- included source sample;
+- search and screening procedure;
+- instruments/checklists/extraction matrix;
+- analysis approach;
+- justification and limitations.
 
-### 1.2 Social importance
-- Purpose: explain why detection reliability matters.
-- Evidence needed: credible source-backed relevance evidence.
-- Criteria: B2.
-- Status: Evidence Needed.
+## Results Internal Checklist
 
-### 1.3 Objective and research questions
-- Purpose: state approved objective/MRQ/SQs.
-- Evidence needed: lecturer-approved question set.
-- Criteria: B2.
-- Status: Blocked pending approval evidence.
+Every important statement should be traceable to either:
 
-### 1.4 Scope
-- Purpose: define media, detector, time and evaluation boundaries.
-- Evidence needed: final research protocol.
-- Criteria: B2.
-- Status: Planned.
+- direct external evidence;
+- supporting/contextual evidence clearly labelled as such;
+- the authors' own synthesis based on identified sources.
 
-### 1.5 Reading guide
-- Purpose: explain structure succinctly.
-- Criteria: B2.
-- Status: Planned.
+## Conclusions/Discussion Internal Checklist
 
-## 2. Method
-
-### 2.1 Research approach
-- Purpose: justify structured literature review / desk research.
-- Criteria: B3.
-- Status: Planned.
-
-### 2.2 Population and sample
-- Purpose: define candidate-source population and included study sample.
-- Evidence needed: executed search/screening counts.
-- Criteria: B3.
-- Status: Evidence Needed.
-
-### 2.3 Data collection and instruments
-- Purpose: document searches, screening and extraction tools/procedure.
-- Evidence needed: research log and matrices.
-- Criteria: B3.
-- Status: Evidence Needed.
-
-### 2.4 Analysis
-- Purpose: explain taxonomy/comparative/thematic synthesis.
-- Evidence needed: executed analysis process.
-- Criteria: B3.
-- Status: Planned.
-
-### 2.5 Methodological rationale/limitations
-- Purpose: justify choices and scope.
-- Criteria: B3 and B5 discussion readiness.
-- Status: Planned.
-
-## 3. Results
-
-### 3.1 Detection techniques — SQ1
-- Purpose: classify current techniques across final scope.
-- Evidence needed: academic source set.
-- Criteria: B4.
-- Status: Evidence Needed.
-
-### 3.2 Accuracy under defined real-world conditions — SQ2
-- Purpose: compare contextual performance evidence.
-- Evidence needed: empirical results with conditions/metrics.
-- Criteria: B4.
-- Status: Evidence Needed.
-
-### 3.3 Factors reducing effectiveness — SQ3
-- Purpose: synthesise robustness/generalisation/evasion limits.
-- Evidence needed: empirical robustness evidence.
-- Criteria: B4.
-- Status: Evidence Needed.
-
-## 4. Conclusions and Discussion
-
-### 4.1 Answers to subquestions
-- Purpose: direct synthesis of evidence for each SQ.
-- Criteria: B5.
-- Status: Evidence Needed.
-
-### 4.2 Answer to main research question
-- Purpose: bounded conclusion about reliability.
-- Criteria: B5.
-- Status: Evidence Needed.
-
-### 4.3 Recommendations
-- Purpose: identifiable recommendations supported by findings.
-- Criteria: B5.
-- Status: Evidence Needed.
-
-### 4.4 Reliability, validity and usability
-- Purpose: evaluate methodological/results quality and applicability.
-- Criteria: B5.
-- Status: Planned, requires executed method.
-
-## References
-
-- Purpose: complete APA literature list matching in-text citations.
-- Criteria: form gate + A.
-- Status: Evidence Needed.
+- direct answers to SQ1–SQ3;
+- integrated answer to MRQ;
+- identifiable recommendations derived from findings;
+- no unsupported new evidence;
+- explicit reliability, validity and usability evaluation.
 
 ## Drafting Gate
 
-No section is marked `Ready for Drafting` during Phase 1 because the external research evidence has not yet been collected.
+No substantive section is `Ready for Drafting` yet because the evidence set has not been collected and the question set has not been confirmed as lecturer-approved.
