@@ -18,17 +18,18 @@ The earlier 8-page-total draft therefore did **not** provide a safe interpretati
 
 ## Active Interpretation
 
-For the current approved research structure, the counted substantive body is the **Results / analysis section**, because the assessment form explicitly excludes Introduction, Method, Conclusions, Discussion and the source list. The abstract is not used to satisfy the requirement.
+For the current approved research structure, the counted substantive body is Section `3. Results`, because the assessment form explicitly excludes Introduction, Method, Conclusions, Discussion and the source list. The abstract is not used to satisfy the requirement.
 
-To make compliance clear rather than relying on a total-document page count:
+To make compliance clear rather than relying on total-document length:
 
-- Section `3. Results` begins on a fresh page in the rendered paper;
-- the Results section spans physical pages **4 through 13**;
-- `4. Conclusions and Discussion` begins later on page 13;
-- therefore the counted body occupies **10 physical pages at most**, and contains approximately **5,541 words** plus one figure and three evidence-bearing tables;
+- Section `3. Results` begins on physical page **4**;
+- pages **4 through 12** contain only Results/body material;
+- page **13** contains the final part of Results and then starts `4. Conclusions and Discussion`;
+- therefore the counted body consists of **9 complete pages plus a substantial part of page 13**, placing it safely between **9 and 10 pages**;
+- the Results section contains approximately **5,541 words** plus one figure and three evidence-bearing tables;
 - the complete rendered paper is **14 pages**, but total document length is not used as the volume criterion.
 
-This places the paper within the official **8-10-page body requirement** without counting the excluded sections.
+This satisfies the official **8-10-page body requirement** without counting the excluded sections.
 
 ## Expansion Principle Applied
 
@@ -47,4 +48,4 @@ Three tables and one synthesis figure are used to carry evidence rather than dec
 
 ## Revision Reserve
 
-The current body is at the **upper limit (10 pages)**. Peer-review revisions next week should therefore prioritise replacement and refinement rather than adding substantial new body material. Any later content addition must be followed by a fresh rendered-page count.
+The body is already close to the upper limit. Peer-review revisions next week should prioritise replacement and refinement rather than adding substantial new body material. Any later content addition must be followed by a fresh rendered-page count.
