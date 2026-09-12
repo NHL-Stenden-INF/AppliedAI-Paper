@@ -101,3 +101,82 @@ No material new source-derived unknowns were introduced. One methodological conf
 2. Finalise operational definitions and the literature-study protocol.
 3. Begin Phase 2 evidence collection without drafting final-paper prose.
 4. Verify Teams/page-count/APA details before final drafting and submission.
+
+---
+
+## 2026-09-12 — Phase 2 Research Execution and Paper Draft
+
+### Phase
+
+Phase 2 — Research Execution, Evidence Synthesis and Drafting
+
+### Academic Sources Added
+
+Ten academic sources were selected for direct relevance to the three research questions and the main reliability judgement:
+
+- Nguyen-Le et al. (2026) — cross-modality survey with empirical generalisation/robustness evaluation.
+- Yan, Zhang, Yuan, et al. (2023) — DeepfakeBench benchmark.
+- Rossler et al. (2019) — FaceForensics++ foundational benchmark and compression evidence.
+- Zi et al. (2020) — WildDeepfake real-world internet dataset.
+- Shiohara and Yamasaki (2022) — Self-Blended Images generalisation method.
+- Yan, Zhang, Fan, et al. (2023) — UCF generalisable common-feature method.
+- Hou et al. (2023) — adversarial statistical-consistency evasion attacks.
+- Wang et al. (2024) — ASVspoof 5 crowdsourced/deepfake/adversarial audio benchmark.
+- Jung et al. (2022) — AASIST audio anti-spoofing architecture.
+- Ramanaharan et al. (2025) — systematic review of deepfake-video generalisation.
+
+### Operational Definitions Used
+
+- **Reliability:** combined discriminatory performance, generalisation outside the training distribution and robustness to transformations/attacks.
+- **Real-world conditions:** conditions meaningfully different from a controlled training benchmark, including internet-sourced/cross-dataset data, unseen generators/manipulations, compression/codecs, diverse acquisition conditions and deliberate evasion.
+- **Current:** primarily 2020-2026 evidence, with 2019 FaceForensics++ retained as a justified foundational source.
+- **Modality scope:** image, video and audio retained at high-level comparative depth.
+
+### Analysis Performed
+
+- SQ1: bounded taxonomy of visual/video/audio detection techniques.
+- SQ2: contextual comparison of in-domain versus cross-domain performance without pooling incompatible metrics.
+- SQ3: synthesis of compression/codecs, unseen generators, adversarial evasion, dataset/acquisition shift and evaluation-pipeline effects.
+- MRQ: integrated reliability judgement weighted toward evidence that tests generalisation and robustness rather than benchmark accuracy alone.
+
+### Main Findings
+
+- Strong controlled benchmark performance is common and does not by itself establish deployment reliability.
+- Out-of-distribution and internet-sourced evaluation reveals a persistent generalisation gap.
+- Generalisation-oriented methods such as SBI and UCF improve cross-dataset performance but do not eliminate dependence on training/evaluation conditions.
+- Compression/codecs can suppress subtle forensic traces.
+- Deliberate adversarial attacks can substantially reduce effectiveness; recent cross-modality evaluation reports white-box attack success above 80% against undefended models in its tested robustness setting.
+- Audio evidence shows the same pattern: strong benchmark anti-spoofing results are challenged by newer attacks, diverse speakers/acoustics, codecs and adversarial conditions.
+
+### Conclusion Entered
+
+Current AI-based deepfake detection is **conditionally reliable**: effective in known or well-represented conditions, but materially less dependable under distribution shift, post-processing and adaptive attack. No universal accuracy percentage is supported across image, video and audio.
+
+### Paper Draft Produced
+
+- Complete English paper created under `04 - Paper/Research Paper Draft.md`.
+- Required sections present: abstract, introduction, method, results, conclusions/discussion and references.
+- Results include an evidence-bearing synthesis figure in the rendered version and a representative evidence table.
+- APA-style citations/reference list applied using APA 7 as the project working default.
+- DOCX and PDF render created separately for final document delivery.
+- Final rendered document visually checked page by page; current version is 8 pages total.
+
+### QA / Rubric Actions
+
+- Sources Index populated with stable academic source IDs.
+- Evidence Matrix populated and acceptance rules applied.
+- Findings by Research Question and Conclusions Matrix completed.
+- Rubric Check updated against every form/A/B1-B5 area.
+- Metrics were not pooled where datasets, modalities or protocols were incompatible.
+
+### Unresolved External Dependencies
+
+- Lecturer approval evidence for the current title/MRQ/SQs is still not present in the repository.
+- Teams-only submission/template/file-type requirements remain unverified.
+- Official APA edition remains unnamed by the school sources.
+- The exact intended interpretation of the assessment form's unusual 8-10-page counting footnote remains unverified.
+- Required week-3 peer review has not yet been completed/recorded.
+
+### Current Status
+
+**Complete draft ready for lecturer and peer review, not yet final-submission cleared.**
