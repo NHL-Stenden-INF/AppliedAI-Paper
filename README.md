@@ -8,9 +8,9 @@
 
 ## Current Phase
 
-**Final QA before required peer review**
+**Body-compliant draft ready for required peer review**
 
-The research phase has been executed, the English paper has been drafted, and a full assessment-form QA pass has been completed. The paper has also been rendered and visually inspected.
+The research phase has been executed, the English paper has been expanded using the evidence-first repository workflow, and a full assessment-form QA pass has been completed.
 
 ## Approval Status
 
@@ -20,46 +20,61 @@ The approved main research question is:
 
 > To what extent can AI-based deepfake detection systems reliably distinguish AI-generated or manipulated media from authentic content?
 
-The three approved subquestions remain the versions recorded in `Research paper Subject.xlsx` and `00 - Assignment/Research Questions.md`.
+The three approved subquestions remain unchanged.
 
 ## Research Status
 
 - Structured literature study completed.
 - Ten selected academic sources registered and quality-labelled.
-- Evidence Matrix populated.
-- Findings by Research Question completed.
-- Conclusions Matrix completed.
+- Evidence Matrix expanded and populated.
+- Findings by Research Question expanded.
+- Conclusions Matrix remains consistent with the evidence.
 - Full English research-paper draft completed.
-- Figure and evidence table included.
+- Results expanded from approximately 1,806 to approximately 5,541 words.
+- One synthesis figure and three evidence-bearing tables included.
 - APA/citation/reference reconciliation rechecked.
-- DOCX/PDF render visually inspected.
+- DOCX/PDF rendered and all fourteen pages visually inspected.
+
+## Page-Requirement Status
+
+The assessment form states that the required **8-10 pages apply to the body**, excluding Introduction, Method, Conclusions, Discussion and the source list.
+
+The current render follows that wording directly:
+
+- complete document: **14 pages**;
+- Results/body starts on page **4**;
+- Conclusions and Discussion starts on page **13**;
+- therefore the counted Results/body occupies pages **4-13**, exactly **10 physical pages**.
+
+The paper is no longer justified by total-document length.
 
 ## Repository Navigation
 
 - [Assignment Overview](00%20-%20Assignment/Assignment%20Overview.md)
-- [School Document Map](00%20-%20Assignment/School%20Document%20Map.md)
 - [Requirements Checklist](00%20-%20Assignment/Requirements%20Checklist.md)
 - [Assessment Criteria](00%20-%20Assignment/Assessment%20Criteria.md)
-- [Assessment Traceability Matrix](00%20-%20Assignment/Assessment%20Traceability%20Matrix.md)
-- [Learning Outcomes](00%20-%20Assignment/Learning%20Outcomes.md)
 - [Research Questions](00%20-%20Assignment/Research%20Questions.md)
 - [Scope](00%20-%20Assignment/Scope.md)
 - [Research Plan](01%20-%20Research/Research%20Plan.md)
 - [Methodology Plan](01%20-%20Research/Methodology%20Plan.md)
 - [Evidence Matrix](01%20-%20Research/Evidence%20Matrix.md)
-- [Research Gap Analysis](01%20-%20Research/Research%20Gap%20Analysis.md)
+- [Research Log](01%20-%20Research/Research%20Log.md)
 - [Sources Index](02%20-%20Sources/Sources%20Index.md)
 - [Analysis Framework](03%20-%20Analysis/Analysis%20Framework.md)
+- [Findings](03%20-%20Analysis/Findings%20by%20Research%20Question.md)
+- [Conclusions Matrix](03%20-%20Analysis/Conclusions%20Matrix.md)
 - [Paper Draft](04%20-%20Paper/Research%20Paper%20Draft.md)
+- [Word / Page Budget](04%20-%20Paper/Word%20Budget.md)
 - [Rubric Check](06%20-%20Review/Rubric%20Check.md)
 
 ## Remaining Before Submission
 
 1. Complete the mandatory week-3 peer review next week and retain evidence of feedback received and feedback given.
 2. Process relevant peer-review feedback into the final paper.
-3. Re-run citation/reference, spelling/grammar, consistency and rendered-layout QA after those changes.
-4. Confirm Teams-only submission instructions and the intended interpretation of the assessment form's unusual 8-10-page counting footnote before submission.
+3. Keep the counted Results/body within the 8-10-page range after peer-review changes.
+4. Re-run citation/reference, spelling/grammar, consistency and rendered-layout QA after those changes.
+5. Follow the final Teams submission instructions.
 
 ## Current Readiness
 
-**Content ready for peer review.** No substantive assessment-form content component is currently missing. The peer-review step is intentionally still open because it is scheduled for next week.
+**Ready for peer review.** No substantive assessment-form content component is currently missing, and the volume requirement is now handled according to the assessment footnote.
