@@ -58,7 +58,7 @@ Technique categories overlap and differ by modality. The passive taxonomy is int
 
 No single defensible accuracy percentage exists across real-world conditions. Within-domain benchmarks can produce near-perfect visual results or very low audio error rates, but cross-domain testing is consistently harder. AASIST reports 0.83% EER on ASVspoof 2019 LA, while internet-sourced WildDeepfake causes substantial degradation for existing visual baselines. The 2026 cross-modality evaluation reports persistent double-digit OOD loss, summarised at approximately 10-15% for the relevant scenarios. Generalisation-specific approaches such as SBI and UCF improve cross-dataset performance but do not remove dependence on evaluation conditions.
 
-The context problem is explicit in the extracted evidence. UCF's reported cross-dataset table contains an average AUC of 0.702 for a conventional Xception baseline, showing how much margin can be lost when the test distribution changes. FaceForensics++ also demonstrates that processing changes measurable evidence: its supplementary manipulation-method classification falls from 99.03% on raw data to 95.42% under high-quality compression and 80.49% under low-quality compression. These FaceForensics++ values are used only as evidence of processing sensitivity, not as binary deepfake-detection accuracy. DeepfakeBench reinforces why such distinctions matter: detector comparisons are unreliable when preprocessing, metrics and protocols are not standardised.
+The context problem is explicit in the extracted evidence. UCF Table 7 reports an average cross-dataset AUC of **0.683** for the conventional Xception baseline and **0.852** for UCF using the same Xception backbone, demonstrating a substantial improvement from the generalisation-oriented representation (Yan, Zhang, Fan, et al., 2023). FaceForensics++ also demonstrates that processing changes measurable evidence: its supplementary manipulation-method classification falls from 99.03% on raw data to 95.42% under high-quality compression and 80.49% under low-quality compression. These FaceForensics++ values are used only as evidence of processing sensitivity, not as binary deepfake-detection accuracy. DeepfakeBench reinforces why such distinctions matter: detector comparisons are unreliable when preprocessing, metrics and protocols are not standardised.
 
 Watermarking results are not merged into the passive accuracy comparison because they measure a different task. Stable Signature reports more than 90% origin-detection accuracy after cropping an image to retain only 10% of the content at a false-positive rate below 10^-6, but this is provenance verification for a participating generator rather than open-world deepfake classification. The result demonstrates useful robustness without supplying a universal detection rate for arbitrary deepfakes.
 
@@ -76,18 +76,18 @@ Accuracy, AUC, EER and watermark-origin metrics are not directly comparable acro
 
 ### Finding
 
-Six interacting factor classes are most strongly supported by the reviewed evidence:
+Five passive-detection factor classes are most strongly supported by the reviewed evidence, while watermarking contributes one separate provenance-specific boundary:
 
 1. **Compression and codecs** can suppress or transform subtle forensic and acoustic traces.
 2. **Unseen generators/manipulation methods** expose overfitting to method-specific artefacts.
 3. **Adversarial evasion** can deliberately move fake media toward detector decision regions associated with authentic content.
-4. **Watermark coverage/removal limits** mean that an explicit provenance signal may be absent, degraded or deliberately removed.
-5. **Dataset/acquisition/environment shift** changes identities, scenes, devices, speakers, acoustic conditions and internet-processing pipelines.
-6. **Non-standardised preprocessing and evaluation** can produce misleading comparisons and obscure actual robustness.
+4. **Dataset/acquisition/environment shift** changes identities, scenes, devices, speakers, acoustic conditions and internet-processing pipelines.
+5. **Non-standardised preprocessing and evaluation** can produce misleading comparisons and obscure actual robustness.
+6. **Separate watermark provenance boundary:** watermark coverage/removal limits mean that an explicit provenance signal may be absent, degraded or deliberately removed.
 
 The watermarking evidence clarifies that robustness to benign image processing and resistance to an adaptive remover are different properties. Stable Signature supports the former, whereas Zhao et al. demonstrate regeneration-based removal attacks against pixel-level invisible watermarks. A verified watermark can therefore add confidence, but a missing watermark is ambiguous.
 
-The broader synthesis emphasises interaction. A new-generator video can also be recompressed, edited and intentionally blurred, which means several shifts may occur simultaneously. No reviewed benchmark covers every such combination. Reliability must therefore be validated against the intended operating conditions rather than inferred from one robustness test.
+The broader synthesis emphasises interaction. A new-generator video can also be recompressed, edited and intentionally blurred, which means several passive-detection shifts may occur simultaneously. Watermark coverage or removal can add a separate provenance uncertainty when an active marking system is involved. No reviewed benchmark covers every such combination. Reliability must therefore be validated against the intended operating conditions rather than inferred from one robustness test.
 
 ### Evidence
 
@@ -103,7 +103,7 @@ The body follows the sequence already defined in the Analysis Framework rather t
 
 1. identify which passive signals current detectors learn and distinguish these from active watermark provenance;
 2. determine how passive systems perform when evaluation conditions change, while keeping watermark metrics task-specific;
-3. explain the mechanisms and boundary conditions behind performance degradation, including watermark absence/removal;
+3. explain the mechanisms and boundary conditions behind performance degradation, including the separate watermark coverage/removal boundary;
 4. integrate these findings into a bounded reliability judgement in which watermarking complements rather than replaces passive detection.
 
 This preserves consistency between the Scope, Sources Index, Evidence Matrix, Results and Conclusions Matrix while incorporating the lecturer's watermarking feedback without changing the approved MRQ or three SQs.
