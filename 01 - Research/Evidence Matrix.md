@@ -2,7 +2,7 @@
 
 ## Status
 
-Phase 2 evidence has been collected from ten academic publications. The matrix below records how the evidence supports the research questions and assessment criteria. The body expansion was performed from this matrix and from the source records; no filler claims were added merely to reach the page requirement.
+Phase 2 evidence has been collected from twelve academic publications. The matrix below records how the evidence supports the research questions and assessment criteria. Ten sources address passive image/video/audio detection; two additional peer-reviewed sources were added to address lecturer-requested watermarking from both capability and removal-risk perspectives. The body expansion and watermarking addition were performed from this matrix and the source records; no filler claims were added merely to reach the page requirement.
 
 ## Evidence Classes
 
@@ -32,6 +32,9 @@ Phase 2 evidence has been collected from ten academic publications. The matrix b
 | EVD-017 | MRQ | Evidence strength itself forms a gradient: mature for in-domain discrimination, substantial but heterogeneous for cross-domain transfer, narrower for robustness/adaptive attack | SRC-A001, SRC-A002, SRC-A004, SRC-A007, SRC-A008, SRC-A010 | Synthesis + QA | Sufficient |
 | EVD-018 | B4 QA | Source set covers image, video and audio, includes primary empirical studies, benchmarks, a systematic review and a recent peer-reviewed cross-modality empirical survey | SRC-A001-A010 | QA / Method | Sufficient for focused study |
 | EVD-019 | B5 QA | Reliability, validity and usability can be evaluated from the executed method, contextual evidence and explicitly bounded conclusions | Method records + SRC-A001-A010 | QA / Method | Sufficient |
+| EVD-020 | Lecturer feedback / SQ1 context | Active invisible watermarking can embed a recoverable provenance signal during image generation; Stable Signature reports robust detection under image modifications | SRC-A011 | Direct | Sufficient for bounded image-watermarking analysis |
+| EVD-021 | Lecturer feedback / SQ3 context | Invisible pixel-level watermarks are not inherently tamper-proof; regeneration attacks can reduce watermark detectability while preserving image quality | SRC-A012 | Direct + theoretical | Sufficient |
+| EVD-022 | MRQ | Watermarking and passive detection have complementary evidence models: a verified watermark can strengthen provenance, but absence of a watermark cannot prove authenticity because marks may never have been embedded or may have been removed | SRC-A011, SRC-A012 | Synthesis of direct evidence | Sufficient with modality limitation |
 
 ## Representative Extracted Evidence
 
@@ -47,6 +50,8 @@ Phase 2 evidence has been collected from ten academic publications. The matrix b
 | SRC-A001 | Image/video/audio | Unified OOD + robustness evaluation | Approximately 10-15% OOD degradation in summarised scenarios and white-box attack success above 80% against undefended models in the tested setting |
 | SRC-A002 | Image/video | Benchmark methodology | Fifteen detection methods across nine datasets under standardised preprocessing/evaluation; demonstrates why protocol context is required for fair comparison |
 | SRC-A010 | Video | Systematic generalisation review | Overfitting and dataset diversity remain recurring limitations; only 46.3% of selected studies supported generalisation across different deepfake types as characterised by the review |
+| SRC-A011 | Generated images | Active invisible watermarking | Stable Signature embeds a binary signature into latent-diffusion outputs; after cropping to retain 10% of image content, the paper reports >90% origin-detection accuracy at false-positive rate <10^-6 |
+| SRC-A012 | Generated images | Deliberate watermark removal | Regeneration attacks using noise plus reconstruction reduce detection of four pixel-level invisible watermarking schemes while preserving image quality |
 
 ## Evidence Acceptance Rules Applied
 
@@ -58,12 +63,15 @@ Phase 2 evidence has been collected from ten academic publications. The matrix b
 6. Contradictory/heterogeneous evidence is retained and represented as a boundary rather than forced into one pooled score.
 7. Evidence quality and evidence directness remain separate judgements.
 8. Body expansion is permitted only when the added text maps back to an Evidence Matrix row or a clearly identified authors' synthesis of such rows.
+9. Watermarking is not silently grouped with passive classification. Claims must state whether the evidence assumes generator participation.
+10. Absence of a watermark is never used as evidence of authenticity.
 
 ## Remaining Evidence Limits
 
-- The ten-source sample is focused rather than exhaustive.
+- The twelve-source sample is focused rather than exhaustive.
 - Visual literature remains face-centric relative to the broader space of generated images.
 - Audio and visual metrics are not directly comparable.
 - New generators may emerge faster than peer-reviewed evaluation cycles.
 - `Real-world` remains an operational category composed of cross-domain, internet-sourced, codec/post-processing and adversarial conditions rather than one universal benchmark.
 - Robustness evidence cannot cover every possible transformation or adaptive threat.
+- The added watermarking evidence is image-focused; it is not generalised to all audio/video watermarking systems.
