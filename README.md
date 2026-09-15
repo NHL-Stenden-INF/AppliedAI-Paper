@@ -8,15 +8,15 @@
 
 ## Current Phase
 
-**Watermarking-integrated, body-compliant draft ready for required peer review**
+**Final content audit completed — ready for mandatory peer review**
 
-The research phase has been executed, the English paper has been expanded using the evidence-first repository workflow, and the lecturer's additional feedback to also look into watermarking has been incorporated without changing the approved MRQ or three SQs.
+The research phase has been executed, the lecturer-requested watermarking analysis is integrated, the paper satisfies the 8-10-page body rule, and a complete factual/consistency/layout audit was completed on 15 September 2026.
 
 ## Approval / Feedback Status
 
 **Lecturer approval: Confirmed by the authors.**
 
-The approved main research question is:
+Approved main research question:
 
 > To what extent can AI-based deepfake detection systems reliably distinguish AI-generated or manipulated media from authentic content?
 
@@ -31,40 +31,51 @@ This is implemented as a bounded complementary analysis of active invisible wate
 ## Research Status
 
 - Structured literature study completed.
-- Twelve selected academic sources registered and quality-labelled.
+- Twelve selected scholarly sources registered and quality-labelled.
 - Ten sources cover passive image/video/audio detection; two peer-reviewed sources cover watermark capability and watermark removal.
-- Evidence Matrix expanded and populated, including EVD-020 to EVD-022 for watermarking.
-- Findings by Research Question updated.
-- Conclusions Matrix updated while preserving the `conditionally reliable` main conclusion.
-- Watermarking is integrated into the technique landscape, failure-factor analysis, integrated MRQ synthesis and final recommendations.
+- Evidence Matrix, Findings and Conclusions Matrix aligned with the final paper.
+- Lecturer-requested watermarking integrated into technique, provenance/failure-boundary and deployment analysis.
 - One synthesis figure and three evidence-bearing tables included.
-- APA/citation/reference reconciliation rechecked.
-- DOCX/PDF re-rendered after the watermarking edit and all fifteen pages visually inspected.
+- Quantitative claims rechecked against source material.
+- References and in-text citations reconciled.
+- Final DOCX/PDF rendered to 15 pages and visually inspected page by page.
 
-## Watermarking Interpretation
+## Final factual audit
 
-The paper distinguishes two evidence models:
+The audit found one material numerical transcription error in the earlier draft: UCF's conventional Xception baseline was previously written as average AUC `0.702`. UCF Table 7 actually reports:
+
+- **Xception average cross-dataset AUC: 0.683**;
+- **UCF (Xception) average cross-dataset AUC: 0.852**.
+
+This is corrected in the authoritative Final Draft, Evidence Matrix and Findings. The previous monolithic paper file is now a pointer so the old value cannot be reused accidentally.
+
+Other audit changes tightened the passive-detection/watermarking distinction, removed an overbroad statement about synthetic media being inherently detectable, clarified task-specific FaceForensics++ metrics, and corrected final reference ordering.
+
+See [Final Content Audit](06%20-%20Review/Final%20Content%20Audit.md).
+
+## Authoritative paper source
+
+The authoritative checked Markdown source is under [Final Draft](04%20-%20Paper/Final%20Draft/README.md), split into five ordered files for traceable review. The corresponding `FINAL_CHECKED` DOCX/PDF is the version to use for peer review.
+
+## Watermarking interpretation
+
+The paper distinguishes:
 
 - **Passive detection:** infer manipulation/synthetic origin from media features.
 - **Active watermarking:** a participating generator embeds a recoverable provenance signal.
 
 A successfully verified watermark can strengthen provenance. An absent watermark does **not** prove authenticity because the generator may never have embedded one or the mark may have been degraded/removed.
 
-See [Watermarking Integration](04%20-%20Paper/Watermarking%20Integration.md) for the detailed evidence and integration map.
-
-## Page-Requirement Status
+## Page-requirement status
 
 The assessment form states that the required **8-10 pages apply to the body**, excluding Introduction, Method, Conclusions, Discussion and the source list.
 
-Current final render after watermarking integration:
+Final checked render:
 
 - complete document: **15 pages**;
 - Results/body starts on page **4**;
-- pages **4-12** are full Results pages;
-- Conclusions and Discussion starts on page **13**, after the final Results material;
-- therefore the counted Results/body is safely **between 9 and 10 pages**.
-
-The first watermarking edit temporarily moved Conclusions to page 14; redundant synthesis was then compressed while preserving the new evidence, restoring body compliance.
+- Conclusions and Discussion starts on page **13**;
+- the counted Results/body therefore remains safely within **8-10 pages**.
 
 ## Repository Navigation
 
@@ -76,24 +87,24 @@ The first watermarking edit temporarily moved Conclusions to page 14; redundant 
 - [Research Plan](01%20-%20Research/Research%20Plan.md)
 - [Methodology Plan](01%20-%20Research/Methodology%20Plan.md)
 - [Evidence Matrix](01%20-%20Research/Evidence%20Matrix.md)
-- [Research Log](01%20-%20Research/Research%20Log.md)
 - [Sources Index](02%20-%20Sources/Sources%20Index.md)
 - [Analysis Framework](03%20-%20Analysis/Analysis%20Framework.md)
 - [Findings](03%20-%20Analysis/Findings%20by%20Research%20Question.md)
 - [Conclusions Matrix](03%20-%20Analysis/Conclusions%20Matrix.md)
-- [Paper Draft](04%20-%20Paper/Research%20Paper%20Draft.md)
+- [Final Draft](04%20-%20Paper/Final%20Draft/README.md)
 - [Watermarking Integration](04%20-%20Paper/Watermarking%20Integration.md)
 - [Word / Page Budget](04%20-%20Paper/Word%20Budget.md)
 - [Rubric Check](06%20-%20Review/Rubric%20Check.md)
+- [Final Content Audit](06%20-%20Review/Final%20Content%20Audit.md)
 
 ## Remaining Before Submission
 
 1. Complete the mandatory week-3 peer review next week and retain evidence of feedback received and feedback given.
 2. Process relevant peer-review feedback into the final paper.
-3. Keep the counted Results/body within the 8-10-page range after peer-review changes.
+3. Keep the counted body within the 8-10-page range after peer-review changes.
 4. Re-run citation/reference, spelling/grammar, consistency and rendered-layout QA after those changes.
 5. Follow the final Teams submission instructions.
 
 ## Current Readiness
 
-**Ready for peer review.** The lecturer's watermarking feedback is addressed, the evidence chain is updated, and the body remains within the required 8-10-page range.
+**Ready for peer review.** No material factual contradiction is known in the final checked version after the audit. The main remaining academic weakness is B3 reproducibility depth: exact historical query strings/result counts were not retained, so the method remains correctly described as a structured literature study rather than a systematic literature review.
