@@ -14,38 +14,37 @@ The assessment form states that the paper volume must be **8-10 pages** and expl
 - discussion;
 - source list.
 
-The earlier 8-page-total draft therefore did **not** provide a safe interpretation of this requirement.
+The active interpretation therefore counts Section `3. Results` as the substantive body.
 
-## Active Interpretation
+## Current Render After Watermarking Integration
 
-For the current approved research structure, the counted substantive body is Section `3. Results`, because the assessment form explicitly excludes Introduction, Method, Conclusions, Discussion and the source list. The abstract is not used to satisfy the requirement.
+The lecturer-requested watermarking addition was integrated and then the paper was re-rendered rather than assuming the previous page count still applied.
 
-To make compliance clear rather than relying on total-document length:
+- Complete rendered paper: **15 pages**.
+- `3. Results` begins on physical page **4**.
+- Pages **4 through 12** contain Results/body material.
+- `4. Conclusions and Discussion` begins on physical page **13**.
+- The counted body therefore consists of **9 complete pages plus the opening part of page 13**, which is safely between **9 and 10 pages**.
+- Introduction, Method, Conclusions/Discussion and References are not used to satisfy the 8-10-page requirement.
 
-- Section `3. Results` begins on physical page **4**;
-- pages **4 through 12** contain only Results/body material;
-- page **13** contains the final part of Results and then starts `4. Conclusions and Discussion`;
-- therefore the counted body consists of **9 complete pages plus a substantial part of page 13**, placing it safely between **9 and 10 pages**;
-- the Results section contains approximately **5,541 words** plus one figure and three evidence-bearing tables;
-- the complete rendered paper is **14 pages**, but total document length is not used as the volume criterion.
+The watermarking addition initially pushed Conclusions to page 14, which would have exceeded the safe body interpretation. Redundant synthesis material was then compressed while retaining the watermark capability/removal evidence. The final render returns Conclusions to page 13.
 
-This satisfies the official **8-10-page body requirement** without counting the excluded sections.
+## Expansion / Revision Principle Applied
 
-## Expansion Principle Applied
+The body remains evidence-led. Current Results content covers:
 
-The body was not expanded with filler. Additional Results content was added only where it improved the research-question evidence chain:
+1. passive detector families and signals;
+2. generalisation-oriented techniques;
+3. audio anti-spoofing and video temporal evidence;
+4. lecturer-requested active invisible watermarking and its distinction from passive detection;
+5. controlled versus cross-domain performance;
+6. internet-sourced and audio challenge conditions;
+7. metric comparability;
+8. compression/codecs, unseen generators, adversarial evasion, watermark removal/coverage limits, dataset shift and evaluation-pipeline variation;
+9. an integrated reliability synthesis linking SQ1-SQ3 to the MRQ.
 
-1. detector families and the signals on which they depend;
-2. separate spatial, frequency, temporal, generalisation-oriented and audio techniques;
-3. controlled versus cross-domain performance;
-4. internet-sourced and audio challenge conditions;
-5. metric comparability and why one accuracy value is misleading;
-6. compression/codecs, unseen generators, adversarial evasion, dataset shift and evaluation-pipeline variation;
-7. interaction between failure factors;
-8. an integrated reliability profile linking SQ1-SQ3 to the MRQ.
-
-Three tables and one synthesis figure are used to carry evidence rather than decoration.
+Three tables and one synthesis figure carry evidence rather than decoration.
 
 ## Revision Reserve
 
-The body is already close to the upper limit. Peer-review revisions next week should prioritise replacement and refinement rather than adding substantial new body material. Any later content addition must be followed by a fresh rendered-page count.
+The body is already near the upper limit. Peer-review revisions should prioritise replacement and refinement rather than adding substantial body material. Any later addition must be followed by a fresh DOCX/PDF render and a new page-count check.
