@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | SQ1 | Multiple relevant sources support a defensible current technique taxonomy across final scope | Passive visual/video/audio technique evidence from SRC-A001, A002, A003, A005, A006, A008, A009 plus active image-watermarking evidence from SRC-A011 | Taxonomic/thematic synthesis with active/passive distinction | Available | High for high-level taxonomy | Categories overlap; watermarking evidence is image-focused |
 | SQ2 | Sufficient empirical results with metric/dataset/test context, including evidence beyond only in-domain benchmarks | In-domain + cross-dataset + internet-sourced + audio challenge evidence from SRC-A001, A003, A004, A005, A006, A008, A009, A010; watermark robustness reported separately in SRC-A011 | Contextual comparative synthesis; watermark metrics not pooled with passive metrics | Available | Moderate-High | Heterogeneous metrics/tasks prevent pooled accuracy |
-| SQ3 | Direct evidence for key degradation/generalisation/evasion factors with context | Compression, unseen manipulation, dataset shift, adversarial evidence from SRC-A001-A010 plus watermark-removal evidence from SRC-A012 | Thematic/effect synthesis | Available | High for identified factor classes | Effect magnitude is detector/context specific; watermark-removal evidence is image-specific |
+| SQ3 | Direct evidence for key degradation/generalisation/evasion factors with context | Five passive factor classes supported by SRC-A001-A010, plus separate watermark coverage/removal evidence from SRC-A011/A012 | Thematic/effect synthesis with provenance boundary separated | Available | High for identified passive factor classes | Effect magnitude is detector/context specific; watermark evidence is image-specific |
 | MRQ | SQ1-SQ3 answered with traceable evidence, source quality assessed, major contradictions addressed | Integrated twelve-source evidence base with explicit generalisation/robustness and watermark-provenance boundaries | Integrative synthesis | Available | Moderate-High | Focused rather than exhaustive review; rapidly changing field |
 
 ## Supported Conclusions
@@ -19,7 +19,7 @@ Current passive systems can be highly accurate in controlled or in-domain tests,
 
 ### SQ3
 
-The strongest evidence-based causes of reduced reliability are compression/codecs, unseen generation or manipulation methods, deliberate adversarial evasion, watermark absence/removal, dataset/acquisition shift and inconsistent preprocessing/evaluation conditions. For watermarking specifically, survival under benign transformations and resistance to deliberate removal are separate properties.
+The five strongest passive-detection factor classes are compression/codecs, unseen generation or manipulation methods, deliberate adversarial evasion, dataset/acquisition shift and inconsistent preprocessing/evaluation conditions. Watermark coverage/removal is a separate provenance-specific boundary: a mark may be absent, degraded or deliberately removed. For watermarking specifically, survival under benign transformations and resistance to deliberate removal are separate properties.
 
 ### MRQ
 
