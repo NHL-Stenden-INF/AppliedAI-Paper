@@ -21,7 +21,7 @@ Phase 2 evidence has been collected from twelve academic publications. The matri
 | EVD-006 | SQ2 | Audio performance is challenged when speaker/acoustic diversity, codecs, newer attacks and adversarial conditions increase | SRC-A008, SRC-A009 | Direct | Sufficient |
 | EVD-007 | SQ2 | Metrics and protocols are heterogeneous; numerical pooling across modality/dataset/protocol is not defensible | SRC-A001, SRC-A002, SRC-A008, SRC-A010 | QA / Method | Sufficient |
 | EVD-008 | SQ2/SQ3 | FaceForensics++ supplementary manipulation-classification results decline from 99.03% raw to 95.42% HQ compression and 80.49% LQ compression; these are not treated as binary deepfake-detection accuracy | SRC-A003 | Direct, bounded use | Sufficient |
-| EVD-009 | SQ2 | UCF reports a conventional Xception baseline average AUC of 0.702 in its reported cross-dataset table, illustrating the margin lost under distribution shift | SRC-A006 | Direct, context-specific | Sufficient |
+| EVD-009 | SQ2 | UCF Table 7 reports average cross-dataset AUC of 0.683 for the Xception baseline and 0.852 for UCF using the same Xception backbone | SRC-A006 | Direct, context-specific | Sufficient |
 | EVD-010 | SQ3 | Compression and codecs suppress or alter subtle forensic/acoustic evidence | SRC-A003, SRC-A008 | Direct | Sufficient |
 | EVD-011 | SQ3 | New or unseen generative/manipulation methods expose overfitting to method-specific artefacts; SBI/UCF improve but do not eliminate this problem | SRC-A005, SRC-A006, SRC-A010 | Direct | Sufficient |
 | EVD-012 | SQ3 | Deliberate adversarial evasion can substantially reduce detector effectiveness in white-box and black-box settings | SRC-A001, SRC-A007, SRC-A008 | Direct | Sufficient |
@@ -43,7 +43,7 @@ Phase 2 evidence has been collected from twelve academic publications. The matri
 | SRC-A003 | Image/video | Controlled benchmark + compression | >1.8 million manipulated images; stronger compression makes forensic analysis harder; supplementary manipulation-method classification: 99.03% raw, 95.42% HQ, 80.49% LQ |
 | SRC-A004 | Video | Internet-sourced data | 7,314 face sequences from 707 internet-collected deepfake videos; existing baselines show substantial performance decline |
 | SRC-A005 | Image/video | Cross-dataset generalisation | SBI improves its baseline by 4.90 percentage points on DFDC and 11.78 percentage points on DFDCP |
-| SRC-A006 | Image/video | Cross-dataset/held-out manipulation | UCF separates common from method-specific forgery information; reported Xception baseline average AUC 0.702 in the cited cross-dataset table |
+| SRC-A006 | Image/video | Cross-dataset/held-out manipulation | UCF separates common from method-specific forgery information; Table 7 reports average AUC 0.683 for Xception and 0.852 for UCF (Xception) |
 | SRC-A009 | Audio | In-domain anti-spoofing | AASIST reports 0.83% EER on ASVspoof 2019 Logical Access |
 | SRC-A007 | Image | Adversarial evasion | StatAttack/MStatAttack evaluated against four spatial- and two frequency-domain detectors across four datasets in white-box and black-box settings |
 | SRC-A008 | Audio | Diverse attacks/codecs/adversarial shift | ASVspoof 5 includes crowdsourced speech, modern TTS/voice conversion, codecs and adversarial attacks; baseline systems are significantly challenged |
