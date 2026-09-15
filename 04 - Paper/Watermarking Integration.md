@@ -10,7 +10,7 @@ The approved MRQ and three SQs were not changed. Watermarking is treated as a co
 
 ## Why It Fits the Existing Paper
 
-The primary paper studies passive AI-based detection: systems infer synthetic/manipulated media from visual or acoustic evidence. Watermarking addresses the same authenticity problem from a different direction. A participating generator deliberately embeds a signal that can later be detected. This makes watermarking relevant to SQ1 as a complementary detection mechanism and to SQ3/MRQ because watermark reliability can fail when marks are absent, degraded or deliberately removed.
+The primary paper studies passive AI-based detection: systems infer synthetic/manipulated media from visual or acoustic evidence. Watermarking addresses the same authenticity problem from a different direction. A participating generator deliberately embeds a signal that can later be detected. This makes watermarking relevant to SQ1 as a complementary identification mechanism and to SQ3/MRQ as a separate provenance boundary because watermark evidence can be absent, degraded or deliberately removed.
 
 The paper explicitly avoids the incorrect inference that absence of a watermark proves authenticity.
 
@@ -68,7 +68,7 @@ It separates:
 1. survival under benign transformations; and
 2. resistance to adaptive removal.
 
-Existing subsections are renumbered, and Table 3 adds watermark absence/removal as a reliability factor for generated images.
+Existing subsections are renumbered, and Table 3 adds watermark absence/removal as a **separate provenance boundary** for generated images rather than treating it as an ordinary passive-detector failure mechanism.
 
 ### Results 3.4
 
@@ -82,11 +82,12 @@ The main conclusion remains `conditionally reliable`. A fifth recommendation is 
 
 - Approved MRQ/SQs unchanged.
 - Main passive-detection conclusion unchanged.
+- Five passive-detection degradation factor classes remain distinct from the watermark provenance/removal boundary.
 - Watermark metrics are not pooled with passive deepfake-classification metrics.
 - Image-watermark evidence is not silently generalised to all audio/video watermark systems.
 - Sources Index updated with SRC-A011 and SRC-A012.
 - Evidence Matrix updated with EVD-020 to EVD-022.
-- Findings and Conclusions Matrix updated before final QA.
+- Findings and Conclusions Matrix aligned with the same active/passive distinction.
 - Rubric Check rerun after integration.
 
 ## Page-Count Control
