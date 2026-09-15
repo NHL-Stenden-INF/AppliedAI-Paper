@@ -8,13 +8,13 @@
 
 ## Current Phase
 
-**Body-compliant draft ready for required peer review**
+**Watermarking-integrated, body-compliant draft ready for required peer review**
 
-The research phase has been executed, the English paper has been expanded using the evidence-first repository workflow, and a full assessment-form QA pass has been completed.
+The research phase has been executed, the English paper has been expanded using the evidence-first repository workflow, and the lecturer's additional feedback to also look into watermarking has been incorporated without changing the approved MRQ or three SQs.
 
-## Approval Status
+## Approval / Feedback Status
 
-**Lecturer approval: Confirmed by the authors on 12 September 2026.**
+**Lecturer approval: Confirmed by the authors.**
 
 The approved main research question is:
 
@@ -22,31 +22,49 @@ The approved main research question is:
 
 The three approved subquestions remain unchanged.
 
+Additional lecturer feedback:
+
+> OK, also look into watermarking please
+
+This is implemented as a bounded complementary analysis of active invisible watermarking for AI-generated images. It is not treated as a replacement for passive deepfake detection.
+
 ## Research Status
 
 - Structured literature study completed.
-- Ten selected academic sources registered and quality-labelled.
-- Evidence Matrix expanded and populated.
-- Findings by Research Question expanded.
-- Conclusions Matrix remains consistent with the evidence.
-- Full English research-paper draft completed.
-- Results expanded from approximately 1,806 to approximately 5,541 words.
+- Twelve selected academic sources registered and quality-labelled.
+- Ten sources cover passive image/video/audio detection; two peer-reviewed sources cover watermark capability and watermark removal.
+- Evidence Matrix expanded and populated, including EVD-020 to EVD-022 for watermarking.
+- Findings by Research Question updated.
+- Conclusions Matrix updated while preserving the `conditionally reliable` main conclusion.
+- Watermarking is integrated into the technique landscape, failure-factor analysis, integrated MRQ synthesis and final recommendations.
 - One synthesis figure and three evidence-bearing tables included.
 - APA/citation/reference reconciliation rechecked.
-- DOCX/PDF rendered and all fourteen pages visually inspected.
+- DOCX/PDF re-rendered after the watermarking edit and all fifteen pages visually inspected.
+
+## Watermarking Interpretation
+
+The paper distinguishes two evidence models:
+
+- **Passive detection:** infer manipulation/synthetic origin from media features.
+- **Active watermarking:** a participating generator embeds a recoverable provenance signal.
+
+A successfully verified watermark can strengthen provenance. An absent watermark does **not** prove authenticity because the generator may never have embedded one or the mark may have been degraded/removed.
+
+See [Watermarking Integration](04%20-%20Paper/Watermarking%20Integration.md) for the detailed evidence and integration map.
 
 ## Page-Requirement Status
 
 The assessment form states that the required **8-10 pages apply to the body**, excluding Introduction, Method, Conclusions, Discussion and the source list.
 
-The current render follows that wording directly:
+Current final render after watermarking integration:
 
-- complete document: **14 pages**;
+- complete document: **15 pages**;
 - Results/body starts on page **4**;
-- Conclusions and Discussion starts on page **13**;
-- therefore the counted Results/body occupies pages **4-13**, exactly **10 physical pages**.
+- pages **4-12** are full Results pages;
+- Conclusions and Discussion starts on page **13**, after the final Results material;
+- therefore the counted Results/body is safely **between 9 and 10 pages**.
 
-The paper is no longer justified by total-document length.
+The first watermarking edit temporarily moved Conclusions to page 14; redundant synthesis was then compressed while preserving the new evidence, restoring body compliance.
 
 ## Repository Navigation
 
@@ -64,6 +82,7 @@ The paper is no longer justified by total-document length.
 - [Findings](03%20-%20Analysis/Findings%20by%20Research%20Question.md)
 - [Conclusions Matrix](03%20-%20Analysis/Conclusions%20Matrix.md)
 - [Paper Draft](04%20-%20Paper/Research%20Paper%20Draft.md)
+- [Watermarking Integration](04%20-%20Paper/Watermarking%20Integration.md)
 - [Word / Page Budget](04%20-%20Paper/Word%20Budget.md)
 - [Rubric Check](06%20-%20Review/Rubric%20Check.md)
 
@@ -77,4 +96,4 @@ The paper is no longer justified by total-document length.
 
 ## Current Readiness
 
-**Ready for peer review.** No substantive assessment-form content component is currently missing, and the volume requirement is now handled according to the assessment footnote.
+**Ready for peer review.** The lecturer's watermarking feedback is addressed, the evidence chain is updated, and the body remains within the required 8-10-page range.
