@@ -2,22 +2,25 @@
 
 ## Status
 
-**Proposed / not yet lecturer-confirmed.** The scope is derived from the registered topic and research questions and must remain aligned with any approved question set.
+**Approved topic/questions; scope refined from lecturer feedback.** The lecturer approved the registered title, MRQ and three SQs and additionally requested that the paper also look into watermarking. The primary research purpose remains the reliability of AI-based deepfake detection.
 
 ## In Scope
 
 - AI-generated or manipulated media treated as deepfakes under the Phase-2 inclusion definition.
-- AI/ML-based deepfake detection systems.
-- Image, video and audio detection **unless the lecturer approves a narrower scope**.
+- AI/ML-based passive deepfake detection systems.
+- Image, video and audio detection at comparative depth.
 - Detector technique families needed to answer SQ1.
 - Empirical detection performance needed to answer SQ2.
 - Evaluation conditions and error/generalisation information needed to judge reliability.
-- Factors that reduce effectiveness, including the examples in SQ3 (compression, new/unseen generative models and deliberate evasion) plus additional evidence-based factors found during research.
+- Factors that reduce effectiveness, including compression, new/unseen generative models, deliberate evasion and other evidence-based factors found during research.
+- **A bounded complementary analysis of invisible watermarking for AI-generated images**, added in response to lecturer feedback. Watermarking is treated as an active provenance/detection mechanism rather than as interchangeable with passive forensic detection.
+- Evidence on both watermark robustness and watermark-removal limitations where this affects the reliability judgement.
 
-## Out of Scope Unless the Questions Are Changed
+## Out of Scope
 
-- Developing a new detector as a required research deliverable.
-- A full legal/policy study of deepfakes.
+- Developing a new detector or watermarking algorithm as a research deliverable.
+- Treating watermarking as a complete substitute for passive detection across all image, video and audio systems.
+- A full legal/policy study of deepfakes or watermark mandates.
 - General misinformation/disinformation research that does not contribute directly to the detection-reliability question.
 - General biometric authentication research without a direct deepfake-detection connection.
 - The period-2 project working paper and wider portfolio assessment as research subjects.
@@ -26,57 +29,50 @@
 
 No organisation, client or single case is specified for this research-paper topic.
 
-**Status: Not Applicable based on available materials.** If a lecturer later requires a case context, update this section.
+**Status: Not Applicable based on available materials.**
 
 ## Target Group
 
 The paper assessment form requires language adapted to the target group but does not identify that target group explicitly.
 
-**Inferred working audience:** technically literate Applied AI assessors/readers.  
-**Status:** To Verify; do not treat as a school-confirmed audience definition.
+**Working audience:** technically literate Applied AI assessors/readers.
 
 ## Time Scope
 
-The word `currently` appears in SQ1/SQ2, but no official publication window is given.
-
-**To Verify / define in Phase 2.** The protocol must explicitly document the chosen evidence window and any justified use of older foundational work.
+The active literature window is primarily 2020-2026. FaceForensics++ (2019) is retained as a foundational benchmark because it remains directly relevant to compression and later evaluation work. The watermarking addition uses peer-reviewed 2023-2024 evidence.
 
 ## Technical Scope Boundaries
 
-The current plan is a **structured literature study / desk research**, not detector implementation. The uploaded school documents do not mandate primary empirical data or a technical experiment for this period-1 paper.
+The study is a **structured literature study / desk research**, not detector implementation. Passive detection remains the main analytical scope because it directly answers the approved questions. Watermarking is included as a complementary active approach because the lecturer explicitly requested it and because it changes the interpretation of what 'detection' can mean: instead of inferring manipulation from artefacts, a participating generator can embed a signal that later supports provenance verification.
 
-This does **not** mean empirical testing is prohibited; it means it should not be added unless it materially improves the answer and remains feasible.
+The watermarking discussion is intentionally bounded to the evidence reviewed. The added primary literature concerns AI-generated images; the paper does not generalise those image-watermark results to all audio and video systems without evidence.
 
 ## Constraints
 
 - Four-week paper period.
 - Pair work.
-- One MRQ and three SQs in the proposal.
-- Lecturer approval required before writing starts.
+- One approved MRQ and three approved SQs.
 - Peer review during week 3.
 - Final submission Friday of week 4.
-- Mandatory 8–10-page requirement under the assessment form's stated counting rule.
+- Mandatory 8-10-page **body** requirement under the assessment form's counting rule; Introduction, Method, Conclusion, Discussion and source list are excluded.
 - Mandatory form-aspects gate, including APA and figure/table criterion.
-- Three modalities create a significant depth/space risk.
+- Three passive-detection modalities plus the lecturer-requested watermarking addition create a depth/space risk, so watermarking must remain relevant and concise rather than becoming a separate paper.
 
 ## Dependencies
 
-- Lecturer approval status of title/questions.
-- Operational definitions and final scope.
-- Final literature-study protocol.
-- Access to adequate empirical sources.
-- Teams-only submission/instruction details before final drafting/submission.
+- Adequate scholarly evidence for both watermark capability and failure/removal conditions.
+- Continued consistency between Sources Index, Evidence Matrix, Findings, paper body and conclusions after adding watermarking.
+- Mandatory week-3 peer review.
+- Teams-only submission/instruction details before final submission.
 
-## Assumptions
+## Methodological Assumptions
 
-- **Proposed methodological assumption:** a literature-based investigation can satisfy B3 if population/sample, data collection, instruments, analysis and rationale are operationalised transparently for document research.
-- **Planning assumption:** figures/tables will be used only where they materially support evidence and satisfy the form criterion.
+- Publication population/sample can operationalise the B3 population/sample criterion for this literature-based research.
+- Figures/tables are used only where they materially support the evidence.
+- Watermarking is analytically separated from passive detection: a detected watermark can provide explicit provenance evidence for participating generators, while absence of a watermark is not treated as proof that content is authentic.
 
-## Unknowns / To Verify
+## Remaining To Verify Before Submission
 
-- Whether the current question set is lecturer-approved.
-- Whether the literature-only B3 operationalisation is accepted by the lecturer/assessor.
-- Official APA edition and school deviations.
-- Exact total-page interpretation and treatment of the abstract.
-- Exact Teams submission process/template requirements.
-- Final publication window and `real-world conditions` definition.
+- Teams submission/template/file-type requirements.
+- Any school-specific APA deviations beyond the assessment form.
+- Peer-review feedback and resulting final changes.

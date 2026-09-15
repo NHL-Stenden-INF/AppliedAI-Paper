@@ -2,74 +2,109 @@
 
 ## Research Project
 
-**Working title:** The reliability of AI-based deepfake detection  
+**Title:** The reliability of AI-based deepfake detection  
 **Topic:** AI-generated deepfakes and the technology used to detect them  
 **Authors:** Lucas Wanink & Dave van den Berg
 
 ## Current Phase
 
-**Foundation Audit and Improvement — pre-Phase 2**
+**Final content audit completed — ready for mandatory peer review**
 
-Phase 1 setup has been independently rechecked against the original school documents. Substantive research execution and final-paper drafting have **not** started.
+The research phase has been executed, the lecturer-requested watermarking analysis is integrated, the paper satisfies the 8-10-page body rule, and a complete factual/consistency/layout audit was completed on 15 September 2026.
 
-## Foundation Scores
+## Approval / Feedback Status
 
-- **Previous:** 86 / 100
-- **Current:** **89 / 100**
+**Lecturer approval: Confirmed by the authors.**
 
-The increase reflects corrected traceability, finer rubric decomposition, a more feasible methodology definition, and stronger risk/readiness controls. It does not reflect completed external research.
-
-## Research Readiness
-
-**Ready with Conditions**
-
-The foundation is usable for research execution, but the question set and research protocol must not be treated as final until the conditions below are addressed.
-
-## Main Research Question
-
-**Status: Proposed / lecturer approval To Verify**
+Approved main research question:
 
 > To what extent can AI-based deepfake detection systems reliably distinguish AI-generated or manipulated media from authentic content?
 
-The wording is recorded in `Research paper Subject.xlsx`. The school requires the proposed title, main question and three subquestions to be discussed with and approved by a lecturer before writing starts. No approval evidence is available in the Project files.
+The three approved subquestions remain unchanged.
+
+Additional lecturer feedback:
+
+> OK, also look into watermarking please
+
+This is implemented as a bounded complementary analysis of active invisible watermarking for AI-generated images. It is not treated as a replacement for passive deepfake detection.
+
+## Research Status
+
+- Structured literature study completed.
+- Twelve selected scholarly sources registered and quality-labelled.
+- Ten sources cover passive image/video/audio detection; two peer-reviewed sources cover watermark capability and watermark removal.
+- Evidence Matrix, Findings and Conclusions Matrix aligned with the final paper.
+- Lecturer-requested watermarking integrated into technique, provenance/failure-boundary and deployment analysis.
+- One synthesis figure and three evidence-bearing tables included.
+- Quantitative claims rechecked against source material.
+- References and in-text citations reconciled.
+- Final DOCX/PDF rendered to 15 pages and visually inspected page by page.
+
+## Final factual audit
+
+The audit found one material numerical transcription error in the earlier draft: UCF's conventional Xception baseline was previously written as average AUC `0.702`. UCF Table 7 actually reports:
+
+- **Xception average cross-dataset AUC: 0.683**;
+- **UCF (Xception) average cross-dataset AUC: 0.852**.
+
+This is corrected in the authoritative Final Draft, Evidence Matrix and Findings. The previous monolithic paper file is now a pointer so the old value cannot be reused accidentally.
+
+Other audit changes tightened the passive-detection/watermarking distinction, removed an overbroad statement about synthetic media being inherently detectable, clarified task-specific FaceForensics++ metrics, and corrected final reference ordering.
+
+See [Final Content Audit](06%20-%20Review/Final%20Content%20Audit.md).
+
+## Authoritative paper source
+
+The authoritative checked Markdown source is under [Final Draft](04%20-%20Paper/Final%20Draft/README.md), split into five ordered files for traceable review. The corresponding `FINAL_CHECKED` DOCX/PDF is the version to use for peer review.
+
+## Watermarking interpretation
+
+The paper distinguishes:
+
+- **Passive detection:** infer manipulation/synthetic origin from media features.
+- **Active watermarking:** a participating generator embeds a recoverable provenance signal.
+
+A successfully verified watermark can strengthen provenance. An absent watermark does **not** prove authenticity because the generator may never have embedded one or the mark may have been degraded/removed.
+
+## Page-requirement status
+
+The assessment form states that the required **8-10 pages apply to the body**, excluding Introduction, Method, Conclusions, Discussion and the source list.
+
+Final checked render:
+
+- complete document: **15 pages**;
+- Results/body starts on page **4**;
+- Conclusions and Discussion starts on page **13**;
+- the counted Results/body therefore remains safely within **8-10 pages**.
 
 ## Repository Navigation
 
 - [Assignment Overview](00%20-%20Assignment/Assignment%20Overview.md)
-- [School Document Map](00%20-%20Assignment/School%20Document%20Map.md)
 - [Requirements Checklist](00%20-%20Assignment/Requirements%20Checklist.md)
 - [Assessment Criteria](00%20-%20Assignment/Assessment%20Criteria.md)
-- [Assessment Traceability Matrix](00%20-%20Assignment/Assessment%20Traceability%20Matrix.md)
-- [Learning Outcomes](00%20-%20Assignment/Learning%20Outcomes.md)
 - [Research Questions](00%20-%20Assignment/Research%20Questions.md)
 - [Scope](00%20-%20Assignment/Scope.md)
 - [Research Plan](01%20-%20Research/Research%20Plan.md)
 - [Methodology Plan](01%20-%20Research/Methodology%20Plan.md)
 - [Evidence Matrix](01%20-%20Research/Evidence%20Matrix.md)
-- [Research Gap Analysis](01%20-%20Research/Research%20Gap%20Analysis.md)
 - [Sources Index](02%20-%20Sources/Sources%20Index.md)
 - [Analysis Framework](03%20-%20Analysis/Analysis%20Framework.md)
-- [Paper Structure](04%20-%20Paper/Paper%20Structure.md)
+- [Findings](03%20-%20Analysis/Findings%20by%20Research%20Question.md)
+- [Conclusions Matrix](03%20-%20Analysis/Conclusions%20Matrix.md)
+- [Final Draft](04%20-%20Paper/Final%20Draft/README.md)
+- [Watermarking Integration](04%20-%20Paper/Watermarking%20Integration.md)
+- [Word / Page Budget](04%20-%20Paper/Word%20Budget.md)
 - [Rubric Check](06%20-%20Review/Rubric%20Check.md)
-- [Foundation Audit](06%20-%20Review/Foundation%20Audit.md)
+- [Final Content Audit](06%20-%20Review/Final%20Content%20Audit.md)
 
-## Immediate Conditions / Priorities
+## Remaining Before Submission
 
-1. **Verify lecturer approval** of the current title, main research question and all three subquestions before any final-paper drafting and before treating the scope as locked.
-2. **Operationalise** `reliably`, `current`, `real-world conditions`, `deepfake`, and the final modality scope before evidence extraction.
-3. **Finalise the literature-study protocol**: search systems, search strings, time window, source-type policy, inclusion/exclusion rules and extraction fields.
-4. **Verify Teams-only instructions** for submission and any additional structure/length/referencing rules. This is not required to start source discovery, but it is required before final drafting/submission.
+1. Complete the mandatory week-3 peer review next week and retain evidence of feedback received and feedback given.
+2. Process relevant peer-review feedback into the final paper.
+3. Keep the counted body within the 8-10-page range after peer-review changes.
+4. Re-run citation/reference, spelling/grammar, consistency and rendered-layout QA after those changes.
+5. Follow the final Teams submission instructions.
 
-## Material Unknowns
+## Current Readiness
 
-- Lecturer approval status of the title and research questions.
-- Exact Teams submission process/file type and any additional paper instructions.
-- Official APA edition; APA is mandatory, but the available school documents do not name an edition. Project working default: APA 7.
-- Exact internal meaning of `sub-digit` and the coloured numeric bands in the paper assessment form.
-- Exact page-count interpretation beyond the assessment form's unusual footnote wording, especially treatment of the abstract and total document length.
-
-## Next Phase
-
-Recommended next phase: **Phase 2 - Research Execution**, under the conditions above.
-
-Do not begin substantive final-paper drafting until the question set is approved and Phase 2 has produced sufficient traceable evidence.
+**Ready for peer review.** No material factual contradiction is known in the final checked version after the audit. The main remaining academic weakness is B3 reproducibility depth: exact historical query strings/result counts were not retained, so the method remains correctly described as a structured literature study rather than a systematic literature review.
