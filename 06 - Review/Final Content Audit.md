@@ -2,7 +2,7 @@
 
 ## Scope
 
-This is the final pre-peer-review audit of the Dutch paper `Deepfake_paper_Nederlands_SUPERCHECK.docx`. The audit was performed against the official Applied AI assessment form and the module-book research-paper assignment.
+This is the final pre-peer-review audit of the Dutch paper, now including the simplified Method section in `Deepfake_paper_Nederlands_METHODE_KORT_EN_DUIDELIJK.docx`. The audit was performed against the official Applied AI assessment form and the module-book research-paper assignment.
 
 Checks performed:
 
@@ -18,7 +18,7 @@ Checks performed:
 
 ## Assessment-form status
 
-The current version contains all mandatory parts: abstract, introduction, method, results, conclusions/discussion and reference list. The rendered document has 21 physical pages. Results starts on page 8 and Conclusions/Discussion starts on page 17, so the counted body is exactly **9 pages (pages 8–16)** and satisfies the official 8–10 page body rule.
+The current version contains all mandatory parts: abstract, introduction, method, results, conclusions/discussion and reference list. After simplifying the Method, the rendered document has **20 physical pages**. Results starts on page **7** and Conclusions/Discussion starts on page **16**, so the counted body remains exactly **9 pages (pages 7–15)** and satisfies the official 8–10 page body rule.
 
 The current version covers every substantive criterion:
 
@@ -30,6 +30,22 @@ The current version covers every substantive criterion:
 - **B5:** answers to MRQ/SQs, internally consistent conclusions, identifiable recommendations and explicit reliability/validity/usability discussion.
 
 The known B3 limitation remains explicit: exact historical database query strings and result counts were not retained. The study therefore remains correctly described as a **structured literature study**, not as a systematic literature review.
+
+## Method simplification
+
+The Method was deliberately shortened and rewritten in more natural Dutch after review feedback that the earlier version was too technical and too long.
+
+Changes:
+
+- removed jargon such as `documentanalyse`, `vergelijkende extractie van resultaten` and `thematische synthese`;
+- reduced the Method from roughly **818 words to 391 words**;
+- reduced the Method from two physical pages to **one page (page 6)**;
+- retained all B3 requirements: methodological justification, population/sample, data collection, source/result registration and analysis;
+- merged the separate definitions/analysis explanation into one concise `Analyse` subsection;
+- renamed `Onderzoeksinstrumenten` to the clearer `Vastlegging van bronnen en resultaten`;
+- updated the reading guide and cached TOC page numbers after the page shift.
+
+The shorter wording changes presentation only; it does not alter the research design, source sample, evidence or conclusions.
 
 ## Final factual verification
 
@@ -52,7 +68,7 @@ Confirmed:
 - paired training reduces shortcut learning/overfitting;
 - the paper supports the claim that dataset composition can matter more than simple recency.
 
-The Dutch paper was tightened further so it no longer implies that the same GenD models were directly tested on Deepfake-Eval-2024. Figure 2 is now explicitly labelled as an **illustrative cross-study synthesis, not a direct same-detector comparison**.
+The Dutch paper was tightened further so it no longer implies that the same GenD models were directly tested on Deepfake-Eval-2024. Figure 2 is explicitly labelled as an **illustrative cross-study synthesis, not a direct same-detector comparison**.
 
 ### DFDC
 Confirmed against Dolhansky et al. (2020):
@@ -98,17 +114,7 @@ Rechecked against current European Commission guidance:
 - deployers must disclose deepfakes to natural persons by first exposure at the latest and cannot rely only on the machine-readable mark;
 - there is a limited transition/grace arrangement for the Article 50(2) marking/detection obligation for systems placed on the market before 2 August 2026.
 
-The Introduction now includes this transition nuance without expanding the paper into a legal/policy study.
-
-## Final wording/logic tightening
-
-The supercheck made five final precision changes without changing the argument:
-
-1. the abstract now describes the 15-source sample more accurately (technical literature plus relevant regulation);
-2. AUC is no longer presented as though it were the only performance metric; EER is explicitly acknowledged for audio;
-3. Yermakov is described as using pre-trained vision encoders (CLIP, Perception Encoder and DINO), not generically as “language models”;
-4. Figure 2 and the SQ2 conclusion no longer imply a same-model comparison between generalisation benchmarks and online-circulating content;
-5. the usability paragraph now uses more natural Dutch (“praktijkcijfers zijn gebaseerd op content…”).
+The Introduction includes this transition nuance without expanding the paper into a legal/policy study.
 
 ## Reference and document integrity checks
 
@@ -123,19 +129,19 @@ The supercheck made five final precision changes without changing the argument:
 - No zero-width hidden Unicode characters.
 - No OpenAI/ChatGPT/SynthID/C2PA strings embedded in the OOXML.
 - Watermark audit: **0 watermark-like objects**.
-- Accessibility audit after the supercheck: **0 high, 0 medium, 0 low findings**; both figures now contain alt text.
+- Both figures contain alt text.
 
 ## Rendered-layout QA
 
-The final supercheck DOCX was rendered again after the last precision changes.
+The simplified-method DOCX was rendered again after the final edit and visually reviewed page by page.
 
-- total physical pages: **21**;
+- total physical pages: **20**;
 - Introduction: pages 4–5;
-- Method: pages 6–7;
-- Results/body: pages **8–16 (9 pages)**;
-- Conclusions/Discussion: pages 17–19;
-- References: pages 20–21;
-- TOC page numbers remain correct;
+- Method: **page 6**;
+- Results/body: pages **7–15 (9 pages)**;
+- Conclusions/Discussion: pages 16–18;
+- References: pages 19–20;
+- TOC page numbers were updated and match the new layout;
 - all tables and figures remain readable;
 - no clipping, overlap, broken rows, missing glyphs or page-flow defects were found.
 
