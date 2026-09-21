@@ -2,7 +2,7 @@
 
 ## Scope
 
-This is the final pre-peer-review audit of the Dutch paper, now including the simplified Method section in `Deepfake_paper_Nederlands_METHODE_KORT_EN_DUIDELIJK.docx`. The audit was performed against the official Applied AI assessment form and the module-book research-paper assignment.
+This is the final pre-peer-review audit of the Dutch paper, now including the simplified Method section and corrected figure-caption formatting in `Deepfake_paper_Nederlands_METHODE_KORT_EN_DUIDELIJK_CAPTIONS.docx`. The audit was performed against the official Applied AI assessment form and the module-book research-paper assignment.
 
 Checks performed:
 
@@ -47,6 +47,15 @@ Changes:
 
 The shorter wording changes presentation only; it does not alter the research design, source sample, evidence or conclusions.
 
+## Figure/table caption consistency
+
+The table captions already used a compact, italic 9 pt grey style. The two figure captions had reverted to normal body-text formatting. This has been corrected:
+
+- `Figuur 1` and `Figuur 2` captions now use the same 9 pt, italic, grey formatting as the table captions;
+- caption text itself was not changed;
+- the edit did not change the total page count or the 9-page body count;
+- both figures and all three tables remain readable and properly referenced in the surrounding text.
+
 ## Final factual verification
 
 ### Deepfake-Eval-2024
@@ -68,7 +77,7 @@ Confirmed:
 - paired training reduces shortcut learning/overfitting;
 - the paper supports the claim that dataset composition can matter more than simple recency.
 
-The Dutch paper was tightened further so it no longer implies that the same GenD models were directly tested on Deepfake-Eval-2024. Figure 2 is explicitly labelled as an **illustrative cross-study synthesis, not a direct same-detector comparison**.
+The Dutch paper no longer implies that the same GenD models were directly tested on Deepfake-Eval-2024. Figure 2 is explicitly labelled as an **illustrative cross-study synthesis, not a direct same-detector comparison**.
 
 ### DFDC
 Confirmed against Dolhansky et al. (2020):
@@ -133,7 +142,7 @@ The Introduction includes this transition nuance without expanding the paper int
 
 ## Rendered-layout QA
 
-The simplified-method DOCX was rendered again after the final edit and visually reviewed page by page.
+The caption-corrected DOCX was rendered again and visually reviewed page by page.
 
 - total physical pages: **20**;
 - Introduction: pages 4–5;
@@ -141,8 +150,9 @@ The simplified-method DOCX was rendered again after the final edit and visually 
 - Results/body: pages **7–15 (9 pages)**;
 - Conclusions/Discussion: pages 16–18;
 - References: pages 19–20;
-- TOC page numbers were updated and match the new layout;
+- TOC page numbers remain correct;
 - all tables and figures remain readable;
+- figure captions now visually match the table-caption style;
 - no clipping, overlap, broken rows, missing glyphs or page-flow defects were found.
 
 ## Remaining external/process items
