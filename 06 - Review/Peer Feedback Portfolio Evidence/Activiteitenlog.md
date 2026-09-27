@@ -1,24 +1,36 @@
-# Activiteitenlog van de controle en registratie
+# Activiteitenlog van controle en reviewverwerking
 
-Datum: 27 september 2026. Uitvoerder van onderstaande activiteiten: digitale controleondersteuning in deze sessie, in opdracht van de gebruiker. Dit log schrijft geen eerdere paperwijzigingen of persoonlijke reflecties aan Dave of Lucas toe. Datums waarop zij feedback hebben verwerkt zijn nog niet bevestigd.
+Datum: 27 september 2026. Het log onderscheidt technische controlewerkzaamheden van persoonlijke studentbijdragen. Persoonlijke werkzaamheden worden alleen aan Dave of Lucas toegeschreven wanneer daarvoor werkelijk bewijs is vastgelegd.
 
 | ID | Uitgevoerde activiteit | Resultaat en bewijs |
 | --- | --- | --- |
-| ACT01 | Repositorybomen, branches, PR #1 en #2 en bestaande feedbackdocumentatie gelezen | Bestaande reviewbranch gevonden op `7d0c283cce2fbf5592d21f4371ba93702124cd87`; daarop voortgebouwd |
-| ACT02 | Aangeleverde paper en beide reviews gelezen; afbeeldingen in review visueel bekeken | Marts schriftelijke opmerkingen op p. 6 alsnog verwerkt; LL01–LL06 en MV01–MV02 geregistreerd |
-| ACT03 | Moduleboek en officiële Research Paper-rubric geraadpleegd | Portfolioverplichting en letterlijke bodyregel met pagina’s vastgelegd |
-| ACT04 | Bestandsidentiteit, documentstructuur en tabeltekst gecontroleerd | SHA-256, 14 referenties, 4 tabellen, 2 figuren en 9 pt tabeltekst vastgesteld |
-| ACT05 | DOCX gerenderd en pagina’s geïnspecteerd | 21 pagina’s; resultaten p. 8–16 = 9; losse koppen p. 10 en 15 gevonden |
-| ACT06 | Feedbackpunten gekoppeld aan huidige inhoud en eerdere registraties | Verwerking zichtbaar gemaakt; versieverschillen en ontbrekende voorversie expliciet genoteerd |
-| ACT07 | Gerichte primaire broncontrole uitgevoerd | AUC-bereik en begrenzing watermerk/PSNR-claims gecontroleerd; overige broncontrole begrensd beschreven in het controleverslag |
-| ACT08 | Registratie geactualiseerd en oude claims als historisch bewaard | Geen onterechte algemene eindgoedkeuring; oude hash en oude bronselectie blijven traceerbaar |
-| ACT09 | Vaste reviewstap en individueel portfoliosjabloon toegevoegd | Iedere volgende ronde krijgt beslisreden, uitvoering, voor/na-bewijs, controle en persoonlijke reflectie |
-| ACT10 | Drie originele bijlagen ongewijzigd opgenomen als bewijsmateriaal | Manifest koppelt oorspronkelijke bestandsnamen aan veilige repositorynamen en SHA-256 |
+| ACT01 | Repository, bestaande reviewdocumentatie en historische registraties gelezen | Bestaande bewijsstructuur behouden |
+| ACT02 | Aangeleverde paper en beide peerreviews gecontroleerd | LL01–LL06 en MV01–MV02 als expliciete feedbackpunten behouden |
+| ACT03 | Moduleboek en Appendix 9 geraadpleegd | Portfolioverplichting en 8–10-paginaregel als controlebasis gebruikt |
+| ACT04 | Documentstructuur, tabellen, figuren en referenties gecontroleerd | 14 referenties, 4 tabellen, 2 figuren vastgesteld |
+| ACT05 | Voorlaatste DOCX gerenderd en visueel beoordeeld | Resterende inhoudelijke en opmaakpunten vastgesteld |
+| ACT06 | AUC-correctie uitgevoerd | Tekst 0–1; 0,5 toevalsniveau; Figuur 2 begrensd op 1,0 |
+| ACT07 | Te stellige conclusies herzien | Claims begrensd tot geselecteerde studies/testomstandigheden; interpreteerbaarheid niet meer als bewezen “zwakste” dimensie |
+| ACT08 | Watermerk- en PSNR-afbakening herzien | Actief herkomstsignaal onderscheiden van passieve detectie; geen universele visuele-onzichtbaarheidsclaim |
+| ACT09 | Terminologie bronregistratie verduidelijkt | Interne bronregistratietabel onderscheiden van APA-referentielijst |
+| ACT10 | Samenvatting ingekort | Finale samenvatting: 267 woorden |
+| ACT11 | Tabel- en kopopmaak gecorrigeerd | Alle 36 tabelrijen ingesteld op niet splitsen; koppen bij volgende alinea gehouden |
+| ACT12 | APA-referentielijst opgemaakt | Dubbele regelafstand, 0 pt extra witruimte, hanging indent 1,27 cm |
+| ACT13 | Inhoudsopgave bijgewerkt | Paginanummers aangepast aan finale render |
+| ACT14 | Finale DOCX volledig gerenderd | 23 pagina’s; resultaten p. 8–17 = 10 pagina’s |
+| ACT15 | Alle gerenderde pagina’s visueel geïnspecteerd | Geen clipping, overlap of gebroken tabelrijen aangetroffen |
+| ACT16 | Finale revisie voor portfolio gedocumenteerd | [Finale-revisie-2026-09-27.md](Finale-revisie-2026-09-27.md) toegevoegd |
 
-## Tussentijdse wijziging gecontroleerd
+## Bestandsidentiteit finale versie
 
-ACT11: Vóór publicatie is de branch opnieuw gelezen. Zes tussentijdse commits tot `8d66fd270a1726bef7a50f62432a015e28d5ff69` zijn vergeleken met de beginstand. De aanvullende zoeknotitie is behouden en de nieuwe historische DOCX-hash is toegevoegd. De publicatie bouwt op deze laatste stand voort.
+`Deepfake paper - Dave & Lucas FINAL.docx`  
+SHA-256: `5a409201c5fc5adb85eda5851ee534de9394fcccd40ec4bcf4e1a51f970669f2`
 
-## Nog uit te voeren
+## Nog afzonderlijk te bewijzen voor het individuele portfolio
 
-QA01–QA10 staan in het [controleverslag](Controleverslag-2026-09-27.md). De paper zelf is tijdens deze sessie niet aangepast. Een nieuwe uitvoering, een nieuwe zoekactie, bevestiging van een auteursreden of een persoonlijke reflectie krijgt een nieuwe logregel met de werkelijke uitvoerder en datum. De Git-commitgeschiedenis vormt het technische bewijs van opslag; een commit is geen bewijs van de historische uitvoerder van de paperwijziging.
+- historische zoekdatums/exports voor zover de studenten die daadwerkelijk hebben;
+- welke concrete wijzigingen Dave respectievelijk Lucas zelf uitvoerde;
+- persoonlijke reflectie per student;
+- daadwerkelijk verstrekte peerfeedback aan een andere student.
+
+Deze gegevens zijn niet gereconstrueerd of verzonnen.
