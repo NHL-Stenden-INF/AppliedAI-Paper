@@ -8,9 +8,11 @@
 
 ## Current Phase
 
-**Foundation Audit and Improvement — pre-Phase 2**
+**Submitted paper — peer-feedback revision completed**
 
-Phase 1 setup has been independently rechecked against the original school documents. Substantive research execution and final-paper drafting have **not** started.
+The research paper has been completed and submitted. Two reviews were subsequently analysed against the Applied AI module-book and research-paper assessment requirements. Appropriate feedback has been implemented in a revised DOCX without inventing missing research-process evidence.
+
+The post-review work is isolated on branch `feedback-integration-2026-09-27` pending review/merge.
 
 ## Foundation Scores
 
@@ -68,8 +70,10 @@ The wording is recorded in `Research paper Subject.xlsx`. The school requires th
 - Exact internal meaning of `sub-digit` and the coloured numeric bands in the paper assessment form.
 - Exact page-count interpretation beyond the assessment form's unusual footnote wording, especially treatment of the abstract and total document length.
 
-## Next Phase
+## Post-Review Materials
 
-Recommended next phase: **Phase 2 - Research Execution**, under the conditions above.
+- [Feedback Log](06%20-%20Review/Feedback%20Log.md)
+- [Peer Review Revision Record](04%20-%20Paper/Peer%20Review%20Revision%20Record.md)
+- [Post-Review QA](06%20-%20Review/Post-Review%20QA.md)
 
-Do not begin substantive final-paper drafting until the question set is approved and Phase 2 has produced sufficient traceable evidence.
+The revised paper file is `Deepfake paper - Dave & Lucas - revised after peer review.docx` (SHA-256: `162f7224b29717845a2cd4aa21d743bdc39c01a2e9c63b80bdb322e809f70c42`).
