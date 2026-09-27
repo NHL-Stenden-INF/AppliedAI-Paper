@@ -1,24 +1,30 @@
-# Eindcontrole van de huidige bijlage
+# Eindcontrole van de finale paper
 
-**Uitkomst: open verbeterpunten; geen onvoorwaardelijke eindgoedkeuring.**
+**Uitkomst: finale papercorrecties uitgevoerd en technisch geverifieerd.**
 
-Gecontroleerd op 27 september 2026: [paper-review-verwerkt.docx](Evidence/paper-review-verwerkt.docx), SHA-256 `cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b`.
+Gecontroleerd op 27 september 2026: `Deepfake paper - Dave & Lucas FINAL.docx`, SHA-256 `5a409201c5fc5adb85eda5851ee534de9394fcccd40ec4bcf4e1a51f970669f2`.
 
-De volledige controle met paginaverwijzingen, methodiek, bronverwijzingen en vervolgacties staat in [Controleverslag-2026-09-27.md](Controleverslag-2026-09-27.md). Dat verslag is leidend; de historische goedkeuring van een ander bestand is niet overgenomen.
+De uitgevoerde wijzigingen staan in [Finale-revisie-2026-09-27.md](Finale-revisie-2026-09-27.md). Het eerdere [controleverslag](Controleverslag-2026-09-27.md) blijft een historische momentopname van de voorlaatste versie.
 
 | Controle | Uitkomst |
 | --- | --- |
 | Vereiste hoofdstukken | Aanwezig |
-| Body volgens Appendix 9 p. 4 | Resultaten p. 8–16 = 9 pagina’s; binnen 8–10 |
-| Totale omvang | 21 gerenderde pagina’s |
+| Body volgens Appendix 9 p. 4 | Resultaten p. 8–17 = 10 pagina’s; binnen 8–10 |
+| Totale omvang | 23 gerenderde pagina’s |
+| Samenvatting | 267 woorden |
 | Tabellen en figuren | 4 tabellen; 2 figuren |
-| Tabellettergrootte | 172 niet-lege tekstruns, alle expliciet 9 pt |
-| Citatiedekking | 14 referenties; alle 14 in tekst teruggevonden; volledige bibliografische controle nog open |
-| Word-commentaren en revisies | Geen ingesloten commentaren of bijgehouden invoegingen/verwijderingen aangetroffen |
-| AUC/ROC | Uitleg aanwezig, fout bereik bij AUC corrigeren |
-| Methode | Zoekqueries en aantallen aanwezig; bewijs, datering en selectiegeschiedenis ontbreken |
-| Inhoudelijke afbakening | Watermerksignaal onderscheiden van passieve detectie; te stellige conclusies begrenzen |
-| Opmaak | Losse koppen op p. 10 en 15; APA-presentatie tabellen/figuren aanpassen |
-| Portfolio | Eigen verstrekte feedback en individuele bijdrage nog toevoegen |
+| Tabelrijen | 36/36 ingesteld op niet splitsen over pagina’s |
+| Referenties | 14 referenties; dubbele regelafstand, geen extra witruimte, hanging indent 1,27 cm |
+| AUC/ROC | AUC 0–1; 0,5 toevalsniveau; Figuur 2 eindigt op 1,0 |
+| Conclusies | Te stellige formuleringen begrensd tot geselecteerde studies en testomstandigheden |
+| Watermerken | Actief herkomstsignaal onderscheiden van passieve detectie |
+| PSNR | Geen universele claim van visuele onzichtbaarheid meer |
+| Koppen | Geen losse koppen onderaan de gecontroleerde render |
+| Inhoudsopgave | Paginaverwijzingen aangepast aan de definitieve render |
+| Visuele QA | Alle 23 pagina’s gerenderd en geïnspecteerd; geen clipping, overlap of gebroken tabelrijen aangetroffen |
 
-Paginering kan door Word-versie of fonts wijzigen. Voer na iedere paperwijziging de render- en bodycontrole opnieuw uit. Deze technische controle is geen beoordeling door de docent.
+## Overblijvende bewijs- en procespunten
+
+Deze eindcontrole vult geen ontbrekende historische gegevens in. Zoekdatums/exports, exacte individuele taakverdeling, persoonlijke reflecties en daadwerkelijk door ieder verstrekte peerfeedback moeten met echte bewijsstukken worden vastgelegd wanneer zij voor het portfolio worden gebruikt.
+
+Deze technische eindcontrole is geen formele docentbeoordeling.
