@@ -14,9 +14,9 @@ The post-review work is isolated on branch `feedback-integration-2026-09-27` pen
 
 Final checked paper:
 
-`Deepfake paper - Dave & Lucas - revised after peer review.docx`
+`Deepfake paper - Dave & Lucas - revised after peer review - final checked.docx`
 
-SHA-256: `6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4`
+SHA-256: `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf`
 
 ## Repository navigation
 
@@ -34,7 +34,7 @@ SHA-256: `6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4`
 - [Paper Structure](04%20-%20Paper/Paper%20Structure.md)
 - [Peer Review Revision Record](04%20-%20Paper/Peer%20Review%20Revision%20Record.md)
 - [Feedback Log](06%20-%20Review/Feedback%20Log.md)
-- [Peer Feedback Portfolio Evidence](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/README.md)
+- [Peer Feedback Portfolio Evidence](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/README.md)\n- [Search Channels and Source Quality Audit](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Search%20Channels%20and%20Source%20Quality%20Audit.md)
 - [Foundation Audit (historical pre-research audit)](06%20-%20Review/Foundation%20Audit.md)
 
 ## Peer-feedback / portfolio evidence
