@@ -2,9 +2,9 @@
 
 ## File checked
 
-`Deepfake paper - Dave & Lucas - revised after peer review.docx`
+`Deepfake paper - Dave & Lucas - revised after peer review - final checked.docx`
 
-SHA-256: `6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4`
+SHA-256: `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf`
 
 Check date: 27 September 2026.
 
@@ -34,7 +34,7 @@ In the checked document:
 
 This meets the 8-10-page requirement under the literal wording of the footnote.
 
-Total rendered document length is 20 pages including title page, abstract, contents, introduction, method, conclusions/discussion and references.
+Total rendered document length is 21 pages including title page, abstract, contents, introduction, method, conclusions/discussion and references.
 
 ## 3. Layout/render QA
 
@@ -42,7 +42,7 @@ The final DOCX was rendered to page images after the last corrections.
 
 Result:
 
-- 20/20 pages rendered;
+- 21/21 pages rendered;
 - no clipped text;
 - no overlapping text;
 - no content outside page bounds;
@@ -72,7 +72,7 @@ The figures and tables are evidence-bearing and referenced in the surrounding te
 - No new external source was added during feedback revision.
 - No numerical result was changed without an existing source basis.
 
-The final check did not identify an orphaned reference or an obvious cited source missing from the reference list.
+The final check did not identify an orphaned reference or an obvious cited source missing from the reference list. The source list itself was not changed during the additional IEEE Xplore and Consensus control searches.
 
 ## 6. Language and logical-consistency check
 
@@ -95,7 +95,7 @@ Method and section 4.4 now agree on the same limitation:
 - the search route is therefore not fully reproducible;
 - no missing counts were reconstructed after the fact.
 
-This is a limitation, but it is now represented consistently rather than hidden.
+This is a limitation, but it is now represented consistently rather than hidden. An additional control search on 27 September 2026 used IEEE Xplore and Consensus; the exact queries and the reason these searches did not change the fixed source set are documented in `Search Channels and Source Quality Audit.md`.
 
 ## 8. DOCX technical checks
 
