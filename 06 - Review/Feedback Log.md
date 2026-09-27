@@ -64,4 +64,9 @@ The detailed post-review QA and document-level changes are recorded in:
 The revised Word document generated from the submitted paper is identified by:
 
 - filename: `Deepfake paper - Dave & Lucas - revised after peer review.docx`
-- SHA-256: `162f7224b29717845a2cd4aa21d743bdc39c01a2e9c63b80bdb322e809f70c42`
+- SHA-256: `6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4`
+
+
+## Portfolio evidence package
+
+The complete portfolio-facing explanation is now kept in `06 - Review/Peer Feedback Portfolio Evidence/`. That folder also records the separate module-book requirement that evidence of feedback **provided to another student** must be included elsewhere and must not be inferred from the two received reviews.
