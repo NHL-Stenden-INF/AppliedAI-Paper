@@ -5,7 +5,7 @@
 | Version | File | SHA-256 |
 | --- | --- | --- |
 | Original submitted version | `Deepfake paper - Dave & Lucas(1).docx` | `b92179182fc5f14e1168bef6807c5c7da76cad161ec65db9f7ef51f236eddf31` |
-| Revised + final checked | `Deepfake paper - Dave & Lucas - revised after peer review.docx` | `6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4` |
+| Revised + final checked | `Deepfake paper - Dave & Lucas - revised after peer review - final checked.docx` | `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf` |
 
 ## Feedback-to-paper mapping
 
@@ -53,3 +53,13 @@ Reason: the reviews did not identify factual errors in these elements, and chang
 ## Integrity rule
 
 No change in this revision introduces a new empirical result, source, search count, approval claim or research action that was not supported by the original research record.
+
+
+## Additional search-strategy transparency
+
+The final Method now contains two additional subsections:
+
+- `Aanvullende controle van zoekkanalen` — records the 27 September 2026 control search in IEEE Xplore and Consensus, the query families used, and why the results were not added to the fixed 15-source set.
+- `Beoordeling van bronkwaliteit` — records the criteria used to judge whether an included source was suitable: origin/publisher, date, relevance, method clarity, dataset/test context, metric clarity, DOI or official record, stated limitations and evidence type.
+
+These additions improve transparency without changing any existing citation, result, table, figure or reference-list entry.
