@@ -3,25 +3,45 @@
 **Paper:** De betrouwbaarheid van AI-gebaseerde deepfakedetectie  
 **Auteurs:** Lucas Wanink en Dave van den Berg
 
-## Actuele status van de reviewcontrole
+## Actuele status
 
-De aangeleverde versie van 27 september 2026 is naast beide peerreviews, het moduleboek en Appendix 9 gecontroleerd. De feedback is grotendeels zichtbaar verwerkt. Er staan nog inhoudelijke, methodologische en opmaakpunten open; deze versie heeft geen onvoorwaardelijke eindgoedkeuring.
+Op 27 september 2026 is de aangeleverde paper opnieuw gecontroleerd tegen de peerreviews, het moduleboek en Appendix 9. De resterende inhoudelijke en opmaakpunten uit de controle zijn in een definitieve revisie verwerkt en opnieuw gerenderd.
 
-[Lees het controleverslag en de resterende verbeterpunten](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Controleverslag-2026-09-27.md).
+De finale revisie is vastgelegd in [Finale revisie na reviewcontrole](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Finale-revisie-2026-09-27.md). De lokaal opgeleverde DOCX heet `Deepfake paper - Dave & Lucas FINAL.docx` en heeft SHA-256 `5a409201c5fc5adb85eda5851ee534de9394fcccd40ec4bcf4e1a51f970669f2`.
 
-[Open de aangeleverde paper](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Evidence/paper-review-verwerkt.docx).
+De eerdere gecontroleerde versie blijft ongewijzigd bewaard als historisch bewijs: [paper-review-verwerkt.docx](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Evidence/paper-review-verwerkt.docx).
 
-Deze registratie staat in branch `feedback-integration-2026-09-27`, binnen [pull request #2](https://github.com/NHL-Stenden-INF/AppliedAI-Paper/pull/2). De afzonderlijke conceptbranch en PR #1 zijn niet samengevoegd met deze controle.
+## Wat in de finale revisie is gecorrigeerd
+
+- AUC is consequent begrensd op 0–1; Figuur 2 eindigt nu ook op 1,0.
+- De samenvatting is teruggebracht tot 267 woorden.
+- Te stellige conclusies zijn begrensd tot wat de geselecteerde studies daadwerkelijk ondersteunen.
+- Interpreteerbaarheid wordt niet langer als bewezen “zwakste” dimensie aangeduid.
+- Trainingsdata versus architectuur is voorzichtiger en bronconform geformuleerd.
+- Watermerkverwijdering wordt onderscheiden van de prestaties van passieve deepfakedetectoren.
+- De PSNR-uitleg is experimentgebonden geformuleerd.
+- De bronregistratie is terminologisch onderscheiden van de APA-referentielijst.
+- Tabelrijen worden niet meer over pagina’s gesplitst en losse koppen zijn verwijderd.
+- De APA-referentielijst gebruikt dubbele regelafstand, geen extra witruimte en een hanging indent van 1,27 cm.
+- De inhoudsopgave is aangepast aan de definitieve paginering.
+
+De finale render telt 23 pagina’s. De resultaten lopen van p. 8 t/m p. 17 en beslaan 10 pagina’s, passend binnen de 8–10-paginaregel uit Appendix 9. De paper bevat 14 referenties, 4 tabellen en 2 figuren.
 
 ## Reviewverwerking en portfolio
 
-- [Bewijspakket met originele paper en reviews](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/README.md).
-- [Beslismatrix met alle acht expliciete reviewpunten](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Feedback%20Decision%20Matrix.md).
-- [Vaste stap voor iedere volgende reviewronde](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Reviewverwerking-werkwijze.md).
-- [Activiteitenlog](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Activiteitenlog.md).
-- [Individuele bijdragen en portfolioverantwoording](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Portfolio%20Use%20Note.md).
+- [Overzicht reviewverwerking en portfoliobewijs](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/README.md)
+- [Beslismatrix met de expliciete peerreviewpunten](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Feedback%20Decision%20Matrix.md)
+- [Finale revisie en uitgevoerde correcties](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Finale-revisie-2026-09-27.md)
+- [Eindcontrole van het bestand](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Final%20File%20QA.md)
+- [Vaste stap voor iedere volgende reviewronde](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Reviewverwerking-werkwijze.md)
+- [Activiteitenlog](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Activiteitenlog.md)
+- [Individuele bijdragen en portfolioverantwoording](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Portfolio%20Use%20Note.md)
 
-De bijlage heeft 14 referenties, vier tabellen en twee figuren. De render telt 21 pagina’s; de resultatenbody p. 8–16 telt negen pagina’s en valt binnen de letterlijke 8–10-paginaregel. De zoekresultaataantallen zijn nog niet onafhankelijk onderbouwd met zoekdatums en exports. Eigen verstrekte feedback en persoonlijke bijdragen blijven apart te bewijzen.
+Het moduleboek vereist voor periode 1 de voltooide research paper, ontvangen inhoudelijke peerfeedback, verstrekte inhoudelijke peerfeedback en waar relevant bewijs van verwerking. Deze repository bewaart het procesbewijs daarvoor. Persoonsgebonden bewijs — wie welke wijziging zelf uitvoerde, persoonlijke reflectie en werkelijk verstrekte feedback aan een andere student — moet per student met echte bewijsstukken worden toegevoegd.
+
+## Open bewijs- en procespunten
+
+De finale papercorrecties zijn uitgevoerd en technisch gecontroleerd. Niet ingevuld of gereconstrueerd zijn historische zoekdatums/exports, individuele taakverdeling, persoonlijke reflecties en eigen verstrekte peerfeedback wanneer daarvoor geen daadwerkelijk bewijs beschikbaar is. Deze blijven expliciet gescheiden van de inhoudelijke kwaliteit van de finale paper.
 
 ## Onderzoeksopzet en historische documenten
 
@@ -39,4 +59,4 @@ De bijlage heeft 14 referenties, vier tabellen en twee figuren. De render telt 2
 - [Paper Structure](04%20-%20Paper/Paper%20Structure.md)
 - [Feedback Log](06%20-%20Review/Feedback%20Log.md)
 
-De onderzoeksopzet, eerdere matrices en oudere audits zijn historische werkdocumenten. Gebruik hun bronselectie of status niet automatisch voor de huidige 14-bronnenpaper. De voorgaande reviewregistratie is bewaard onder `06 - Review/Historical/2026-09-27-before-current-file-audit/`. De actuele controle corrigeert onder meer de eerder gemiste schriftelijke feedback op p. 6 van Marts review.
+De oudere onderzoeksopzet, matrices en audits blijven historische werkdocumenten en worden niet automatisch als bewijs voor de finale 14-bronnenpaper gebruikt.
