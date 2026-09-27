@@ -1,29 +1,13 @@
-# Feedback Log
+# Feedbacklog
 
-## Actual Feedback Received
+De actuele registratie gaat over de op 27 september 2026 aangeleverde paper met SHA-256 `cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b`.
 
-**None available in the ChatGPT Project at the time of this audit.**
+- [Acht expliciete reviewpunten en hun status](Peer%20Feedback%20Portfolio%20Evidence/Feedback%20Decision%20Matrix.md).
+- [Controleverslag en open verbeterpunten](Peer%20Feedback%20Portfolio%20Evidence/Controleverslag-2026-09-27.md).
+- [Werkelijk uitgevoerde activiteiten](Peer%20Feedback%20Portfolio%20Evidence/Activiteitenlog.md).
+- [Vaste reviewverwerkingsstap](Peer%20Feedback%20Portfolio%20Evidence/Reviewverwerking-werkwijze.md).
+- [Individuele portfoliobijdragen](Peer%20Feedback%20Portfolio%20Evidence/Portfolio%20Use%20Note.md).
 
-No lecturer, supervisor, assessor or completed peer-review feedback file is currently present, so no actual feedback is fabricated below.
+De eerdere registratie is gecorrigeerd: Marts review heeft wel schriftelijke opmerkingen op p. 6, de huidige paper heeft 14 bronnen en vier tabellen en de eerdere eindgoedkeuring betrof een ander bestand. De historische teksten zijn behouden onder [Historical](Historical/2026-09-27-before-current-file-audit).
 
-## Future Feedback Obligations
-
-| Timing | Source | Required feedback/process | Affected area | Required action | Priority | Status |
-| --- | --- | --- | --- | --- | --- | --- |
-| Week 3 | Assigned peer reviewer | Provide substantive feedback including strengths and suggestions for improvement | Whole paper | Record feedback; evaluate each actionable point; revise where appropriate | High | Planned |
-| Week 3 | Authors as peer reviewers | Provide substantive and constructive feedback to at least one other student's paper | Peer-review obligation | Preserve evidence of submitted feedback for portfolio | High | Planned |
-
-## Processing Rule for Future Actual Feedback
-
-For each actionable item record:
-
-- date/source;
-- exact feedback or faithful paraphrase;
-- category: Mandatory correction / Strong recommendation / Suggestion / Positive feedback / Unclear feedback;
-- affected requirement/section;
-- action taken;
-- accepted / partly accepted / rejected;
-- rationale;
-- status.
-
-Recurring independent feedback on the same issue should increase its priority.
+Ontvangen feedback is grotendeels zichtbaar verwerkt. Reproduceerbaarheid, AUC-correctheid en de aanvullende controlepunten staan nog open. Geen formele docentgoedkeuring of individuele auteursbijdrage is uit deze registratie afgeleid.
