@@ -1,50 +1,31 @@
-# Peer Feedback Portfolio Evidence
+# Reviewverwerking en portfoliobewijs
 
-## Purpose
+**Actuele uitkomst:** de ontvangen feedback is grotendeels zichtbaar verwerkt, maar er zijn open inhoudelijke, methodologische en opmaakpunten. De eerdere eindgoedkeuring in GitHub hoort bij een ander bestand en geldt niet voor de huidige bijlage.
 
-This folder is the portfolio-ready evidence package for the feedback received on the period-1 Applied AI research paper **De betrouwbaarheid van AI-gebaseerde deepfakedetectie**.
+Gecontroleerd op 27 september 2026: `Deepfake paper - Dave & Lucas - Review verwerkt.docx`, SHA-256 `cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b`.
 
-The Applied AI module book requires the period-1 portfolio to contain:
+## Leesroute
 
-- the completed research paper;
-- evidence of substantive peer feedback received;
-- evidence of substantive and constructive peer feedback provided to at least one other student;
-- where relevant, evidence showing how received feedback was processed.
+1. [Controleverslag met concrete bevindingen en QA01–QA10](Controleverslag-2026-09-27.md).
+2. [Beslismatrix per feedbackpunt](Feedback%20Decision%20Matrix.md).
+3. [Versies en aantoonbare verwerking](Implementation%20Traceability.md).
+4. [Eindcontrole van deze bijlage](Final%20File%20QA.md).
+5. [Vaste stap voor iedere reviewronde](Reviewverwerking-werkwijze.md).
+6. [Activiteitenlog](Activiteitenlog.md).
+7. [Individuele portfolioverantwoording](Portfolio%20Use%20Note.md).
+8. [Broncontrole met afbakening](Broncontrole-2026-09-27.md).
 
-Source: `APPLIED AI MODULE BOOK V1.pdf`, Appendix 1, Section 2 (printed p. 33 / PDF p. 39) and Appendix 3 (printed pp. 41-42 / PDF pp. 47-48).
+## Ongewijzigde bewijsbestanden
 
-This folder documents the **received-feedback processing** requirement. It does not claim to satisfy the separate requirement to show feedback that Lucas/Dave provided to another student.
+| Bestand | Betekenis |
+| --- | --- |
+| [paper-review-verwerkt.docx](Evidence/paper-review-verwerkt.docx) | Aangeleverde paper; geen wijzigingen door deze controlesessie |
+| [review-lucas-lubbers.pdf](Evidence/review-lucas-lubbers.pdf) | Review van Lucas Lübbers, twee pagina’s |
+| [review-mart-velema.pdf](Evidence/review-mart-velema.pdf) | Review van Mart Velema, zes pagina’s; schriftelijke opmerkingen op p. 6 |
+| [manifest.json](Evidence/manifest.json) | Originele bestandsnamen, SHA-256, grootte en rol |
 
-## Evidence inventory
+De paper rendert op 21 pagina’s met 9 resultatenpagina’s, 4 tabellen en 2 figuren. Er zijn 14 referenties. De beoordeling van zoekresultaataantallen blijft open zolang de zoekdatums en oorspronkelijke bewijsstukken ontbreken.
 
-| Evidence | Role | Integrity identifier |
-| --- | --- | --- |
-| `Feedback_Dave&Lucas_door_Lucas_Lübbers_AppliedAI.pdf` | Narrative peer review by Lucas Lübbers | SHA-256 `e742a50970d08e362ef0eec0c8bac5077cffa75014d1483c551847a776e62f15` |
-| `feedback van mart voor dave en lucas w lololol fml.pdf` | Completed rubric review, signed by Mart Velema | SHA-256 `962eab93899b5197e7d340c956861fcf53c665f2fa2f841f34616f29aa39beb3` |
-| `Deepfake paper - Dave & Lucas(1).docx` | Submitted/original paper used as revision baseline | SHA-256 `b92179182fc5f14e1168bef6807c5c7da76cad161ec65db9f7ef51f236eddf31` |
-| `Deepfake paper - Dave & Lucas - revised after peer review - final checked.docx` | Revised and final-checked paper | SHA-256 `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf` |
+Het moduleboek vraagt bewijs van ontvangen én verstrekte feedback en waar relevant de verwerking ervan (NHL Stenden University of Applied Sciences, z.d., Appendix 1, sectie 2, PDF p. 39; Appendix 3, PDF pp. 47–48). Eigen verstrekte feedback, individuele bijdragen en reflecties moeten Dave en Lucas nog met echte bewijsstukken aanvullen. Volledige bronvermelding staat in het controleverslag.
 
-The binary review files and DOCX are retained outside this Markdown-only evidence folder. The hashes above allow the exact reviewed/revised versions to be identified.
-
-## Folder contents
-
-- [Feedback Decision Matrix](Feedback%20Decision%20Matrix.md) — every substantive review point, whether it was implemented, where, and why.
-- [Implementation Traceability](Implementation%20Traceability.md) — maps accepted feedback to concrete locations in the revised paper and records later QA-only corrections.
-- [Final File QA](Final%20File%20QA.md) — final content, structure, layout, citation and page-volume checks.
-- [Search Channels and Source Quality Audit](Search%20Channels%20and%20Source%20Quality%20Audit.md) — exact control-search date, queries, source-quality criteria and why IEEE Xplore/Consensus did not change the fixed source set.\n- [Portfolio Use Note](Portfolio%20Use%20Note.md) — what should be included in the portfolio and what evidence is still separate/outstanding.
-
-## Processing principle
-
-Feedback was not applied mechanically. Each point was tested against three questions:
-
-1. Does it improve the paper against the assessment criteria?
-2. Can it be implemented using evidence that actually exists?
-3. Does it preserve the assignment structure and avoid inventing research-process details?
-
-A suggestion was fully implemented when all three conditions were met. It was partly implemented when the underlying improvement was valid but the literal suggestion would add unsupported structure/evidence. It was not implemented when doing so would conflict with the module requirements or create evidence that did not exist.
-
-## Outcome
-
-The revision retains the original evidence base and research questions while improving readability, methodological justification, result signposting and the standalone readability of the conclusion. Missing historical search counts were **not** reconstructed.
-
-The final checked DOCX renders as 21 pages. Under the literal wording of the assessment-form footnote, the Results body spans pages 8-16 inclusive, i.e. **9 pages**, which falls within the required 8-10-page body range.
+De tijdens deze controle toegevoegde [zoekkanalenregistratie van een andere paperversie](Search%20Channels%20and%20Source%20Quality%20Audit.md) is behouden met haar eigen versieafbakening.

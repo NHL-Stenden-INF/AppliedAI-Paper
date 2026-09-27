@@ -1,0 +1,27 @@
+{
+  "audit_date": "2026-09-27",
+  "paper_modified_in_audit": false,
+  "files": [
+    {
+      "original_filename": "Deepfake paper - Dave & Lucas - Review verwerkt.docx",
+      "repository_filename": "paper-review-verwerkt.docx",
+      "role": "Gecontroleerde paper, ongewijzigd",
+      "sha256": "cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b",
+      "size_bytes": 240671
+    },
+    {
+      "original_filename": "Feedback_Dave&Lucas_door_Lucas_Lübbers_AppliedAI(1).pdf",
+      "repository_filename": "review-lucas-lubbers.pdf",
+      "role": "Ontvangen peerreview, ongewijzigd",
+      "sha256": "e742a50970d08e362ef0eec0c8bac5077cffa75014d1483c551847a776e62f15",
+      "size_bytes": 61823
+    },
+    {
+      "original_filename": "feedback van mart voor dave en lucas w lololol fml(1).pdf",
+      "repository_filename": "review-mart-velema.pdf",
+      "role": "Ontvangen rubric en schriftelijke peerreview, ongewijzigd",
+      "sha256": "962eab93899b5197e7d340c956861fcf53c665f2fa2f841f34616f29aa39beb3",
+      "size_bytes": 572033
+    }
+  ]
+}

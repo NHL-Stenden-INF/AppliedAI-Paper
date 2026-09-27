@@ -1,3 +1,5 @@
+> **Historische audit van de eerdere 15-bronnenversie.** De bijlage gecontroleerd op 27 september 2026 heeft 14 bronnen en bevat zoekqueries met aantallen. Deze oudere tekst bewijst niet hoe die zoekacties zijn uitgevoerd. De actuele status en de open bewijsbehoefte staan in [het controleverslag](../06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Controleverslag-2026-09-27.md). Uitspraken hieronder zoals “current”, “final” en “the paper states” gelden uitsluitend voor de destijds beschreven versie.
+
 # Search Strategy and Source Selection Audit
 
 ## Purpose
@@ -122,3 +124,4 @@ The current 15-source set was left unchanged. The added audit strengthens transp
 2. what was checked on 27 September 2026;
 3. what cannot be reconstructed;
 4. why IEEE Xplore and Consensus did not become new formal source-selection routes after the analysis had already been completed.
+

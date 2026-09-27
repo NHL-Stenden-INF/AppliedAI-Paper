@@ -1,6 +1,6 @@
 # Sources Index
 
-This is the central register for the final research paper and its school/project evidence.
+This register was reconciled on 27 September 2026 against the supplied `Deepfake paper - Dave & Lucas - Review verwerkt.docx` (SHA-256 `cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b`). It records the sources present in that file; it does not certify the original selection history.
 
 ## School / project sources
 
@@ -10,9 +10,9 @@ This is the central register for the final research paper and its school/project
 | SRC-S02 | `APPLIED AI MODULE BOOK V1.pdf` | School / Module book | NHL Stenden Applied AI module | 2026 | Assignment process, go/no-go, peer-feedback and portfolio requirements | Authoritative for module requirements | Available / rechecked |
 | SRC-P01 | `Research paper Subject.xlsx` | Project / proposal record | Project record | 2026 | Pair/topic/title/research-question proposal | Supporting project evidence | Available |
 
-## Final academic / official source set
+## Source set in the currently supplied paper
 
-The final paper contains exactly **15 references**. This list is fixed; the 27 September supplementary search audit did not add or remove sources.
+The supplied paper contains **14 references**. The earlier repository record contained 15, including Ramanaharan et al. That entry is absent from the supplied file. The authors' removal decision and its effect on the analysis remain open as QA10. Stable source IDs are retained; SRC-A008 is historical and is not renumbered into another source.
 
 | ID | Short source | Year | Category | Main use |
 | --- | --- | ---: | --- | --- |
@@ -23,7 +23,6 @@ The final paper contains exactly **15 references**. This list is fixed; the 27 S
 | SRC-A005 | Jung et al., AASIST | 2022 | Academic empirical / IEEE | Audio detection |
 | SRC-A006 | Li et al., Celeb-DF | 2020 | Academic dataset / IEEE-CVF | Challenging/cross-dataset visual evidence |
 | SRC-A007 | Nguyen-Le et al. | 2026 | Academic survey + empirical / Springer Nature | Cross-modality techniques, generalisation, robustness |
-| SRC-A008 | Ramanaharan et al. | 2025 | Systematic review / Elsevier | Generalisation |
 | SRC-A009 | Rössler et al., FaceForensics++ | 2019 | Academic benchmark / IEEE-CVF | Foundational benchmark/compression |
 | SRC-A010 | T. Wang et al. | 2024 | Academic survey / ACM | Reliability framework |
 | SRC-A011 | X. Wang et al., ASVspoof 5 | 2026 | Academic empirical / Elsevier | Audio robustness and attacks |
@@ -58,4 +57,5 @@ See:
 - [Search Strategy and Source Selection Audit](../01%20-%20Research/Search%20Strategy%20and%20Source%20Selection%20Audit.md)
 - [Current Source Reliability Audit](Current%20Source%20Reliability%20Audit.md)
 
-These documents distinguish the original literature-study record from the supplementary 27 September 2026 validation. They do not invent missing historical search counts.
+The two older audits above describe the previous 15-source version and are marked historical. For the current file, use the [current review audit](../06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Controleverslag-2026-09-27.md) and [bounded primary-source check](../06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Broncontrole-2026-09-27.md). Query counts appearing in the new paper remain unverified until their dates and source evidence are supplied.
+

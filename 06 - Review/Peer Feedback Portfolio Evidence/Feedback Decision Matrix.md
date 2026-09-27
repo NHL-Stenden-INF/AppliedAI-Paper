@@ -1,85 +1,30 @@
-# Feedback Decision Matrix
+# Beslismatrix van ontvangen feedback
 
-## Review 1 — Lucas Lübbers
+Deze matrix beoordeelt uitsluitend de aangeleverde versie met SHA-256 `cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b`. Controle: 27 september 2026. De oorspronkelijke reviewteksten staan in [Evidence](Evidence). Voor exacte bestandsidentiteit zie het [manifest](Evidence/manifest.json).
 
-The source review contains both strengths and improvement suggestions. Positive feedback was treated as a preservation requirement: strong elements were not changed merely for the sake of revision.
+“Verwerkt” betekent dat de gevraagde uitkomst zichtbaar is. Het bewijst zonder de oorspronkelijke DOCX geen exacte historische wijziging, datum, uitvoerder of motivering. Beslisredenen hieronder zijn de beoordeling van deze controle; persoonlijke auteurskeuzes moeten waar nodig worden bevestigd. Alle uitvoerders van eerdere paperwijzigingen: **nog vast te leggen door Dave en Lucas**.
 
-### Strengths preserved
+| ID | Bron en feedback | Zichtbare verwerking en vindplaats | Oordeel en reden | Nog nodig |
+| --- | --- | --- | --- | --- |
+| LL01 | Lübbers, p. 1: korte introducties bij H2 en H4 | H2 start met beschrijving van aanpak, bronnen, vastlegging, meetmaten en analyse; H4 licht de volgorde van antwoorden, aanbevelingen en evaluatie toe; p. 6 en 17 | Verwerkt; de lezer krijgt vooraf oriëntatie | Persoonlijke bijdrage en echte voorversie koppelen |
+| LL02 | Lübbers, p. 1: compacter inleiden en doel eerder tonen | Context en kenniskloof in eerste alinea; doel in tweede alinea, p. 4 | Verwerkt qua vroege plaatsing; de inleiding blijft twee pagina’s. Een afname van de lengte is zonder voorversie niet bewezen | Auteursmotivering voor verdere inkorting of behoud |
+| LL03 | Lübbers, p. 1: technische AUC-uitleg eventueel verplaatsen | Inleiding geeft korte uitleg en verwijst naar H2; uitgebreide uitleg staat onder Meetmaten, p. 7 | Alternatieve oplossing zichtbaar: methode in plaats van apart theoretisch kader. Dit is passend omdat een afzonderlijk kader niet verplicht is. Inhoudelijk resteert QA02 | AUC-bereik op beide plaatsen corrigeren |
+| LL04 | Lübbers, p. 2: hoofdvraag letterlijk herhalen | De volledige vraag in H1 en 4.2 is na weglaten van het inleidende label identiek; p. 4 en 18 | Verwerkt; conclusie kan zelfstandiger worden gelezen | Persoonlijke bijdrage vastleggen |
+| LL05 | Lübbers, p. 2: belangrijkste resultaten samenvatten | Afsluitende alinea’s met “Samengevat” in 3.1.4, 3.2.6 en 3.3.7; p. 10, 14 en 16 | Verwerkt qua zichtbaarheid; inhoudelijke watermerkafbakening blijft QA03 | QA03 oplossen |
+| LL06 | Lübbers, p. 2: zoek- en selectieprocedure reproduceerbaar maken, gevonden en uitgesloten bronnen tonen | H2 noemt arXiv, IEEE Xplore, SpringerLink, periode, zoekvelden, criteria, zes queries en aantallen in tabel 1; 14 opgenomen bronnen | Gedeeltelijk verwerkt; gevonden aantallen zijn vermeld, maar hun herkomst en de selectie tot 14 bronnen zijn niet controleerbaar | QA01: zoekdatums, bewijs, dubbelen, uitsluitredenen, oorspronkelijke versus aanvullende zoekactie |
+| MV01 | Velema, p. 6: betekenis en toepassing van AUC/ROC uitleggen of ROC weglaten | H2 Meetmaten legt ROC via TPR/FPR uit, legt de relatie met AUC uit en zegt dat de auteurs bronwaarden overnemen en zelf geen ROC-curves berekenen; p. 7 | Gedeeltelijk verwerkt; functie en gebruik zijn duidelijker, maar het AUC-bereik is fout en een methodologische bron ontbreekt bij de uitleg | QA02 corrigeren en passende verwijzing bij de definitie plaatsen; ROC hoeft niet te worden weggelaten |
+| MV02 | Velema, p. 6: inconsistente tekstgrootte in tabellen | Vier tabellen; alle 172 niet-lege tekstruns expliciet 9 pt; gewone rijen ogen consistent | Verwerkt; de gemelde grootteverschillen zijn niet aangetroffen | Bij volgende wijziging opnieuw controleren |
 
-| Feedback | Action | Why |
-| --- | --- | --- |
-| Logical and professional structure; required parts are present | Preserved | Already aligns with the form-aspects gate and B1-B5 structure |
-| Results are supported with concrete figures such as AUC | Preserved | Quantitative context is central to the paper's argument |
-| Authors compare studies and draw their own synthesis | Preserved | Directly supports the B4 criterion requiring visible author input |
-| Conclusion answers subquestions and main question and includes recommendations | Preserved | Directly supports B5 |
-| Tables and figures add clarification rather than filler | Preserved | The form-aspects gate explicitly requires useful/referenced figures and tables |
+## Afzonderlijke interpretatie van rubricmarkeringen
 
-### Improvement suggestions
+Marts p. 4 kruist de ontbrekend/niet-voldaan-opties door. Op p. 5 is de methodologische argumentatie relatief het zwakst gemarkeerd. H2 Aanpak en onderbouwing bevat een duidelijke afweging tussen literatuurstudie en één eigen experiment en legt uit waarom geen meta-analyse is gedaan. Dat sluit aan op B3. Deze interpretatie is geen letterlijke extra reviewopdracht en geen numeriek eindcijfer. Reproduceerbaarheid blijft een afzonderlijk open punt.
 
-| Review point | Decision | What changed | Why this decision |
-| --- | --- | --- | --- |
-| Add short introductions to Chapter 2 and Chapter 4 | **Implemented** | Added a one-paragraph orientation at the start of both chapters | Improves readability and makes the chapter purpose explicit without changing the required structure |
-| The introduction contains much information and the research objective appears late | **Implemented** | Moved the research gap/objective into the opening paragraph and compressed background explanation | Strengthens the logical route from context to objective and research questions |
-| Consider moving technical AUC explanation to a theoretical framework | **Partly implemented** | Shortened the AUC explanation but kept it in the introduction | A separate theoretical-framework chapter is not required by the assessment form/module book; adding one would create extra structure without a clear assessment benefit |
-| Repeat the main research question word-for-word in the conclusion | **Implemented** | Section 4.2 now repeats the full main research question immediately before the answer | Improves standalone readability, explicitly matching B5 |
-| Make the most important Chapter 3 results more visible | **Implemented, minimally** | Added concise synthesis sentences to the end of the 3.1, 3.2 and 3.3 result blocks | Highlights the answer to each subquestion while avoiding repetitive mini-conclusions |
-| Make the method more reproducible, e.g. include found/excluded source counts | **Partly implemented** | Search-term families, time window, inclusion/exclusion logic and extraction method are explicit; the paper also states that exact platforms, complete strings and found/excluded counts were not systematically logged | The improvement is valid, but exact historic counts cannot be reconstructed reliably and therefore were not invented |
+## Sterke punten uit beide reviews
 
-## Review 2 — Mart Velema
+Lübbers benoemt structuur, kwantitatieve onderbouwing, eigen synthese, beantwoording met aanbevelingen en ondersteunende tabellen/figuren. Mart noemt duidelijke scope en doel, bruikbare grafieken/tabellen met passende bijschriften en het onderscheid tussen wat AUC wel en niet betekent. Deze kwaliteiten zijn nog herkenbaar in de huidige paper; de inhoudelijke grenzen uit het [controleverslag](Controleverslag-2026-09-27.md) blijven van toepassing.
 
-This source is a completed assessment/rubric form rather than a narrative review. The marks are handwritten positions on a coloured Unsatisfactory-to-Satisfactory scale. No overall numeric grade or written grading motivation is completed, so this evidence is used as a **relative improvement signal only**, not converted into a grade.
+## Bronverwijzingen
 
-### Form-aspects page
+Lübbers, L. (z.d.). *Peerreview voor Lucas Wanink en Dave van den Berg* [Ongepubliceerde feedback], pp. 1–2. [PDF](Evidence/review-lucas-lubbers.pdf).
 
-All required form-aspect items are marked on the **Met/Present** side:
-
-- concise abstract;
-- introduction;
-- method;
-- results;
-- conclusions/discussion;
-- literature list;
-- volume requirement;
-- layout;
-- clear structure;
-- figures/tables;
-- spelling/grammar;
-- APA.
-
-**Decision:** preserve these aspects and avoid structural changes that could weaken them.
-
-### Substantive rubric signals
-
-| Rubric area | Visual review signal | Revision response |
-| --- | --- | --- |
-| A — general writing skills | Marks are in the satisfactory/green range | Preserve overall style and layout; only correct clear language/consistency issues |
-| B1 — summary | Mostly satisfactory/green | Preserve content and structure |
-| B2 — introduction | Generally positive, but several rows sit less far toward the strongest green position | Make objective/gap earlier and improve the logical flow; do not add unnecessary chapters |
-| B3 — method | Population/sample, instruments and analysis are positive; **argumentation of methodological choices is the clearest weaker mark** | Expand why a structured literature study fits the questions and why a small experiment/interview/survey would not answer them as broadly |
-| B4 — results | Strong overall; first substantiation/argumentation row is relatively less strong than the other B4 rows | Keep evidence but make section-level synthesis clearer and avoid overclaiming |
-| B5 — conclusions/discussion | Consistently strong/green | Preserve direct answers, recommendations and reliability/validity/usability discussion |
-
-## Feedback intentionally not implemented literally
-
-### No new theoretical-framework chapter
-
-Reason:
-
-- it is not a required paper component in the assessment form;
-- the existing structure already maps directly to the rubric;
-- the technical AUC explanation can be concise within the introduction;
-- adding a new chapter would increase length and structural complexity without adding necessary evidence.
-
-### No reconstructed search counts
-
-Reason:
-
-- the original research process did not preserve a complete reproducible search log;
-- inventing found/excluded numbers would create false methodological evidence;
-- the revised paper now makes this limitation explicit in both Method and Reliability.
-
-## Decision rule summary
-
-**Implemented:** supported, beneficial, assessment-aligned.  
-**Partly implemented:** beneficial principle, but literal execution would add unsupported or non-required content.  
-**Not implemented literally:** would create evidence/structure that the project cannot substantiate.
+Velema, M. (2026, 25 september). *Assessment form Applied AI working paper* [Ingevuld peerreviewformulier], pp. 4–6. [PDF](Evidence/review-mart-velema.pdf).

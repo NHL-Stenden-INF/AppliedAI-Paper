@@ -1,53 +1,36 @@
-# Portfolio Use Note
+# Bewijs voor het individuele portfolio
 
-## Why this evidence matters
+De module vereist de voltooide paper, ontvangen inhoudelijke feedback, eigen verstrekte inhoudelijke feedback en waar relevant de verwerking daarvan (NHL Stenden University of Applied Sciences, z.d., Appendix 1, sectie 2; Appendix 3). De onderstaande tekst is een feitelijke procesbeschrijving, geen verzonnen persoonlijke reflectie.
 
-For the period-1 common foundation, the module book requires evidence of:
+## Feitelijke samenvatting voor verdere verwerking
 
-1. successful completion of the prescribed online modules;
-2. the completed research paper;
-3. substantive peer feedback received on the paper;
-4. substantive and constructive peer feedback provided to at least one other student;
-5. where relevant, evidence showing how received feedback was processed;
-6. early project-progress evidence.
+De paper van Lucas Wanink en Dave van den Berg is naast de reviews van Lucas Lübbers en Mart Velema gelegd. In de aangeleverde versie zijn onder meer hoofdstukintroducties, een vroeg onderzoeksdoel, afsluitende resultaatsamenvattingen en de letterlijk herhaalde hoofdvraag zichtbaar. Hoofdstuk 2 licht ROC/AUC toe en alle vier de tabellen gebruiken 9 pt tekst. De zoekmethode bevat nu zes zoekopdrachten met aantallen. De datering en onderliggende zoekbewijzen zijn nog niet vastgelegd. De controle van 27 september 2026 signaleert daarnaast inhoudelijke correcties, waaronder het AUC-bereik en het onderscheid tussen passieve detectie en watermerkherkenning. De repository bevat een beslismatrix, een controleverslag en een vaste registratieprocedure. Open punten zijn zichtbaar gehouden; een formele eindgoedkeuring is niet aangetoond.
 
-This folder specifically supports items **3 and 5**.
+## Individuele aanvulling
 
-## Recommended portfolio evidence set
+| Onderdeel | Dave van den Berg | Lucas Wanink |
+| --- | --- | --- |
+| Eigen verwerkte feedback-ID’s | [INVULLEN] | [INVULLEN] |
+| Concrete bijdrage en uitvoeringsdatum | [INVULLEN met bewijs] | [INVULLEN met bewijs] |
+| Eigen afweging bij overnemen of niet overnemen | [INVULLEN] | [INVULLEN] |
+| Zelf gecontroleerde onderdelen | [INVULLEN] | [INVULLEN] |
+| Wat geleerd en wat volgende keer anders gebeurt | [INVULLEN in eigen woorden] | [INVULLEN in eigen woorden] |
+| Zelf verstrekte review aan andere student | [Werkelijk reviewbestand + ontvanger + datum] | [Werkelijk reviewbestand + ontvanger + datum] |
+| Portfoliosectie en stabiele verwijzing | [INVULLEN] | [INVULLEN] |
 
-Include or clearly reference the following together:
+De controledocumentatie van deze sessie is ondersteuning bij de portfolioverantwoording. Ze bewijst niet dat een student de controles zelf uitvoerde of dezelfde bijdrage leverde als de andere auteur.
 
-- original/submitted research paper;
-- review PDF from Lucas Lübbers;
-- completed rubric review from Mart Velema;
-- this folder's `Feedback Decision Matrix.md`;
-- this folder's `Implementation Traceability.md`;
-- final revised paper;
-- this folder's `Final File QA.md` as supporting process evidence.
+## Benodigd bewijs
 
-A concise portfolio narrative can state that the reviews were compared with the module-book requirements, each actionable point was accepted/partly accepted/not implemented with a recorded rationale, and the resulting file was subsequently checked for content, language, logic, layout and formal criteria.
+- [Aangeleverde paper](Evidence/paper-review-verwerkt.docx) en uiteindelijk de werkelijk ingeleverde versie.
+- [Review Lübbers](Evidence/review-lucas-lubbers.pdf) en [review Velema](Evidence/review-mart-velema.pdf).
+- [Beslismatrix](Feedback%20Decision%20Matrix.md), [controleverslag](Controleverslag-2026-09-27.md) en eigen bijdragebewijs.
+- Echte voorversie voor een aantoonbare wijzigingsvergelijking; nog niet beschikbaar in deze controle.
+- Eigen verstrekte feedback; nog niet aangeleverd.
+- Indien beschikbaar: werkelijk inlever- en beoordelingsbewijs; niet afleiden uit de datum op het titelblad.
 
-## Separate evidence still required
+Neem een gerichte samenvatting en duidelijke verwijzingen op in sectie 2 van de individuele portfolio-PDF. Bewaar deze bewijsstukken ook in het cumulatieve eindportfolio. Het moduleboek noemt maximaal 50 pagina’s voor het portfolio, exclusief de paper en waar toegestaan bijlagen; deze GitHub-documentatie vervangt de vereiste PDF niet.
 
-The module book also requires evidence that the student **provided substantive and constructive peer feedback to at least one other student**.
+## Referentie
 
-That evidence is not contained in the two received reviews and has not been fabricated in this repository. Add the actual feedback that Lucas and/or Dave provided, according to the individual portfolio requirement and what each student personally did.
-
-## Individual ownership
-
-Because the final Applied AI portfolio is individual, each student should make clear:
-
-- which review-processing work they personally contributed to;
-- which paper revisions they personally made or checked;
-- where the evidence can be found;
-- what they learned from the feedback and how it changed the paper.
-
-Do not claim identical individual contributions unless that is actually what happened.
-
-## Suggested evidence references
-
-For stable identification, use the hashes recorded in this folder, especially the final paper hash:
-
-`6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4`
-
-This makes it clear which exact revised paper version the decision log and QA refer to.
+NHL Stenden University of Applied Sciences. (z.d.). *Applied AI module book V1* [Moduleboek], Appendix 1, gedrukte pp. 32–33 / PDF pp. 38–39; Appendix 3, gedrukte pp. 41–42 / PDF pp. 47–48.

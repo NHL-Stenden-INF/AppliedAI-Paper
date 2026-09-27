@@ -1,3 +1,5 @@
+> **Historische audit van de eerdere 15-bronnenversie.** De bijlage gecontroleerd op 27 september 2026 heeft 14 bronnen en bevat zoekqueries met aantallen. Deze oudere tekst bewijst niet hoe die zoekacties zijn uitgevoerd. De actuele status en de open bewijsbehoefte staan in [het controleverslag](../06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Controleverslag-2026-09-27.md). Uitspraken hieronder zoals “current”, “final” en “the paper states” gelden uitsluitend voor de destijds beschreven versie.
+
 # Current Source Reliability Audit
 
 ## Scope
@@ -74,3 +76,4 @@ No vendor blog or general news article is used as the primary basis for a techni
 The current 15-source set is **defensible for the roles assigned to the sources**. Its strongest feature is that technical conclusions are supported by established academic venues and are interpreted together with dataset, metric and test-condition context.
 
 The main methodological weakness remains the incomplete original search log, not the traceability of the final 15 references. That limitation is now stated openly in the paper and documented in the search audit.
+

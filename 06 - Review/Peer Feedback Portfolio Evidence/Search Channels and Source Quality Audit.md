@@ -1,3 +1,5 @@
+> **Versiegebonden aanvullende registratie, behouden uit commit `8d66fd270a1726bef7a50f62432a015e28d5ff69`.** Dit document beschrijft controles bij een andere DOCX met 15 bronnen en hash `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf`. De onderliggende zoekexports en dat bestand waren bij de huidige controle niet beschikbaar. Deze notitie is geen bewijs voor de queryaantallen in de nu aangeleverde 14-bronnenversie. Zie [QA01 en de versiecontrole](Controleverslag-2026-09-27.md). De oudere zoekaudit zegt dat Consensus niet was uitgevoerd; de notitie hieronder beschrijft een latere controle en mag die oudere situatie niet stilzwijgend vervangen.
+
 # Search Channels and Source Quality Audit
 
 ## Purpose
@@ -89,3 +91,4 @@ For each included source, the authors considered where possible:
 The control search did not change the paper's evidence base. It showed that the final source set covers the main themes still returned by IEEE Xplore and Consensus: cross-dataset generalisation, robustness, audio spoofing, adversarial evasion and watermarking.
 
 The control search improves transparency, but it does **not** make the original search fully reproducible. The original search-log limitation remains explicitly reported in the Method and in section 4.4.
+

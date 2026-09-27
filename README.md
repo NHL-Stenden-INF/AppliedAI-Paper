@@ -1,24 +1,29 @@
 # Applied AI Research Paper
 
-## Research project
+**Paper:** De betrouwbaarheid van AI-gebaseerde deepfakedetectie  
+**Auteurs:** Lucas Wanink en Dave van den Berg
 
-**Title:** De betrouwbaarheid van AI-gebaseerde deepfakedetectie  
-**Topic:** AI-generated deepfakes and the technology used to detect them  
-**Authors:** Lucas Wanink & Dave van den Berg
+## Actuele status van de reviewcontrole
 
-## Current status
+De aangeleverde versie van 27 september 2026 is naast beide peerreviews, het moduleboek en Appendix 9 gecontroleerd. De feedback is grotendeels zichtbaar verwerkt. Er staan nog inhoudelijke, methodologische en opmaakpunten open; deze versie heeft geen onvoorwaardelijke eindgoedkeuring.
 
-The period-1 research paper has been completed, reviewed by peers, revised where appropriate and final-checked against the Applied AI module-book and research-paper assessment criteria.
+[Lees het controleverslag en de resterende verbeterpunten](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Controleverslag-2026-09-27.md).
 
-The post-review work is isolated on branch `feedback-integration-2026-09-27` pending review/merge.
+[Open de aangeleverde paper](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Evidence/paper-review-verwerkt.docx).
 
-Final checked paper:
+Deze registratie staat in branch `feedback-integration-2026-09-27`, binnen [pull request #2](https://github.com/NHL-Stenden-INF/AppliedAI-Paper/pull/2). De afzonderlijke conceptbranch en PR #1 zijn niet samengevoegd met deze controle.
 
-`Deepfake paper - Dave & Lucas - revised after peer review - final checked.docx`
+## Reviewverwerking en portfolio
 
-SHA-256: `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf`
+- [Bewijspakket met originele paper en reviews](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/README.md).
+- [Beslismatrix met alle acht expliciete reviewpunten](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Feedback%20Decision%20Matrix.md).
+- [Vaste stap voor iedere volgende reviewronde](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Reviewverwerking-werkwijze.md).
+- [Activiteitenlog](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Activiteitenlog.md).
+- [Individuele bijdragen en portfolioverantwoording](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Portfolio%20Use%20Note.md).
 
-## Repository navigation
+De bijlage heeft 14 referenties, vier tabellen en twee figuren. De render telt 21 pagina’s; de resultatenbody p. 8–16 telt negen pagina’s en valt binnen de letterlijke 8–10-paginaregel. De zoekresultaataantallen zijn nog niet onafhankelijk onderbouwd met zoekdatums en exports. Eigen verstrekte feedback en persoonlijke bijdragen blijven apart te bewijzen.
+
+## Onderzoeksopzet en historische documenten
 
 - [Assignment Overview](00%20-%20Assignment/Assignment%20Overview.md)
 - [Assessment Criteria](00%20-%20Assignment/Assessment%20Criteria.md)
@@ -32,34 +37,6 @@ SHA-256: `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf`
 - [Sources Index](02%20-%20Sources/Sources%20Index.md)
 - [Analysis Framework](03%20-%20Analysis/Analysis%20Framework.md)
 - [Paper Structure](04%20-%20Paper/Paper%20Structure.md)
-- [Peer Review Revision Record](04%20-%20Paper/Peer%20Review%20Revision%20Record.md)
 - [Feedback Log](06%20-%20Review/Feedback%20Log.md)
-- [Peer Feedback Portfolio Evidence](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/README.md)\n- [Search Channels and Source Quality Audit](06%20-%20Review/Peer%20Feedback%20Portfolio%20Evidence/Search%20Channels%20and%20Source%20Quality%20Audit.md)
-- [Foundation Audit (historical pre-research audit)](06%20-%20Review/Foundation%20Audit.md)
 
-## Peer-feedback / portfolio evidence
-
-The folder `06 - Review/Peer Feedback Portfolio Evidence/` records:
-
-- the two received reviews and their file hashes;
-- every substantive feedback point;
-- whether it was implemented, partly implemented or deliberately not implemented;
-- the rationale for each decision;
-- the exact revised-paper location for implemented changes;
-- final spelling/grammar/logical-consistency corrections;
-- final layout, citation, structure and volume checks;
-- the remaining separate portfolio obligation to include evidence of feedback **provided to another student**.
-
-## Final QA summary
-
-- 20 rendered pages total;
-- Results/body spans pp. 7-15 = 9 pages under the assessment form's literal 8-10-page body rule;
-- 3 tables and 2 figures render correctly;
-- 15 references are present and all 15 are cited in the paper;
-- no embedded reviewer comments or tracked changes;
-- no clipping, overlap or broken tables/figures detected;
-- method limitation about the incomplete historic search log is disclosed consistently rather than reconstructed.
-
-## Historical note
-
-The files created during the initial foundation phase remain in the repository as a trace of the research setup. Their readiness/unknown-status statements should be read as historical pre-research documentation, not as the current state of the completed paper.
+De onderzoeksopzet, eerdere matrices en oudere audits zijn historische werkdocumenten. Gebruik hun bronselectie of status niet automatisch voor de huidige 14-bronnenpaper. De voorgaande reviewregistratie is bewaard onder `06 - Review/Historical/2026-09-27-before-current-file-audit/`. De actuele controle corrigeert onder meer de eerder gemiste schriftelijke feedback op p. 6 van Marts review.

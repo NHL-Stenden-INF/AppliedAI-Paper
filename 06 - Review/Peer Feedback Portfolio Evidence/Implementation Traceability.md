@@ -1,65 +1,41 @@
-# Implementation Traceability
+# Versies en aantoonbare verwerking
 
-## Baseline and final file
+## Bestandsidentiteit
 
-| Version | File | SHA-256 |
+| Versie | SHA-256 | Bewijsstatus |
 | --- | --- | --- |
-| Original submitted version | `Deepfake paper - Dave & Lucas(1).docx` | `b92179182fc5f14e1168bef6807c5c7da76cad161ec65db9f7ef51f236eddf31` |
-| Revised + final checked | `Deepfake paper - Dave & Lucas - revised after peer review - final checked.docx` | `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf` |
+| Eerder als origineel genoemd: `Deepfake paper - Dave & Lucas(1).docx` | `b92179182fc5f14e1168bef6807c5c7da76cad161ec65db9f7ef51f236eddf31` | Alleen in historische GitHub-registratie; bestand niet beschikbaar voor deze controle |
+| Eerder als gecontroleerd genoemd: `Deepfake paper - Dave & Lucas - revised after peer review.docx` | `6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4` | Alleen in historische GitHub-registratie; bestand niet beschikbaar voor deze controle |
+| Tijdens de controle in GitHub genoemd: `Deepfake paper - Dave & Lucas - revised after peer review - final checked.docx` | `41a1d336f69e4297ea8cdbde72cb6b04863540559a3e41661a81031f27e2c2bf` | Nieuwe registratie op `8d66fd270a1726bef7a50f62432a015e28d5ff69`; DOCX niet aangeleverd; niet gelijk aan de huidige bijlage |
+| Nu aangeleverd: `Deepfake paper - Dave & Lucas - Review verwerkt.docx` | `cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b` | Werkelijk geopend, tekstueel gecontroleerd en gerenderd; ongewijzigd gearchiveerd in [Evidence](Evidence/paper-review-verwerkt.docx) |
 
-## Feedback-to-paper mapping
+Een hash identificeert een bestand en bewijst niet wie het schreef, wanneer feedback is verwerkt of waarom een wijziging is gemaakt. De eerder genoemde DOCX-bestanden ontbreken in de geraadpleegde repositorybomen. Een volledige Word-diff tussen de oorspronkelijke inzending en deze bijlage kan daarom niet worden aangetoond.
 
-| Change | Revised paper location | Evidence/reason |
+## Verschillen met de oudere GitHub-registratie
+
+| Onderdeel | Oudere registratie | Aangeleverde versie |
 | --- | --- | --- |
-| Research objective moved earlier | 1. Inleiding, opening paragraph | Implements review concern that the objective appeared too late |
-| AUC explanation shortened | 1. Inleiding, second paragraph | Partly implements suggestion to reduce technical density without adding a non-required theoretical framework |
-| Short method orientation added | Start of 2. Methode | Implements chapter-introduction feedback |
-| Method choice justified | 2. Methode — Aanpak en onderbouwing | Addresses B3 methodological-choice argumentation; explains literature study vs. limited experiment/interviews/surveys |
-| Search-process limitation stated | 2. Methode — Dataverzameling | Implements reproducibility feedback without inventing historical counts |
-| Key finding made explicit for technique overview | End of 3.1.4 | Implements request to make main results easier to find |
-| Key finding made explicit for performance | End of 3.2.6 | Same reason |
-| Key finding made explicit for degradation factors | End of 3.3.7 | Same reason |
-| Short conclusion/discussion orientation added | Start of 4. Conclusies en discussie | Implements chapter-introduction feedback |
-| Main research question repeated verbatim | 4.2 Antwoord op de hoofdonderzoeksvraag | Implements explicit reviewer request and strengthens standalone readability |
-| Search-log limitation aligned with discussion | 4.4 Betrouwbaarheid | Keeps Method and Discussion internally consistent |
+| Omvang | 20 pagina’s, resultaten p. 7–15 | 21 pagina’s, resultaten p. 8–16; opnieuw 9 bodypagina’s |
+| Bronnen | 15, inclusief Ramanaharan | 14; Ramanaharan ontbreekt |
+| Tabellen | 3 | 4, inclusief nieuwe zoekopdrachtentabel |
+| AUC-uitleg | Verkort en behouden in inleiding | Beknopte inleiding en uitgebreide uitleg in methode |
+| Zoekproces | Historische databases/queries/aantallen niet volledig geregistreerd | Databases, queries en aantallen opgegeven; bewijs en datering ontbreken |
+| Beperking zoeklog | Volgens oude registratie in H2 en 4.4 | Niet expliciet in H2 en 4.4 van de huidige versie |
+| Conclusie over systematische overschatting en zwakste dimensie | Volgens oude registratie afgezwakt | Beide stellige formuleringen staan nog in de huidige versie |
+| Feedback Mart | Onterecht omschreven zonder geschreven motivatie | PDF p. 6 bevat schriftelijke tops, tips en conclusie als afbeelding |
 
-## Final-check corrections made after feedback integration
+Dit zijn verschillen tussen registratie en bijlage, geen bewezen historische bewerkingen door een specifieke student. De paper zelf is in deze controlesessie niet aangepast.
 
-These edits were not new reviewer requests. They were made during the requested final spelling/grammar/logical-consistency check.
+## Traceerbare route
 
-| Final-check issue | Correction | Why |
-| --- | --- | --- |
-| English phrase `generation-only studies` inside Dutch prose | Replaced with `studies die uitsluitend deepfakes genereren` | Language consistency |
-| `evaluatie pipelines` | Replaced with `evaluatiepijplijnen` | Dutch compound/spelling consistency |
-| Conclusion stated that published accuracy **systematically** overestimates practice performance | Softened to: published accuracy figures **can give an overly optimistic picture** | The evidence supports a strong context effect, but the original wording was broader than the reviewed evidence warrants |
-| `Interpreteerbaarheid is de zwakste van de drie dimensies` | Changed to `Interpreteerbaarheid is in de gebruikte literatuur het minst uitgebreid onderbouwd` | Distinguishes lack of evidence from proof that the dimension itself is objectively weakest |
-| `nep data` | Corrected to `nepdata` | Spelling/compound consistency |
+1. [Manifest met originele namen en hashes](Evidence/manifest.json).
+2. [Beslismatrix met LL01–LL06 en MV01–MV02](Feedback%20Decision%20Matrix.md).
+3. [Controleverslag met vindplaatsen en QA01–QA10](Controleverslag-2026-09-27.md).
+4. [Activiteitenlog van werkelijk uitgevoerde controles](Activiteitenlog.md).
+5. [Invulvelden voor persoonlijke bijdrage en portfolio](Portfolio%20Use%20Note.md).
 
-## What was deliberately left unchanged
+Bij een volgende revisie worden zowel de oude als de nieuwe paper en een concrete wijzigingsverwijzing vastgelegd. Een hernoeming alleen is geen bewijs van inhoudelijke verwerking.
 
-- main research question and all three subquestions;
-- 15-source evidence base;
-- numerical results;
-- dataset sizes;
-- AUC/AUROC/EER values;
-- figure data;
-- three tables and two figures;
-- legal date/context already cited;
-- recommendation set, except for language cleanup;
-- scope across image, video and audio.
+## Tussentijdse repositorywijzigingen behouden
 
-Reason: the reviews did not identify factual errors in these elements, and changing them without new source evidence would be unnecessary.
-
-## Integrity rule
-
-No change in this revision introduces a new empirical result, source, search count, approval claim or research action that was not supported by the original research record.
-
-
-## Additional search-strategy transparency
-
-The final Method now contains two additional subsections:
-
-- `Aanvullende controle van zoekkanalen` — records the 27 September 2026 control search in IEEE Xplore and Consensus, the query families used, and why the results were not added to the fixed 15-source set.
-- `Beoordeling van bronkwaliteit` — records the criteria used to judge whether an included source was suitable: origin/publisher, date, relevance, method clarity, dataset/test context, metric clarity, DOI or official record, stated limitations and evidence type.
-
-These additions improve transparency without changing any existing citation, result, table, figure or reference-list entry.
+Tijdens deze controle verschenen zes commits tot en met `8d66fd270a1726bef7a50f62432a015e28d5ff69`. Ze registreren een aanvullende IEEE Xplore-/Consensus-controle en een andere DOCX-hash. De oorspronkelijke notitie [Search Channels and Source Quality Audit](Search%20Channels%20and%20Source%20Quality%20Audit.md) is behouden met een expliciete versieafbakening. De nieuwe audit bouwt op deze commit voort. Die aanvullende zoekclaims zijn niet als bewijs voor tabel 1 van de huidige bijlage overgenomen; onderliggende exports zijn niet beschikbaar.
