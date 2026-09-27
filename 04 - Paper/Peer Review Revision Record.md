@@ -104,7 +104,7 @@ Generated revised DOCX:
 
 SHA-256:
 
-`162f7224b29717845a2cd4aa21d743bdc39c01a2e9c63b80bdb322e809f70c42`
+`6631abf57e15ae906c1552d2a519bdbd5eb80ec022e15d832ea29a3c0c7e41f4`
 
 The original submitted DOCX was retained unchanged outside this revision:
 
@@ -113,3 +113,8 @@ The original submitted DOCX was retained unchanged outside this revision:
 Original SHA-256:
 
 `b92179182fc5f14e1168bef6807c5c7da76cad161ec65db9f7ef51f236eddf31`
+
+
+## Final language and logic check
+
+After the peer-feedback revision, a final check corrected Dutch-language consistency (`generation-only studies`, `evaluatie pipelines`, `nep data`) and narrowed two overstrong conclusion formulations. These QA-only changes are documented in `06 - Review/Peer Feedback Portfolio Evidence/Implementation Traceability.md` and do not alter the underlying results.
