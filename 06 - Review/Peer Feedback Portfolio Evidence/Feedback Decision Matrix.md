@@ -1,30 +1,34 @@
 # Beslismatrix van ontvangen feedback
 
-Deze matrix beoordeelt uitsluitend de aangeleverde versie met SHA-256 `cd00d692921bdee9fd95afe44893f9e4ffbbd21030afe0269cfc87b48f0f3c6b`. Controle: 27 september 2026. De oorspronkelijke reviewteksten staan in [Evidence](Evidence). Voor exacte bestandsidentiteit zie het [manifest](Evidence/manifest.json).
+Deze matrix koppelt de expliciete peerreviewpunten aan de finale revisie van 27 september 2026. De oorspronkelijke reviewbestanden blijven in [Evidence](Evidence) bewaard. De finale DOCX heeft SHA-256 `5a409201c5fc5adb85eda5851ee534de9394fcccd40ec4bcf4e1a51f970669f2`.
 
-“Verwerkt” betekent dat de gevraagde uitkomst zichtbaar is. Het bewijst zonder de oorspronkelijke DOCX geen exacte historische wijziging, datum, uitvoerder of motivering. Beslisredenen hieronder zijn de beoordeling van deze controle; persoonlijke auteurskeuzes moeten waar nodig worden bevestigd. Alle uitvoerders van eerdere paperwijzigingen: **nog vast te leggen door Dave en Lucas**.
+“Verwerkt” betekent dat het feedbackdoel zichtbaar is gerealiseerd in de finale versie. Het bewijst niet automatisch welke student de historische wijziging uitvoerde; persoonlijke bijdragen worden afzonderlijk vastgelegd.
 
-| ID | Bron en feedback | Zichtbare verwerking en vindplaats | Oordeel en reden | Nog nodig |
-| --- | --- | --- | --- | --- |
-| LL01 | Lübbers, p. 1: korte introducties bij H2 en H4 | H2 start met beschrijving van aanpak, bronnen, vastlegging, meetmaten en analyse; H4 licht de volgorde van antwoorden, aanbevelingen en evaluatie toe; p. 6 en 17 | Verwerkt; de lezer krijgt vooraf oriëntatie | Persoonlijke bijdrage en echte voorversie koppelen |
-| LL02 | Lübbers, p. 1: compacter inleiden en doel eerder tonen | Context en kenniskloof in eerste alinea; doel in tweede alinea, p. 4 | Verwerkt qua vroege plaatsing; de inleiding blijft twee pagina’s. Een afname van de lengte is zonder voorversie niet bewezen | Auteursmotivering voor verdere inkorting of behoud |
-| LL03 | Lübbers, p. 1: technische AUC-uitleg eventueel verplaatsen | Inleiding geeft korte uitleg en verwijst naar H2; uitgebreide uitleg staat onder Meetmaten, p. 7 | Alternatieve oplossing zichtbaar: methode in plaats van apart theoretisch kader. Dit is passend omdat een afzonderlijk kader niet verplicht is. Inhoudelijk resteert QA02 | AUC-bereik op beide plaatsen corrigeren |
-| LL04 | Lübbers, p. 2: hoofdvraag letterlijk herhalen | De volledige vraag in H1 en 4.2 is na weglaten van het inleidende label identiek; p. 4 en 18 | Verwerkt; conclusie kan zelfstandiger worden gelezen | Persoonlijke bijdrage vastleggen |
-| LL05 | Lübbers, p. 2: belangrijkste resultaten samenvatten | Afsluitende alinea’s met “Samengevat” in 3.1.4, 3.2.6 en 3.3.7; p. 10, 14 en 16 | Verwerkt qua zichtbaarheid; inhoudelijke watermerkafbakening blijft QA03 | QA03 oplossen |
-| LL06 | Lübbers, p. 2: zoek- en selectieprocedure reproduceerbaar maken, gevonden en uitgesloten bronnen tonen | H2 noemt arXiv, IEEE Xplore, SpringerLink, periode, zoekvelden, criteria, zes queries en aantallen in tabel 1; 14 opgenomen bronnen | Gedeeltelijk verwerkt; gevonden aantallen zijn vermeld, maar hun herkomst en de selectie tot 14 bronnen zijn niet controleerbaar | QA01: zoekdatums, bewijs, dubbelen, uitsluitredenen, oorspronkelijke versus aanvullende zoekactie |
-| MV01 | Velema, p. 6: betekenis en toepassing van AUC/ROC uitleggen of ROC weglaten | H2 Meetmaten legt ROC via TPR/FPR uit, legt de relatie met AUC uit en zegt dat de auteurs bronwaarden overnemen en zelf geen ROC-curves berekenen; p. 7 | Gedeeltelijk verwerkt; functie en gebruik zijn duidelijker, maar het AUC-bereik is fout en een methodologische bron ontbreekt bij de uitleg | QA02 corrigeren en passende verwijzing bij de definitie plaatsen; ROC hoeft niet te worden weggelaten |
-| MV02 | Velema, p. 6: inconsistente tekstgrootte in tabellen | Vier tabellen; alle 172 niet-lege tekstruns expliciet 9 pt; gewone rijen ogen consistent | Verwerkt; de gemelde grootteverschillen zijn niet aangetroffen | Bij volgende wijziging opnieuw controleren |
+| ID | Bron en feedback | Finale verwerking | Status |
+| --- | --- | --- | --- |
+| LL01 | Lübbers: korte introducties bij H2 en H4 | Beide hoofdstukken geven vooraf oriëntatie op inhoud en opbouw | Verwerkt |
+| LL02 | Lübbers: compacter inleiden en doel eerder tonen | Doel staat vroeg in H1; structuur blijft gericht op onderzoeksvraag en scope | Verwerkt |
+| LL03 | Lübbers: technische AUC-uitleg eventueel verplaatsen | Beknopte verwijzing in H1, uitgebreide uitleg onder H2 Meetmaten; AUC nu correct 0–1 | Verwerkt |
+| LL04 | Lübbers: hoofdvraag letterlijk herhalen | Volledige hoofdvraag staat opnieuw in H4.2 | Verwerkt |
+| LL05 | Lübbers: belangrijkste resultaten samenvatten | Samenvattingen blijven aanwezig in 3.1.4, 3.2.6 en 3.3.7; watermerkafbakening is inhoudelijk gecorrigeerd | Verwerkt |
+| LL06 | Lübbers: zoek- en selectieprocedure reproduceerbaar maken | Databases, periode, zoekvelden, zes zoekopdrachten en aantallen zijn opgenomen; historische zoekdatums/exports blijven apart bewijs dat niet is gereconstrueerd | Gedeeltelijk verwerkt; bewijsrestpunt |
+| MV01 | Velema: betekenis en toepassing van AUC/ROC uitleggen | ROC/AUC worden in H2 uitgelegd; AUC correct 0–1, 0,5 toevalsniveau, 1,0 perfecte scheiding; Figuur 2 eindigt op 1,0 | Verwerkt |
+| MV02 | Velema: inconsistente tekstgrootte in tabellen | Tabeltekst blijft consistent; alle tabelrijen zijn daarnaast ingesteld om niet over pagina’s te splitsen | Verwerkt |
 
-## Afzonderlijke interpretatie van rubricmarkeringen
+## Aanvullende finale kwaliteitscorrecties
 
-Marts p. 4 kruist de ontbrekend/niet-voldaan-opties door. Op p. 5 is de methodologische argumentatie relatief het zwakst gemarkeerd. H2 Aanpak en onderbouwing bevat een duidelijke afweging tussen literatuurstudie en één eigen experiment en legt uit waarom geen meta-analyse is gedaan. Dat sluit aan op B3. Deze interpretatie is geen letterlijke extra reviewopdracht en geen numeriek eindcijfer. Reproduceerbaarheid blijft een afzonderlijk open punt.
+Tijdens de eindcontrole zijn naast de expliciete peerreviewpunten enkele regressies en formuleringen gecorrigeerd:
 
-## Sterke punten uit beide reviews
+- conclusies zijn begrensd tot de geselecteerde studies en testomstandigheden;
+- “interpreteerbaarheid is de zwakste dimensie” is vervangen door de feitelijk verdedigbare constatering dat deze dimensie in de gebruikte literatuur het minst uitgebreid is onderbouwd;
+- trainingsdata versus architectuur is minder absoluut geformuleerd;
+- watermerkverwijdering is onderscheiden van prestaties van passieve deepfakedetectoren;
+- PSNR >30 dB wordt niet langer als algemene garantie van visuele onzichtbaarheid beschreven;
+- de interne bronregistratietabel wordt niet meer aangeduid als de APA-referentielijst;
+- APA-referentieopmaak, koppen, tabelrijen, Figuur 2 en inhoudsopgave zijn technisch gecorrigeerd.
 
-Lübbers benoemt structuur, kwantitatieve onderbouwing, eigen synthese, beantwoording met aanbevelingen en ondersteunende tabellen/figuren. Mart noemt duidelijke scope en doel, bruikbare grafieken/tabellen met passende bijschriften en het onderscheid tussen wat AUC wel en niet betekent. Deze kwaliteiten zijn nog herkenbaar in de huidige paper; de inhoudelijke grenzen uit het [controleverslag](Controleverslag-2026-09-27.md) blijven van toepassing.
+Zie [Finale-revisie-2026-09-27.md](Finale-revisie-2026-09-27.md) voor de volledige registratie.
 
-## Bronverwijzingen
+## Portfolio
 
-Lübbers, L. (z.d.). *Peerreview voor Lucas Wanink en Dave van den Berg* [Ongepubliceerde feedback], pp. 1–2. [PDF](Evidence/review-lucas-lubbers.pdf).
-
-Velema, M. (2026, 25 september). *Assessment form Applied AI working paper* [Ingevuld peerreviewformulier], pp. 4–6. [PDF](Evidence/review-mart-velema.pdf).
+Voor het individuele portfolio blijven de feitelijke persoonlijke bijdrage, eigen reflectie en daadwerkelijk verstrekte peerfeedback per student afzonderlijk te bewijzen. Ontbrekende persoonsgebonden gegevens zijn niet uit de technische controle afgeleid.
